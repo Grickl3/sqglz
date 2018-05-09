@@ -17,6 +17,18 @@
 			/*border: 1px solid black;*/
 		}
 
+		.home-corner {
+			position: absolute;
+			min-height: 30px;
+			min-width: 5px;
+
+			/*border: 1px solid gold;*/
+		}
+
+		.icon__home-logo {
+			height: 60px;
+		}
+
 		.central-content {
 			display: flex;
 			align-items: center;
@@ -88,22 +100,25 @@
 		.icon__sqglz {
 			/*background-color: yellow;*/
 		}
-		.icon__portfolio {
+
+
+
+		.icon__portfolio--dot {
 			background-color: red;
 		}
-		.icon__about {
+		.icon__about--dot {
 			background-color: darkslategrey;
 		}
-		.icon__contact {
+		.icon__contact--dot {
 			background-color: blue;
 		}
-		.icon__development {
+		.icon__development--dot {
 			background-color: orange;
 		}
-		.icon__small-print {
+		.icon__small-print--dot {
 			background-color: green;
 		}
-		.icon__articles {
+		.icon__articles--dot {
 			background-color: purple;
 		}
 
@@ -113,37 +128,38 @@
 	</style>
 </head>
 <body>
+	<div class="home-corner">
+		<h3 class="icon__home-text icon--hidden">HOME</h3>
+		<img class="icon--hidden icon__home-logo" src="sqglz.png">
+	</div><!-- HOME CORNER -->
 	<div class="whole-shebang">
-		<div class="home-corner">
-			<img class="icon--hidden" src="sqglz.png">
-		</div><!-- HOME CORNER -->
 
 		<div class="central-content">
 			<div class="column central-content__left-column">
-				<div class="icon">
-					<div class="icon__portfolio icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__portfolio">
+					<div class="icon__portfolio--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- PORTFOLIO -->
-				<div class="icon">
-					<div class="icon__development icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__development">
+					<div class="icon__development--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
 			<div class="column central-content__middle-column">
-				<div class="icon">
-					<div class="icon__about icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__about">
+					<div class="icon__about--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ABOUT -->
 				<div class="">
 					<img id="sqglz-center" class="icon--big icon--sqglz" src="sqglz.png">
 				</div><!-- SQGLZ -->
-				<div class="icon">
-					<div class="icon__articles icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__articles">
+					<div class="icon__articles--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
 			<div class="column central-content__right-column">
-				<div class="icon">
-					<div class="icon__contact icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__contact">
+					<div class="icon__contact--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- CONTACT -->
-				<div class="icon">
-					<div class="icon__small-print icon--periph icon--dot icon--hidden"></div>
+				<div class="icon icon__small-print">
+					<div class="icon__small-print--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- SMALL PRINT -->
 			</div><!-- RIGHT COLUMN -->
 		</div><!-- CENTRAL CONTENT -->
@@ -159,7 +175,18 @@
 		var $sqgCtr = $("#sqglz-center");
 		var $periphs = $(".icon--periph");
 		var $periphGlyphBoxes = $(".icon");
+		var $homeText = $(".icon__home-text");
+		var $homeLogo = $(".icon__home-logo");
+		var $centerContent = $(".central-content");
+
 		var glyphReveal = false;
+
+		var $about = $(".icon__about");
+		var $portfolio = $(".icon__portfolio");
+		var $contact = $(".icon__contact");
+		var $development = $(".icon__development");
+		var $smallPrint = $(".icon__small-print");
+		var $articles = $(".icon__articles");
 	// VARIABLES
 
 	function centerButtonHover(e) {
@@ -186,10 +213,113 @@
 		}
 	}
 
+	// GLYPH FUNCTIONS
+		function homeLogoClick(e) {
+			$centerContent.removeClass("icon--hidden");
+		}
+
+		function aboutHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("About")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function aboutUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+
+		function aboutClick(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+				$homeLogo.removeClass("icon--hidden");
+				$centerContent.addClass("icon--hidden");
+			}
+		}
+
+		function portfolioHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("Portfolio")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function portfolioUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+
+		function contactHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("Contact")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function contactUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+
+		function developmentHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("Development")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function developmentUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+
+		function smallPrintHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("Terms & Conditions")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function smallPrintUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+
+		function articlesHover(e) {
+			if(glyphReveal===true) {
+				$homeText.text("Articles")
+				$homeText.removeClass("icon--hidden");
+			}
+		}
+		function articlesUnhover(e) {
+			if(glyphReveal===true) {
+				$homeText.addClass("icon--hidden");
+			}
+		}
+	// GLYPH FUNCTIONS
+
 	//EVENT LISTENERS
 		$sqgCtr.mouseenter(centerButtonHover);
 		$sqgCtr.mouseleave(centerButtonUnhover);
 		$sqgCtr.click(centerButtonClick);
+
+		//GLYPH LISTENERS
+			$homeLogo.click(homeLogoClick);
+			$about.mouseenter(aboutHover);
+			$about.mouseleave(aboutUnhover);
+			$about.click(aboutClick);
+			$portfolio.mouseenter(portfolioHover);
+			$portfolio.mouseleave(portfolioUnhover);
+			$contact.mouseenter(contactHover);
+			$contact.mouseleave(contactUnhover);
+			$development.mouseenter(developmentHover);
+			$development.mouseleave(developmentUnhover);
+			$smallPrint.mouseenter(smallPrintHover);
+			$smallPrint.mouseleave(smallPrintUnhover);
+			$articles.mouseenter(articlesHover);
+			$articles.mouseleave(articlesUnhover);
+		//GLYPH LISTENERS
 	// EVENT LISTENERS
 
 </script>
