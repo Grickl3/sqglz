@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the SQGLiest!!</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		.whole-shebang {
+			position: absolute;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+
+			/*border: 1px solid black;*/
+		}
+
+		.central-content {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			/*border: 1px solid blue;*/
+		}
+
+		.column {
+			margin: 20px;
+
+			/*border: 1px solid coral;*/
+		}
+
+		.central-content__left-column {
+			display: flex;
+			flex-direction: column;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+
+		}
+
+		.central-content__middle-column {
+			display: flex;
+			flex-direction: column;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+		}
+
+		.central-content__right-column {
+			display: flex;
+			flex-direction: column;
+			/*justify-content: center;*/
+			/*align-items: center;*/
+		}
+		
+		.icon {
+			margin: 40px;
+		}
+
+		.icon--hidden {
+			display: none;
+		}
+
+		.icon--big {
+			height: 200px;
+		}
+
+		.icon--wee {
+			height: 75px;
+		}
+
+		.icon--dot {
+			height: 20px;
+			width: 20px;
+			border-radius: 10px;
+
+			/*background-color: blue;*/
+		}
+
+		.icon__sqglz {
+			/*background-color: yellow;*/
+		}
+		.icon__portfolio {
+			background-color: red;
+		}
+		.icon__about {
+			background-color: darkslategrey;
+		}
+		.icon__contact {
+			background-color: blue;
+		}
+		.icon__development {
+			background-color: orange;
+		}
+		.icon__small-print {
+			background-color: green;
+		}
+		.icon__articles {
+			background-color: purple;
+		}
+
+
+		.icon--top {}
+		/*.icon--middle {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}*/
+		.icon--bottom {}
+
+
+	</style>
+</head>
+<body>
+	<div class="whole-shebang">
+		<div class="home-corner">
+			<img class="icon--hidden" src="sqglz.png">
+		</div><!-- HOME CORNER -->
+
+		<div class="central-content">
+			<div class="column central-content__left-column">
+				<div class="icon icon--top">
+					<div class="icon__portfolio icon--dot"></div>
+				</div><!-- PORTFOLIO -->
+				<div class="icon icon--bottom">
+					<div class="icon__development icon--dot"></div>
+				</div><!-- DEVELOPMENT -->
+			</div><!-- LEFT COLUMN -->
+			<div class="column central-content__middle-column">
+				<div class="icon icon--top">
+					<div class="icon__about icon--dot"></div>
+				</div><!-- ABOUT -->
+				<div class="icon icon--middle">
+					<img class="icon--wee icon--dot icon--sqglz" src="sqglz.png">
+				</div><!-- SQGLZ -->
+				<div class="icon icon--bottom">
+					<div class="icon__articles icon--dot"></div>
+				</div><!-- ARTICLES -->
+			</div><!-- MIDDLE COLUMN -->
+			<div class="column central-content__right-column">
+				<div class="icon icon--top">
+					<div class="icon__contact icon--dot"></div>
+				</div><!-- CONTACT -->
+				<div class="icon icon--bottom">
+					<div class="icon__small-print icon--dot"></div>
+				</div><!-- SMALL PRINT -->
+			</div><!-- RIGHT COLUMN -->
+		</div><!-- CENTRAL CONTENT -->
+
+		<div class="footer">
+		</div><!-- FOOTER -->
+	</div><!-- WHOLE SHEBANG -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</body>
+</html>
