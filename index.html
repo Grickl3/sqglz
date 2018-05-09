@@ -43,7 +43,7 @@
 			display: flex;
 			flex-direction: column;
 			/*justify-content: center;*/
-			/*align-items: center;*/
+			align-items: center;
 		}
 
 		.central-content__right-column {
@@ -55,6 +55,8 @@
 		
 		.icon {
 			margin: 40px;
+
+			/*border: 1px solid red;*/
 		}
 
 		.icon--hidden {
@@ -120,29 +122,29 @@
 		<div class="central-content">
 			<div class="column central-content__left-column">
 				<div class="icon icon--top">
-					<div class="icon__portfolio icon--dot"></div>
+					<div class="icon__portfolio icon--periph icon--dot icon--hidden"></div>
 				</div><!-- PORTFOLIO -->
 				<div class="icon icon--bottom">
-					<div class="icon__development icon--dot"></div>
+					<div class="icon__development icon--periph icon--dot icon--hidden"></div>
 				</div><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
 			<div class="column central-content__middle-column">
 				<div class="icon icon--top">
-					<div class="icon__about icon--dot"></div>
+					<div class="icon__about icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ABOUT -->
 				<div class="icon icon--middle">
-					<img class="icon--wee icon--dot icon--sqglz" src="sqglz.png">
+					<img id="sqglz-center" class="icon--big icon--sqglz" src="sqglz.png">
 				</div><!-- SQGLZ -->
 				<div class="icon icon--bottom">
-					<div class="icon__articles icon--dot"></div>
+					<div class="icon__articles icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
 			<div class="column central-content__right-column">
 				<div class="icon icon--top">
-					<div class="icon__contact icon--dot"></div>
+					<div class="icon__contact icon--periph icon--dot icon--hidden"></div>
 				</div><!-- CONTACT -->
 				<div class="icon icon--bottom">
-					<div class="icon__small-print icon--dot"></div>
+					<div class="icon__small-print icon--periph icon--dot icon--hidden"></div>
 				</div><!-- SMALL PRINT -->
 			</div><!-- RIGHT COLUMN -->
 		</div><!-- CENTRAL CONTENT -->
@@ -152,5 +154,23 @@
 	</div><!-- WHOLE SHEBANG -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+	var $sqgCtr = $("#sqglz-center");
+	var $periphs = $(".icon--periph");
+
+
+	function centerButtonHover(e) {
+		$periphs.removeClass("icon--hidden");
+	}
+
+	function centerButtonUnhover(e) {
+		$periphs.addClass("icon--hidden");
+	}
+
+	$sqgCtr.mouseenter(centerButtonHover);
+	$sqgCtr.mouseleave(centerButtonUnhover);
+</script>
+
 </body>
 </html>
