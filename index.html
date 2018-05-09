@@ -31,9 +31,12 @@
 			/*border: 1px solid coral;*/
 		}
 
-		.central-content__left-column {
+		.central-content__left-column, .central-content__right-column {
 			display: flex;
 			flex-direction: column;
+			height: 300px;
+			
+			justify-content: space-around;
 			/*justify-content: center;*/
 			/*align-items: center;*/
 
@@ -45,18 +48,21 @@
 			/*justify-content: center;*/
 			align-items: center;
 		}
-
-		.central-content__right-column {
-			display: flex;
-			flex-direction: column;
-			/*justify-content: center;*/
-			/*align-items: center;*/
-		}
 		
 		.icon {
-			margin: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 
-			/*border: 1px solid red;*/
+			/*margin: 40px;*/
+			height: 80px;
+			width: 80px;
+
+			/*border: 1px solid #450c09;*/
+		}
+
+		.icon--fill-box {
+			background-color: #450c09;
 		}
 
 		.icon--hidden {
@@ -102,13 +108,6 @@
 		}
 
 
-		.icon--top {}
-		/*.icon--middle {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}*/
-		.icon--bottom {}
 
 
 	</style>
@@ -121,29 +120,29 @@
 
 		<div class="central-content">
 			<div class="column central-content__left-column">
-				<div class="icon icon--top">
+				<div class="icon">
 					<div class="icon__portfolio icon--periph icon--dot icon--hidden"></div>
 				</div><!-- PORTFOLIO -->
-				<div class="icon icon--bottom">
+				<div class="icon">
 					<div class="icon__development icon--periph icon--dot icon--hidden"></div>
 				</div><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
 			<div class="column central-content__middle-column">
-				<div class="icon icon--top">
+				<div class="icon">
 					<div class="icon__about icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ABOUT -->
-				<div class="icon icon--middle">
+				<div class="">
 					<img id="sqglz-center" class="icon--big icon--sqglz" src="sqglz.png">
 				</div><!-- SQGLZ -->
-				<div class="icon icon--bottom">
+				<div class="icon">
 					<div class="icon__articles icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
 			<div class="column central-content__right-column">
-				<div class="icon icon--top">
+				<div class="icon">
 					<div class="icon__contact icon--periph icon--dot icon--hidden"></div>
 				</div><!-- CONTACT -->
-				<div class="icon icon--bottom">
+				<div class="icon">
 					<div class="icon__small-print icon--periph icon--dot icon--hidden"></div>
 				</div><!-- SMALL PRINT -->
 			</div><!-- RIGHT COLUMN -->
@@ -156,20 +155,43 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script type="text/javascript">
-	var $sqgCtr = $("#sqglz-center");
-	var $periphs = $(".icon--periph");
-
+	// VARIABLES
+		var $sqgCtr = $("#sqglz-center");
+		var $periphs = $(".icon--periph");
+		var $periphGlyphBoxes = $(".icon");
+		var glyphReveal = false;
+	// VARIABLES
 
 	function centerButtonHover(e) {
-		$periphs.removeClass("icon--hidden");
+		if(glyphReveal===false) {
+			$periphs.removeClass("icon--hidden");
+		} else {
+			return;
+		}
 	}
 
 	function centerButtonUnhover(e) {
 		$periphs.addClass("icon--hidden");
 	}
 
-	$sqgCtr.mouseenter(centerButtonHover);
-	$sqgCtr.mouseleave(centerButtonUnhover);
+	function centerButtonClick(e) {
+		if(glyphReveal===false) {
+			$periphs.addClass("icon--hidden");
+			$periphGlyphBoxes.addClass("icon--fill-box");
+			return glyphReveal = true;
+		} else {
+			$periphs.removeClass("icon--hidden");
+			$periphGlyphBoxes.removeClass("icon--fill-box");
+			return glyphReveal = false;
+		}
+	}
+
+	//EVENT LISTENERS
+		$sqgCtr.mouseenter(centerButtonHover);
+		$sqgCtr.mouseleave(centerButtonUnhover);
+		$sqgCtr.click(centerButtonClick);
+	// EVENT LISTENERS
+
 </script>
 
 </body>
