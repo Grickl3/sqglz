@@ -17,28 +17,34 @@
 		<div class="central-content">
 			<div class="central-content__column central-content__left-column">
 				<div class="icon icon__portfolio">
+					<img class="icon__section-image icon--hidden" src="./assets/img/portfolio.png">
 					<div class="icon__portfolio--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- PORTFOLIO -->
 				<div class="icon icon__development">
+					<img class="icon__section-image icon--hidden" src="./assets/img/development.png">
 					<div class="icon__development--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
 			<div class="central-content__column central-content__middle-column">
 				<div class="icon icon__about">
+					<img class="icon__section-image icon--hidden" src="./assets/img/about.png">
 					<div class="icon__about--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ABOUT -->
 				<div class="icon__sqglz__box">
 					<img id="sqglz-center" class="icon--big icon__sqglz" src="./assets/img/sqglz.svg">
 				</div><!-- SQGLZ -->
 				<div class="icon icon__articles">
+					<img class="icon__section-image icon--hidden" src="./assets/img/articles.png">
 					<div class="icon__articles--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
 			<div class="central-content__column central-content__right-column">
 				<div class="icon icon__contact">
+					<img class="icon__section-image icon--hidden" src="./assets/img/contact.png">
 					<div class="icon__contact--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- CONTACT -->
 				<div class="icon icon__small-print">
+					<img class="icon__section-image icon--hidden" src="./assets/img/small-print.png">
 					<div class="icon__small-print--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- SMALL PRINT -->
 			</div><!-- RIGHT COLUMN -->
@@ -58,6 +64,7 @@
 		var $homeText = $(".icon__home-text");
 		var $homeLogo = $(".icon__home-logo");
 		var $centerContent = $(".central-content");
+		var $sectionImages = $(".icon__section-image");
 
 		var glyphReveal = false;
 
@@ -87,11 +94,15 @@
 		if(glyphReveal===false) {
 			$periphs.addClass("icon--hidden");
 			$periphs.removeClass("icon--visible");
-			$periphGlyphBoxes.addClass("icon--fill-box");
+			// $periphGlyphBoxes.addClass("icon--fill-box");
+			$sectionImages.removeClass("icon--hidden");
+			$sectionImages.addClass("icon--visible");
 			return glyphReveal = true;
 		} else {
 			$periphs.removeClass("icon--hidden");
-			$periphGlyphBoxes.removeClass("icon--fill-box");
+			// $periphGlyphBoxes.removeClass("icon--fill-box");
+			$sectionImages.addClass("icon--hidden");
+			$sectionImages.removeClass("icon--visible");
 			return glyphReveal = false;
 		}
 	}

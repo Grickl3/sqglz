@@ -3,6 +3,13 @@
 	align-items: center;
 	justify-content: center;
 
+	height: 90%;
+	width: 80%;
+
+	margin-top: -90px;
+
+	/*border: 1px solid coral;*/
+
 	&__column {
 		display: flex;
 		align-items: center;
@@ -10,15 +17,17 @@
 		justify-content: space-around;
 		
 		margin: 20px;
+		width: 25%;
 
-			/*border: 1px solid coral;*/
+		/*border: 1px solid coral;	*/
 		}
 
 	&__left-column, &__right-column {
-		height: 350px;		
+		height: 75%;
+
 	}
 
 	&__middle-column {
-		height: 475px;
+		height: 90%;
 	}
 }

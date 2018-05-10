@@ -2,7 +2,14 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	height: 90%;
+	width: 80%;
+
+	margin-top: -90px;
 }
+
+	/*border: 1px solid coral;*/
 
 	.central-content__column {
 		display: flex;
@@ -11,14 +18,16 @@
 		justify-content: space-around;
 		
 		margin: 20px;
+		width: 25%;
 
-			/*border: 1px solid coral;*/
+		/*border: 1px solid coral;	*/
 		}
 
 	.central-content__left-column, .central-content__right-column {
-		height: 350px;		
+		height: 75%;
+
 	}
 
 	.central-content__middle-column {
-		height: 475px;
+		height: 90%;
 	}
