@@ -3,129 +3,9 @@
 <head>
 	<title>the SQGLiest!!</title>
 	<meta charset="utf-8">
-	<style type="text/css">
-
-		.whole-shebang {
-			position: absolute;
-
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			height: 100%;
-			width: 100%;
-
-			/*border: 1px solid black;*/
-		}
-
-		.home-corner {
-			position: absolute;
-			min-height: 30px;
-			min-width: 5px;
-
-			/*border: 1px solid gold;*/
-		}
-
-		.icon__home-logo {
-			height: 60px;
-		}
-
-		.central-content {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
-			/*border: 1px solid blue;*/
-		}
-
-		.column {
-			margin: 20px;
-
-			/*border: 1px solid coral;*/
-		}
-
-		.central-content__left-column, .central-content__right-column {
-			display: flex;
-			flex-direction: column;
-			height: 300px;
-			
-			justify-content: space-around;
-			/*justify-content: center;*/
-			/*align-items: center;*/
-
-		}
-
-		.central-content__middle-column {
-			display: flex;
-			flex-direction: column;
-			/*justify-content: center;*/
-			align-items: center;
-		}
-		
-		.icon {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
-			/*margin: 40px;*/
-			height: 80px;
-			width: 80px;
-
-			/*border: 1px solid #450c09;*/
-		}
-
-		.icon--fill-box {
-			background-color: #450c09;
-		}
-
-		.icon--hidden {
-			display: none;
-		}
-
-		.icon--big {
-			height: 200px;
-		}
-
-		.icon--wee {
-			height: 75px;
-		}
-
-		.icon--dot {
-			height: 20px;
-			width: 20px;
-			border-radius: 10px;
-
-			/*background-color: blue;*/
-		}
-
-		.icon__sqglz {
-			/*background-color: yellow;*/
-		}
-
-
-
-		.icon__portfolio--dot {
-			background-color: red;
-		}
-		.icon__about--dot {
-			background-color: darkslategrey;
-		}
-		.icon__contact--dot {
-			background-color: blue;
-		}
-		.icon__development--dot {
-			background-color: orange;
-		}
-		.icon__small-print--dot {
-			background-color: green;
-		}
-		.icon__articles--dot {
-			background-color: purple;
-		}
-
-
-
-
-	</style>
+	
+	<link rel="stylesheet" type="text/css" href="./temp/styles/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/home-page.css">
 </head>
 <body>
 	<div class="home-corner">
@@ -135,7 +15,7 @@
 	<div class="whole-shebang">
 
 		<div class="central-content">
-			<div class="column central-content__left-column">
+			<div class="central-content__column central-content__left-column">
 				<div class="icon icon__portfolio">
 					<div class="icon__portfolio--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- PORTFOLIO -->
@@ -143,18 +23,18 @@
 					<div class="icon__development--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
-			<div class="column central-content__middle-column">
+			<div class="central-content__column central-content__middle-column">
 				<div class="icon icon__about">
 					<div class="icon__about--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ABOUT -->
-				<div class="">
-					<img id="sqglz-center" class="icon--big icon--sqglz" src="sqglz.png">
+				<div class="icon__sqglz__box">
+					<img id="sqglz-center" class="icon--big icon__sqglz" src="./assets/img/sqglz.svg">
 				</div><!-- SQGLZ -->
 				<div class="icon icon__articles">
 					<div class="icon__articles--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
-			<div class="column central-content__right-column">
+			<div class="central-content__column central-content__right-column">
 				<div class="icon icon__contact">
 					<div class="icon__contact--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- CONTACT -->
@@ -192,18 +72,21 @@
 	function centerButtonHover(e) {
 		if(glyphReveal===false) {
 			$periphs.removeClass("icon--hidden");
+			$periphs.addClass("icon--visible");
 		} else {
 			return;
 		}
 	}
 
 	function centerButtonUnhover(e) {
+		$periphs.removeClass("icon--visible");
 		$periphs.addClass("icon--hidden");
 	}
 
 	function centerButtonClick(e) {
 		if(glyphReveal===false) {
 			$periphs.addClass("icon--hidden");
+			$periphs.removeClass("icon--visible");
 			$periphGlyphBoxes.addClass("icon--fill-box");
 			return glyphReveal = true;
 		} else {

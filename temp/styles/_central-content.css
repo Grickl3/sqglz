@@ -1,0 +1,24 @@
+.central-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+	.central-content__column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-around;
+		
+		margin: 20px;
+
+			/*border: 1px solid coral;*/
+		}
+
+	.central-content__left-column, .central-content__right-column {
+		height: 350px;		
+	}
+
+	.central-content__middle-column {
+		height: 475px;
+	}

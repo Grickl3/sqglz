@@ -1,0 +1,85 @@
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*margin: 40px;*/
+	height: 80px;
+	width: 80px;
+
+	/*border: 1px solid #450c09;*/
+
+		&__home-logo {
+		height: 60px;
+	}
+
+	&--fill-box {
+		background-color: #450c09;
+	}
+
+	&--periph {
+		/*transition: all .4s;*/
+	}
+
+	&--hidden {
+		/*display: none;*/
+		transition: opacity .5s;
+		opacity: 0;
+	}
+
+	&--visible {
+		/*display: block;*/
+		transition: opacity .5s;
+		opacity: 1;
+	}
+
+	&--big {
+		height: 200px;
+	}
+
+	&--wee {
+		height: 75px;
+	}
+
+	&--dot {
+		height: 40px;
+		width: 40px;
+		border-radius: 20px;
+
+		/*transition: all .4s;*/
+		/*opacity: 1;*/
+		/*background-color: blue;*/
+	}
+
+	&__sqglz__box {
+		transform: translateY(15px);
+		padding: 5px;
+
+		/*border: 1px solid lightgrey;*/
+	}
+
+	&__sqglz {
+		/*height: 100px;*/
+		/*transform: translateY(20px);*/
+	}
+
+	&__portfolio--dot {
+		background-color: #450c09; 
+	}
+	&__about--dot {
+		background-color: #151c24;
+	}
+	&__contact--dot {
+		background-color: #1a2744;
+	}
+	&__development--dot {
+		background-color: #985617;
+	}
+	&__small-print--dot {
+		background-color: #3f4000;
+	}
+	&__articles--dot {
+		background-color: #2f1f3f;
+	}
+}
+

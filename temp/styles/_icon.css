@@ -1,0 +1,91 @@
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/*margin: 40px;*/
+	height: 80px;
+	width: 80px;
+}
+
+	/*border: 1px solid #450c09;*/
+
+	.icon__home-logo {
+		height: 60px;
+	}
+
+	.icon--fill-box {
+		background-color: #450c09;
+	}
+
+	.icon--periph {
+		/*transition: all .4s;*/
+	}
+
+	.icon--hidden {
+		/*display: none;*/
+		transition: opacity .5s;
+		opacity: 0;
+	}
+
+	.icon--visible {
+		/*display: block;*/
+		transition: opacity .5s;
+		opacity: 1;
+	}
+
+	.icon--big {
+		height: 200px;
+	}
+
+	.icon--wee {
+		height: 75px;
+	}
+
+	.icon--dot {
+		height: 40px;
+		width: 40px;
+		border-radius: 20px;
+
+		/*transition: all .4s;*/
+		/*opacity: 1;*/
+		/*background-color: blue;*/
+	}
+
+	.icon__sqglz__box {
+		-webkit-transform: translateY(15px);
+		        transform: translateY(15px);
+		padding: 5px;
+
+		/*border: 1px solid lightgrey;*/
+	}
+
+	.icon__sqglz {
+		/*height: 100px;*/
+		/*transform: translateY(20px);*/
+	}
+
+	.icon__portfolio--dot {
+		background-color: #450c09; 
+	}
+
+	.icon__about--dot {
+		background-color: #151c24;
+	}
+
+	.icon__contact--dot {
+		background-color: #1a2744;
+	}
+
+	.icon__development--dot {
+		background-color: #985617;
+	}
+
+	.icon__small-print--dot {
+		background-color: #3f4000;
+	}
+
+	.icon__articles--dot {
+		background-color: #2f1f3f;
+	}
+
