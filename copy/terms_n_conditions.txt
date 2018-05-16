@@ -1,3 +1,43 @@
 
 
 
+The Style Guide
+
+	A style guide is a document which defines the patterns by which an organization presents itself. It clearly states what is essential to the organization's best representation of itself and - just as importantly - notes the expressions which would be antithetical to the organization's best representation.
+
+	SQGLZ mostly works with small businesses and individuals many of whom opperate without a style guide. The smaller your business, the less of a style guide you need. A single owner operator's personality is the personality of their business. And, this is as it should be. 
+
+	So, from the sqglz perspective, a very small business is best branded by a few very simple core essentials: name, logo, colors, fonts, and unique value proposition. A larger business may be best served by spelling out everything from the acceptable use of coloquialisms to paper textures so that its many associates aren't left guessing about how they are expected to relate to clients, customers, and vendors.
+
+	To get moving on any design project, an organization must have an established brand documented in a style guide appropriate to their scale of business. If a business has never established its brand parameters then this will be the first order of business with sqglz.
+
+The Project Brief
+
+	Before jumping into any project it must be defined. A client may draft a project brief or hire sqglz for a consultation, following which sqglz will create a proposal outlining its plan for solving the problems facing the client. 
+
+	In the later case, sqglz prefers to discus the problem with the client briefly, research the problem independetly, meet with the client to discus the problem, and then draft a project proposal. In some cases this will be the end of sqglz involvement as sqglz may find ideal solutions to the clients needs which do not include sqglz services.
+
+	Whether working from a client provided brief or a sqglz produced proposal what should be documented includes:
+
+		- A comprehensive description of the problems to be solved
+		- A description of any failed attempts to solve this design problem and any details about why they may have failed
+		- The scope of all work to be completed
+		- The timeframe in which sqglz will complete the work
+		- The points in the production process at which sqglz will expect payment
+		- Ownership rights and privileges with regard to all project assets
+
+	A sqglz provided proposal, or sqglz agreement to a client provided brief, constitute a quote from sqglz. This quote will stand for sixty days, following which sqglz cannot gaurantee that its time will be available and at the same price. 
+
+Scope Creep
+
+	SQGLZ does not work by the hour. For the client this means that all concerns about scope-creep, the tendency of projects to grow in complexity and time, are ours. This also means that sqglz pays keen attention to the deliverables defined in the project documentation. Requests outside of the project specs will be billed as additions to the project. 
+
+Payment
+
+	SQGLZ does not require payment to review a client style guide and project brief, but does require a flat rate of $200 for initial consultation (as described above) on a project which does not yet have a brief written.
+
+	Following this, sqglz will require a deposit at the commencement of a project, full payment upon completion, and - for projects of some scale - payments bwtween. All of these payments, their sums and waypoints, will be included in the initial project documentation.
+
+Completion
+
+	SQGLZ stands by its work. If, upon completion, some aspect of the project is found to have not met the project specifications then sqglz would like to made aware of this first. Design problems are dynamic and gaurantees regarding design are correspondingly nebuluous, but what sqglz can gaurantee is that it will not ignore any requests to remedie a design problem which it has left merely partially solved.
