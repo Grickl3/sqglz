@@ -1,5 +1,9 @@
 
+		All work is carried out by SQGLZ with the understanding that the client has agreed to SQGLZ’s terms and conditions.
 
+		These terms, which are amended from time to time (Amendments are recorded on GitHub, such that the exact time when changes are made may be referenced in the event that it becomes needed), constitute the terms and conditions referred to within SQGLZ communications, contracts, quotes, and invoices. 
+
+		The Agreement referred to in those communications is as follows:
 
 The Style Guide
 
@@ -32,15 +36,29 @@ The Project Brief
 
 	A sqglz provided proposal, or sqglz agreement to a client provided brief, constitute a quote from sqglz. This quote will stand for sixty days, following which sqglz cannot gaurantee that its time will be available and at the same price. 
 
-Scope Creep
+Revisions
 
+	CONTENT REVISIONS
+	Changing text, swapping graphical assets, and any similar alterations of content are usually incidental, and should not incur any additional billing. In some cases, such as when a photo has had to be retouched - and the new replacing photo will have to have the same work repeated, or when a text header has been treated with a cut-away effect, or a section of body text gets substantially longer, it may be the case that a non-negligible degree of work will be incurred. For these types of content revisions additional billing will have to be assessed. 
+
+	DESIGN REVISIONS
+
+	SCOPE CREEP
 	SQGLZ does not work by the hour. For the client this means that all concerns about scope-creep, the tendency of projects to grow in complexity and time, are ours. This also means that sqglz pays keen attention to the deliverables defined in the project documentation. Requests outside of the project specs will be billed as additions to the project. 
 
 Payment
 
 	SQGLZ does not require payment to review a client style guide and project brief, but does require a flat rate of $200 for initial consultation (as described above) on a project which does not yet have a brief written.
 
-	Following this, sqglz will require a deposit at the commencement of a project, full payment upon completion, and - for projects of some scale - payments bwtween. All of these payments, their sums and waypoints, will be included in the initial project documentation.
+	SQGLZ works to complete projects within written specifications. Each leg of a project begins with a payment as per its documentation. Projects do not generally proceed to their subsequent phases without previous payments being received. Generally, this functions well in lieu of a contract, though either party may request the creation of a contract for a project.
+
+	Projects of a dollar value of five figures are done under contract.
+
+	Contracted work may incur additional billing for efforts beyond their initial quote for the following reasons:
+		- Communications with individuals other than our client contact person.
+		- Revisions due to inadequate specification. 
+		- Changes in project direction.
+		- Changes in project scope.
 
 Completion
 
