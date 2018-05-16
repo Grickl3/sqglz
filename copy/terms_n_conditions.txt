@@ -15,6 +15,10 @@ The Project Brief
 
 	Before jumping into any project it must be defined. A client may draft a project brief or hire sqglz for a consultation, following which sqglz will create a proposal outlining its plan for solving the problems facing the client. 
 
+	If you are interested in drafting your own brief but don't know where to start, sqglz recommends the following articles as good starting points:
+		- https://www.upwork.com/hiring/design/how-to-create-an-effective-creative-brief/
+		- https://teamgantt.com/blog/use-example-build-great-project-brief/
+
 	In the later case, sqglz prefers to discus the problem with the client briefly, research the problem independetly, meet with the client to discus the problem, and then draft a project proposal. In some cases this will be the end of sqglz involvement as sqglz may find ideal solutions to the clients needs which do not include sqglz services.
 
 	Whether working from a client provided brief or a sqglz produced proposal what should be documented includes:

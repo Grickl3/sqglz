@@ -1,4 +1,35 @@
 
 
+1) Review the Organization's Brand Position
+	
+	- SQGLZ works with each client to ensure that its brand is sufficiently defined for the design needs of that client.
+	- SQGLZ would additionally like to ensure that it and the client are a good aesthetic match for each other. Generally, sqglz will recommend another firm in the situation that sqglz does not feel it can meet the aesthetic needs of a client.
+	- There are generally no costs at this phase for clients who have established brands. Costs for small businesses who need minimal branding (a logo, color scheme, etc.) are usually only a few hundred dollars. Larger organizations with many associates representing their brand start at around $2500.
 
+	See Style Guides in Terms & Conditions for more.
 
+2) Define the Problems & Plan the Solution
+	
+	SQGLZ solves problems. The sqglz approach is to take an organization's whole situation into consideration when developing their web-solution. SQGLZ investigates how each client's extant business process best integrates with potential web-based technologies, who a client's audience is and what they will expect and be best served by upon arriving at the site. SQGLZ plans and builds in tools that the client will use to drive their business. 
+
+	In this step, sqglz and the client will work to reach aggrement on either a client created brief or a sqglz created proposal. Initial consultation fee for sqglz to assemble the project proposal is a flat rate of $200. 
+
+	See The Project Brief in Terms & Conditions for more details.
+
+3) Work the Plan
+
+	SQGLZ gets to work. While the project is in process it will be hosted on the development side of the SQGLZ site. Confidential projects will be unlisted. Project notes will be maintained there as well. Communication by Slack is preferred, but phone and email are always fine when needed. 
+
+	For Details about Production see the following sections of Terms & Conditions:
+
+		- Point of Contact
+		- Scope Creep
+		- Revisions
+
+4) Review the Completed Work & Sometimes Maintenance
+
+	For Details about Completion see the following sections of Terms & Conditions:
+
+		- Revisions
+		- 
+		- 
