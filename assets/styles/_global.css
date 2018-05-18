@@ -11,3 +11,11 @@ h3 {
 .hidden {
 	display: none;
 }
+
+.space--large {
+	height: 100px;
+
+	@media (min-width: 800px) {
+		height: 300px;
+	}
+}
