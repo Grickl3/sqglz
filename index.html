@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>the SQGLiest!!</title>
 	<meta charset="utf-8">
@@ -10,41 +10,41 @@
 <body>
 	<div class="home-corner">
 		<h3 class="icon__home-text icon--hidden">HOME</h3>
-		<img class="icon--hidden icon__home-logo" src="sqglz.png">
+		<img class="icon--hidden icon__home-logo" src="./assets/img/sqglz.svg" nopin="nopin">
 	</div><!-- HOME CORNER -->
-	<div class="whole-shebang">
+	<div class="whole-shebang"> 
 
 		<div class="central-content">
 			<div class="central-content__column central-content__left-column">
-				<div class="icon icon__portfolio">
-					<img class="icon__section-image icon--hidden" src="./assets/img/portfolio.png">
+				<a href="portfolio.html"><div class="icon icon__portfolio">
+					<img class="icon__section-image icon--hidden" src="./assets/img/portfolio.png" nopin="nopin">
 					<div class="icon__portfolio--dot icon--periph icon--dot icon--hidden"></div>
-				</div><!-- PORTFOLIO -->
-				<div class="icon icon__development">
-					<img class="icon__section-image icon--hidden" src="./assets/img/development.png">
+				</div></a><!-- PORTFOLIO -->
+				<a href="development.html"><div class="icon icon__development">
+					<img class="icon__section-image icon--hidden" src="./assets/img/development.png" nopin="nopin">
 					<div class="icon__development--dot icon--periph icon--dot icon--hidden"></div>
-				</div><!-- DEVELOPMENT -->
+				</div></a><!-- DEVELOPMENT -->
 			</div><!-- LEFT COLUMN -->
 			<div class="central-content__column central-content__middle-column">
-				<div class="icon icon__about">
-					<img class="icon__section-image icon--hidden" src="./assets/img/about.png">
+				<a href="about.html"><div class="icon icon__about">
+					<img class="icon__section-image icon--hidden" src="./assets/img/about.png" nopin="nopin">
 					<div class="icon__about--dot icon--periph icon--dot icon--hidden"></div>
-				</div><!-- ABOUT -->
+				</div></a><!-- ABOUT --> 
 				<div class="icon__sqglz__box">
-					<img id="sqglz-center" class="icon--big icon__sqglz" src="./assets/img/sqglz.svg">
+					<img id="sqglz-center" class="icon--big icon__sqglz" src="./assets/img/sqglz.svg" nopin="nopin">
 				</div><!-- SQGLZ -->
-				<div class="icon icon__articles">
-					<img class="icon__section-image icon--hidden" src="./assets/img/articles.png">
+				<a href="articles.html"><div class="icon icon__articles">
+					<img class="icon__section-image icon--hidden" src="./assets/img/articles.png" nopin="nopin">
 					<div class="icon__articles--dot icon--periph icon--dot icon--hidden"></div>
-				</div><!-- ARTICLES -->
+				</div></a><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
 			<div class="central-content__column central-content__right-column">
-				<div class="icon icon__contact">
-					<img class="icon__section-image icon--hidden" src="./assets/img/contact.png">
+				<a href="contact.html"><div class="icon icon__contact">
+					<img class="icon__section-image icon--hidden" src="./assets/img/contact.png" nopin="nopin">
 					<div class="icon__contact--dot icon--periph icon--dot icon--hidden"></div>
-				</div><!-- CONTACT -->
-				<div class="icon icon__small-print">
-					<img class="icon__section-image icon--hidden" src="./assets/img/small-print.png">
+				</div></a><!-- CONTACT -->
+				<a href="small-print.html"><div class="icon icon__small-print">
+					<img class="icon__section-image icon--hidden" src="./assets/img/small-print.png" nopin="nopin">
 					<div class="icon__small-print--dot icon--periph icon--dot icon--hidden"></div>
 				</div><!-- SMALL PRINT -->
 			</div><!-- RIGHT COLUMN -->
@@ -108,13 +108,10 @@
 	}
 
 	// GLYPH FUNCTIONS
-		function homeLogoClick(e) {
-			$centerContent.removeClass("icon--hidden");
-		}
-
+		// Add navigation hints to top left corner
 		function aboutHover(e) {
 			if(glyphReveal===true) {
-				$homeText.text("About")
+				$homeText.text("About");
 				$homeText.removeClass("icon--hidden");
 			}
 		}
@@ -124,13 +121,13 @@
 			}
 		}
 
-		function aboutClick(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-				$homeLogo.removeClass("icon--hidden");
-				$centerContent.addClass("icon--hidden");
-			}
-		}
+		// function aboutClick(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 		$homeLogo.removeClass("icon--hidden");
+		// 		$centerContent.addClass("icon--hidden");
+		// 	}
+		// }
 
 		function portfolioHover(e) {
 			if(glyphReveal===true) {
@@ -199,10 +196,10 @@
 		$sqgCtr.click(centerButtonClick);
 
 		//GLYPH LISTENERS
-			$homeLogo.click(homeLogoClick);
+			// $homeLogo.click(homeLogoClick);
 			$about.mouseenter(aboutHover);
 			$about.mouseleave(aboutUnhover);
-			$about.click(aboutClick);
+			// $about.click(aboutClick);
 			$portfolio.mouseenter(portfolioHover);
 			$portfolio.mouseleave(portfolioUnhover);
 			$contact.mouseenter(contactHover);
