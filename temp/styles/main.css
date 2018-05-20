@@ -345,19 +345,49 @@ template {
 
 /* http://www.tomwaits.com/songs/#/songs/song/156/Filipino_Box_Spring_Hog/ */
 
+/* COLOR */
+
 /* body text */
 
-/* drawings */
-
-/* headers and layout elements */
-
-/* uses */
+/* drawings (gradient) */
 
 /* links */
 
-/* uses */
+/* brand main */
 
-/* uses */
+/* headers and layout elements (gradient) */
+
+/* large fills and oxBlood offset (gradient) */
+
+/* link - hover */
+
+/* Also, shades of grey:
+
+	six 'f's white,     - 
+	ghostwhite          -
+	lightslategrey      -
+	slategrey           -
+	darkslategrey       -
+	never black         -  !ever
+
+/* COLOR */
+
+/* ======================= FONTS ======================== */
+
+/* 
+	https://fonts.google.com/?query=cormo&selection.family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i
+
+	Cormorant Available Weights: 300, 400, 600 & 700
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-family: 'Cormorant', Garamond, serif;
+	font-family: 'Cormorant Infant', Garamond, serif;
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-family: 'Cormorant Upright', Garamond, serif;
+	font-family: 'Cormorant Unicase', Garamond, serif;
+
+	*/
+
+/* ======================= END FONTS ==================== */
 
 .whole-shebang {
 	position: absolute;
@@ -371,15 +401,66 @@ template {
 	/*border: 1px solid black;*/
 }
 
-/* Don't forget to include the Pinterest disabler at some point */
-
 h1 {
+	font-family: 'Cormorant Unicase', Garamond, serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #985617;
+}
 
+h2 {
+	font-family: 'Cormorant Unicase', Garamond, serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    color: #985617;
 }
 
 h3 {
-	font-family: Times;
+	font-family: 'Cormorant', Garamond, serif;
+	font-size: 1.6em;
+	font-weight: 300;
+	color: slategrey;
 }
+
+h4 {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	color: darkslategrey;
+}
+
+h5,h6 {
+	margin-top: -60px;
+    font-family: 'Cormorant SC', Garamond, serif;
+    font-weight: 400;
+    color: slategrey;
+}
+
+h5 {
+	font-size: 1.3em;
+}
+
+h6 {
+	font-size: 1.1em;
+}
+
+p {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+    font-weight: 300;
+    font-size: 3.9em;
+    line-height: 1.2em;
+
+    color: #151c24;
+}
+
+@media (min-width: 985px) {
+
+p {
+    	font-size: 1.3em;
+    	line-height: 1.4em
+}
+    }
 
 .hidden {
 	display: none;
@@ -398,11 +479,17 @@ h3 {
 
 .home-corner {
 
-	/*align-self: flex-start;*/
 	margin: 30px 30px;
 	height: 30px;
-	/*min-width: 5px;*/
 }
+
+@media (min-width: 985px) {
+
+.home-corner {
+		margin: 15px 15px;
+		height: 30px
+}
+	}
 
 .central-content {
 	display: flex;
@@ -456,8 +543,23 @@ h3 {
 /*border: 1px solid #450c09;*/
 
 .icon__home-logo {
-		height: 60px;
+
+		position: fixed;
+		height: 120px;
+		width: 120px;
+		padding: 15px;
+		background-color: rgba(255,255,255,.8);
+		border-radius: 60px;	
 	}
+
+@media (min-width: 985px) {
+
+.icon__home-logo {
+			height: 60px;
+			width: 60px;
+			border-radius: 30px	
+	}
+		}
 
 .icon--fill-box {
 		background-color: #450c09;
@@ -530,9 +632,15 @@ h3 {
 	}
 
 .icon__sqglz {
-		/*height: 100px;*/
-		/*transform: translateY(20px);*/
+		height: 500px;
 	}
+
+@media (min-width: 985px) {
+
+.icon__sqglz {
+			height: 250px
+	}
+		}
 
 .icon__portfolio--dot {
 		background-color: #450c09; 
@@ -591,8 +699,15 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 
-	margin: 50px 30px;
+	margin: 20px 15px;
 }
+
+@media (min-width: 985px) {
+
+.main-content {
+		margin: 50px 30px
+}
+	}
 
 /*border: 1px solid gold;*/
 
@@ -603,12 +718,12 @@ h3 {
 
 .main-content__section {
 
-		width: 85%;
+		width: 95%;
 
 		/*border: 1px solid gold;*/
 	}
 
-@media (min-width: 800px) {
+@media (min-width: 985px) {
 
 .main-content__section {
 			width: 700px
@@ -616,33 +731,91 @@ h3 {
 		}
 
 .main-content__box {
-		padding: 15px 20px;
-		border-radius: 7px 7px 0 0;
-		border-top: 1px solid lightgrey;
-		border-right: 1px solid lightgrey;
-		border-bottom: 0px solid lightgrey;
-		border-left: 1px solid lightgrey;
+		padding: 15px 50px;
+		border-radius: 21px 21px 0 0;
+
+		border-top: 4px solid #1a2744;
+		border-right: 4px solid #1a2744;
+		border-bottom: 0px solid #1a2744;
+		border-left: 4px solid #1a2744;
+
+		background-color: ghostwhite;
 	}
 
-.main-content__box-handle-box {
-		display: block;
+@media (min-width: 985px) {
+
+.main-content__box {
+			padding: 15px 20px;
+			border-radius: 7px 7px 0 0;
+
+			border-top: 1px solid #1a2744;
+			border-right: 1px solid #1a2744;
+			border-bottom: 0px solid #1a2744;
+			border-left: 1px solid #1a2744
+
+			/*background-color: ghostwhite;*/
+	}
+		}
+
+.main-content__box-handle-box--outer {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		width: 100%;
-		
-		text-align: center;
 
-		border-top: 1px solid lightgrey;
-		/*border: 1px solid gold;*/
+		border-top: 4px solid #1a2744;
 	}
+
+@media (min-width: 985px) {
+
+.main-content__box-handle-box--outer {
+			border-top: 1px solid #1a2744
+	}
+		}
+
+.main-content__box-handle-box--inner {
+
+		margin-top: -2px;
+		height: 75px;
+		width: 150px;
+		text-align: center;
+		background-color: #1a2744;
+		border-radius: 0 0 27px 27px;
+	}
+
+@media (min-width: 985px) {
+
+.main-content__box-handle-box--inner {
+			margin-top: 0px;
+			height: 30px;
+			width: 60px;
+			border-radius: 0 0 9px 9px
+	}
+		}
 
 .main-content__box-handle {
-		padding: 0 5px 5px 5px;
-		width: 40px;
 
-		background-color: lightgrey;
+		font-size: 6em;
+		line-height: .09em;
+
 		border-radius: 0 0 5px 5px;
+		text-align: center;
+		color: #ffffff;
 
 		/*border: 1px solid gold;*/
 	}
+
+@media (min-width: 985px) {
+
+.main-content__box-handle {
+			/*margin: 0;*/
+			width: 30px;
+			padding: 0px 5px 5px 5px;
+			font-size: 1.8em;
+			line-height: .5em
+	}
+		}
 
 .main-content__github-link {
 		height: 30px;
@@ -663,7 +836,7 @@ h3 {
 		margin: 20px;
 
 		/*border: 1px solid gold;*/
-	} 
+	}  
 
       
 

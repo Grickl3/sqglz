@@ -1,10 +1,37 @@
 /* Filipino Box Spring Hog */
 /* http://www.tomwaits.com/songs/#/songs/song/156/Filipino_Box_Spring_Hog/ */
 
-$deathsBreath: #151c24; /* body text */
-$oxBlood: #450c09;  /* drawings */
-$twiLight: #1a2744; /* headers and layout elements */
-$sageGold: #d49a00;  /* uses */
-$lostBrick: #985617;  /* links */
-$drabGowth: #3f4000;  /* uses */
-$purpHills: #2f1f3f;  /* uses */
+/* COLOR */
+	$deathsBreath: #151c24; /* body text */
+	$oxBlood: #450c09;  /* drawings (gradient) */
+	$twiLight: #1a2744; /* links */ 
+	$sageGold: #d49a00;  /* brand main */
+	$lostBrick: #985617;  /* headers and layout elements (gradient) */
+	$drabGowth: #3f4000;  /* large fills and oxBlood offset (gradient) */
+	$purpHills: #2f1f3f;  /* link - hover */
+
+	/* Also, shades of grey:
+
+	six 'f's white,     - 
+	ghostwhite          -
+	lightslategrey      -
+	slategrey           -
+	darkslategrey       -
+	never black         -  !ever
+
+/* COLOR */
+
+/* ======================= FONTS ======================== */
+	/* 
+	https://fonts.google.com/?query=cormo&selection.family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i
+
+	Cormorant Available Weights: 300, 400, 600 & 700
+	font-family: 'Cormorant Garamond', Garamond, serif;
+	font-family: 'Cormorant', Garamond, serif;
+	font-family: 'Cormorant Infant', Garamond, serif;
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-family: 'Cormorant Upright', Garamond, serif;
+	font-family: 'Cormorant Unicase', Garamond, serif;
+
+	*/
+/* ======================= END FONTS ==================== */

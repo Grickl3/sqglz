@@ -1,11 +1,61 @@
-/* Don't forget to include the Pinterest disabler at some point */
 
 h1 {
+	font-family: 'Cormorant Unicase', Garamond, serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    color: #985617;
+}
 
+h2 {
+	font-family: 'Cormorant Unicase', Garamond, serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    color: #985617;
 }
 
 h3 {
-	font-family: Times;
+	font-family: 'Cormorant', Garamond, serif;
+	font-size: 1.6em;
+	font-weight: 300;
+	color: slategrey;
+}
+
+h4 {
+	font-family: 'Cormorant SC', Garamond, serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	color: darkslategrey;
+}
+
+h5,h6 {
+	margin-top: -60px;
+    font-family: 'Cormorant SC', Garamond, serif;
+    font-weight: 400;
+    color: slategrey;
+}
+
+h5 {
+	font-size: 1.3em;
+}
+
+h6 {
+	font-size: 1.1em;
+}
+
+
+p {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+    font-weight: 300;
+    font-size: 3.9em;
+    line-height: 1.2em;
+
+    color: #151c24;
+
+    @media (min-width: 985px) {
+    	font-size: 1.3em;
+    	line-height: 1.4em;
+    }
 }
 
 .hidden {

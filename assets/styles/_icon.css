@@ -14,8 +14,20 @@
 
 	/*border: 1px solid #450c09;*/
 
-		&__home-logo {
-		height: 60px;
+	&__home-logo {
+
+		position: fixed;
+		height: 120px;
+		width: 120px;
+		padding: 15px;
+		background-color: rgba(255,255,255,.8);
+		border-radius: 60px;
+	
+		@media (min-width: 985px) {
+			height: 60px;
+			width: 60px;
+			border-radius: 30px;
+		}	
 	}
 
 	&--fill-box {
@@ -85,8 +97,11 @@
 	}
 
 	&__sqglz {
-		/*height: 100px;*/
-		/*transform: translateY(20px);*/
+		height: 500px;
+
+		@media (min-width: 985px) {
+			height: 250px;
+		}
 	}
 
 	&__portfolio--dot {

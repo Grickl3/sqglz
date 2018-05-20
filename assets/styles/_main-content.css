@@ -6,7 +6,12 @@
 	flex-direction: column;
 	align-items: center;
 
-	margin: 50px 30px;
+	margin: 20px 15px;
+
+	@media (min-width: 985px) {
+		margin: 50px 30px;
+	}
+	
 
 	/*border: 1px solid gold;*/
 
@@ -17,9 +22,9 @@
 
 	&__section {
 
-		width: 85%;
+		width: 95%;
 
-		@media (min-width: 800px) {
+		@media (min-width: 985px) {
 			width: 700px;
 		}
 
@@ -29,30 +34,76 @@
 
 
 	&__box {
-		padding: 15px 20px;
-		border-radius: 7px 7px 0 0;
-		border-top: 1px solid lightgrey;
-		border-right: 1px solid lightgrey;
-		border-bottom: 0px solid lightgrey;
-		border-left: 1px solid lightgrey;
+		padding: 15px 50px;
+		border-radius: 21px 21px 0 0;
+
+		border-top: 4px solid #1a2744;
+		border-right: 4px solid #1a2744;
+		border-bottom: 0px solid #1a2744;
+		border-left: 4px solid #1a2744;
+
+		background-color: ghostwhite;
+
+		@media (min-width: 985px) {
+			padding: 15px 20px;
+			border-radius: 7px 7px 0 0;
+
+			border-top: 1px solid #1a2744;
+			border-right: 1px solid #1a2744;
+			border-bottom: 0px solid #1a2744;
+			border-left: 1px solid #1a2744;
+
+			/*background-color: ghostwhite;*/
+		}
 	}
 
-	&__box-handle-box {
-		display: block;
-		width: 100%;
-		
-		text-align: center;
+	&__box-handle-box--outer {
 
-		border-top: 1px solid lightgrey;
-		/*border: 1px solid gold;*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+
+		border-top: 4px solid #1a2744;
+
+		@media (min-width: 985px) {
+			border-top: 1px solid #1a2744;
+		}
+	}
+
+	&__box-handle-box--inner {
+
+		margin-top: -2px;
+		height: 75px;
+		width: 150px;
+		text-align: center;
+		background-color: #1a2744;
+		border-radius: 0 0 27px 27px;
+
+		@media (min-width: 985px) {
+			margin-top: 0px;
+			height: 30px;
+			width: 60px;
+			border-radius: 0 0 9px 9px;
+		}
 	}
 
 	&__box-handle {
-		padding: 0 5px 5px 5px;
-		width: 40px;
 
-		background-color: lightgrey;
+		font-size: 6em;
+		line-height: .09em;
+
 		border-radius: 0 0 5px 5px;
+		text-align: center;
+		color: #ffffff;
+
+		@media (min-width: 985px) {
+			/*margin: 0;*/
+			width: 30px;
+			padding: 0px 5px 5px 5px;
+			font-size: 1.8em;
+			line-height: .5em;
+		}
 
 		/*border: 1px solid gold;*/
 	}
