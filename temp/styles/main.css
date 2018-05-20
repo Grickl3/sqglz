@@ -345,6 +345,20 @@ template {
 
 /* http://www.tomwaits.com/songs/#/songs/song/156/Filipino_Box_Spring_Hog/ */
 
+/* body text */
+
+/* drawings */
+
+/* headers and layout elements */
+
+/* uses */
+
+/* links */
+
+/* uses */
+
+/* uses */
+
 .whole-shebang {
 	position: absolute;
 
@@ -632,6 +646,23 @@ h3 {
 
 .main-content__github-link {
 		height: 30px;
+	}
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*justify-content: space-between;*/
+
+	width: 90%;
+}
+
+/*border: 1px solid gold;*/
+
+.portfolio__tile {
+		margin: 20px;
+
+		/*border: 1px solid gold;*/
 	} 
 
       

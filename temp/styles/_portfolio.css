@@ -1,0 +1,19 @@
+
+
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*justify-content: space-between;*/
+
+	width: 90%;
+}
+
+	/*border: 1px solid gold;*/
+
+	.portfolio__tile {
+		margin: 20px;
+
+		/*border: 1px solid gold;*/
+	}
