@@ -1,5 +1,7 @@
 
-
+/** {
+	background-color: red;
+}*/
 
 .main-content {
 	display: flex;
@@ -9,65 +11,79 @@
 	margin: 20px 15px;
 }
 
-	@media (min-width: 985px) {
-
+@media (min-width: 985px) {
 
 .main-content {
 		margin: 50px 30px
 }
 	}
 
-	/*border: 1px solid gold;*/
+/*border: 1px solid gold;*/
 
-	.main-content__header {
+.main-content__header {
 		margin: 40px 0;
 		text-align: center;
 	}
 
-	.main-content__section {
+.main-content__narrow-box {
+
+		margin: 0 60px;
+		max-width: 80%;
+	}
+
+/*border: 1px solid gold; */
+
+@media (min-width: 985px) {
+
+.main-content__narrow-box {
+			max-width: 50%
+	}
+		}
+
+.main-content__section {
 
 		width: 95%;
 
 		/*border: 1px solid gold;*/
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__section {
+.main-content__section {
 			width: 700px
 	}
 		}
 
-	.main-content__section--contact {
+.main-content__section--contact {
 
 		margin-top: 250px;
 		text-align: center;
 	}
 
-	/*border: 1px solid gold;*/
+/*border: 1px solid gold;*/
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__section--contact {
+.main-content__section--contact {
 			margin-top: 200px
 	}
 		}
 
-	.main-content__title {
+.main-content__title {
 
-		font-size: 5.5em;
+		font-size: 4.5em;
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__title {
+.main-content__title {
 
-			font-size: 2.2em
+			font-size: 1.8em
 	}
 
 		}
 
-	.main-content__hr--lost-brick-tapper {
+.main-content__hr--lost-brick-tapper {
 		margin-top: -25px;
 		width: 75%;
 		border: 0;
@@ -78,21 +94,21 @@
     	rgba(0, 0, 0, 0));
 	}
 
-	.main-content__body-text--contact {
+.main-content__body-text--contact {
 
 		font-size: 4em;
 		line-height: 2em;
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__body-text--contact {
+.main-content__body-text--contact {
 			font-size: 1.5em;
 			line-height: 1.8em
 	}
 		}
 
-	.main-content__github-link {
+.main-content__github-link {
 		position: absolute;
 		margin-top: 30px;
 		margin-left: -40px;
@@ -102,19 +118,19 @@
 		opacity: 1;
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__github-link {
+.main-content__github-link {
 			height: 30px;
 			margin-left: -15px
 	}
 		}
 
-	.main-content__github-link:hover {
+.main-content__github-link:hover {
 			opacity: 0;
 		}
 
-	.main-content__github-link--lost-brick {
+.main-content__github-link--lost-brick {
 		position: absolute;
 		margin-top: 30px;
 		margin-left: -40px;
@@ -124,15 +140,15 @@
 		opacity: 0;
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.main-content__github-link--lost-brick {
+.main-content__github-link--lost-brick {
 			height: 30px;
 			margin-left: -15px
 	}
 		}
 
-	.main-content__github-link--lost-brick:hover {
+.main-content__github-link--lost-brick:hover {
 			opacity: 1;
 		}
 

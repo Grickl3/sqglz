@@ -424,22 +424,35 @@ h1 {
 	font-weight: 600;
 	color: #985617;
 
-	font-size: 9em;   
+	font-size: 8em;
+	line-height: .8em;   
 }
 
 @media (min-width: 985px) {
 
 h1 {
-		font-size: 4.5em   
+		font-size: 4.5em;
+		line-height: .7em   
 }
 	}
 
 h2 {
+
 	font-family: 'Cormorant Unicase', Garamond, serif;
-    font-weight: 300;
-    font-size: 2.2em;
-    color: #985617;
+	font-weight: 300;
+	color: #985617;
+
+	font-size: 4.2em;
 }
+
+@media (min-width: 985px) {
+
+h2 {
+		
+	    font-size: 2.2em
+}
+	    
+    }
 
 h3 {
 	font-family: 'Cormorant Upright', Garamond, serif;
@@ -447,7 +460,7 @@ h3 {
 	color: #151c24;
 
 	/*margin-bottom: -60px;*/
-	font-size: 3.2em;
+	font-size: 2.8em;
 }
 
 @media (min-width: 985px) {
@@ -485,14 +498,14 @@ h5,h6 {
 
 h5 {
 
-	margin-top: -100px;
+	margin-top: -85px;
 	font-size: 2.6em;
 }
 
 @media (min-width: 985px) {
 
 h5 {
-		margin-top: -50px;
+		margin-top: -40px;
 		font-size: 1.3em
 }
 	}
@@ -532,8 +545,19 @@ li {
 	display: none;
 }
 
+.space--small {
+	height: 45px;
+}
+
+@media (min-width: 985px) {
+
+.space--small {
+		height: 50px
+}
+	}
+
 .space--medium {
-	height: 50px;
+	height: 75px;
 }
 
 @media (min-width: 985px) {
@@ -544,7 +568,7 @@ li {
 	}
 
 .space--large {
-	height: 100px;
+	height: 200px;
 }
 
 @media (min-width: 985px) {
@@ -719,7 +743,7 @@ li {
 	}
 
 .icon__sqglz {
-		height: 500px;
+		height: 400px;
 	}
 
 @media (min-width: 985px) {
@@ -781,6 +805,10 @@ li {
 
 /*}*/
 
+/** {
+	background-color: red;
+}*/
+
 .main-content {
 	display: flex;
 	flex-direction: column;
@@ -802,6 +830,21 @@ li {
 		margin: 40px 0;
 		text-align: center;
 	}
+
+.main-content__narrow-box {
+
+		margin: 0 60px;
+		max-width: 80%;
+	}
+
+/*border: 1px solid gold; */
+
+@media (min-width: 985px) {
+
+.main-content__narrow-box {
+			max-width: 50%
+	}
+		}
 
 .main-content__section {
 
@@ -834,14 +877,14 @@ li {
 
 .main-content__title {
 
-		font-size: 5.5em;
+		font-size: 4.5em;
 	}
 
 @media (min-width: 985px) {
 
 .main-content__title {
 
-			font-size: 2.2em
+			font-size: 1.8em
 	}
 
 		}
@@ -1128,7 +1171,42 @@ li {
 
 .portfolio__sqg:hover {
 			background-image: url(../../assets/img/theSQG_hover.png);
-		}  
+		}
+
+.terms__heading {
+
+		text-align: center;
+
+		max-width: 50%;
+	}
+
+@media (min-width: 985px) {
+
+.terms__heading {
+			max-width: 700px
+	}
+		}
+
+.terms__intro {
+
+		text-align: center;
+
+		max-width: 75%;
+
+	}
+
+@media (min-width: 985px) {
+
+.terms__intro {
+			max-width: 650px
+
+	}
+		}
+
+.terms__hoverable {
+		font-family: 'Cormorant Upright', Garamond, serif;
+		color: #3c4760;
+	} 
 
       
 

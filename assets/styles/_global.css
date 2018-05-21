@@ -20,18 +20,28 @@ h1 {
 	font-weight: 600;
 	color: #985617;
 
-	font-size: 9em;
+	font-size: 8em;
+	line-height: .8em;
 
 	@media (min-width: 985px) {
 		font-size: 4.5em;
+		line-height: .7em;
 	}   
 }
 
 h2 {
+
 	font-family: 'Cormorant Unicase', Garamond, serif;
-    font-weight: 300;
-    font-size: 2.2em;
-    color: #985617;
+	font-weight: 300;
+	color: #985617;
+
+	font-size: 4.2em;
+
+	@media (min-width: 985px) {
+		
+	    font-size: 2.2em;
+	    
+    }
 }
 
 h3 {
@@ -40,7 +50,7 @@ h3 {
 	color: #151c24;
 
 	/*margin-bottom: -60px;*/
-	font-size: 3.2em;
+	font-size: 2.8em;
 
 	@media (min-width: 985px) {
 		/*margin-bottom: -30px;*/
@@ -72,11 +82,11 @@ h5,h6 {
 
 h5 {
 
-	margin-top: -100px;
+	margin-top: -85px;
 	font-size: 2.6em;
 
 	@media (min-width: 985px) {
-		margin-top: -50px;
+		margin-top: -40px;
 		font-size: 1.3em;
 	}
 }
@@ -113,8 +123,16 @@ li {
 	display: none;
 }
 
+.space--small {
+	height: 45px;
+
+	@media (min-width: 985px) {
+		height: 50px;
+	}
+}
+
 .space--medium {
-	height: 50px;
+	height: 75px;
 
 	@media (min-width: 985px) {
 		height: 150px;
@@ -122,7 +140,7 @@ li {
 }
 
 .space--large {
-	height: 100px;
+	height: 200px;
 
 	@media (min-width: 985px) {
 		height: 300px;
