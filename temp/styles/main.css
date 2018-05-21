@@ -532,11 +532,22 @@ li {
 	display: none;
 }
 
+.space--medium {
+	height: 50px;
+}
+
+@media (min-width: 985px) {
+
+.space--medium {
+		height: 150px
+}
+	}
+
 .space--large {
 	height: 100px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 985px) {
 
 .space--large {
 		height: 300px
@@ -998,6 +1009,36 @@ li {
 	/*justify-content: space-between;*/
 
 	width: 90%;
+
+
+
+
+
+	/*&__image--rest {
+		position: relative;
+		transition: opacity .3s;
+		opacity: 1;
+
+		@media (min-width: 985px) {
+		}
+	}
+		&__image--rest:hover {
+			opacity: 0;
+		}
+
+	&__image--hover {
+
+		position: relative;
+		transition: opacity .3s;
+		opacity: 0;
+
+		@media (min-width: 985px) {
+		}
+	}
+		&__image--hover:hover {
+			opacity: 1;
+		}*/
+
 }
 
 /*border: 1px solid gold;*/
@@ -1019,8 +1060,75 @@ li {
 .portfolio__tile {
 		margin: 20px;
 
-		/*border: 1px solid gold;*/
-	}  
+		height: 300px;
+		width: 300px;
+	}
+
+/*border: 1px solid gold;*/
+
+@media (min-width: 985px) {
+
+.portfolio__tile {
+			height: 300px;
+			width: 300px
+	}
+		}
+
+.portfolio__missys {
+		background-image: url(../../assets/img/missys_rest.png);
+	}
+
+.portfolio__missys:hover {
+			background-image: url(../../assets/img/missys_hover.png);
+		}
+
+.portfolio__sunshower {
+		background-image: url(../../assets/img/sunshower_rest.png);
+	}
+
+.portfolio__sunshower:hover {
+			background-image: url(../../assets/img/sunshower_hover.png);
+		}
+
+.portfolio__windowking {
+		background-image: url(../../assets/img/windowking_rest.png);
+	}
+
+.portfolio__windowking:hover {
+			background-image: url(../../assets/img/windowking_hover.png);
+		}
+
+.portfolio__sanssouci {
+		background-image: url(../../assets/img/sanssouci_rest.png);
+	}
+
+.portfolio__sanssouci:hover {
+			background-image: url(../../assets/img/sanssouci_hover.png);
+		}
+
+.portfolio__cardiganio {
+		background-image: url(../../assets/img/cardigan_rest.png);
+	}
+
+.portfolio__cardiganio:hover {
+			background-image: url(../../assets/img/cardigan_hover.png);
+		}
+
+.portfolio__fringe {
+		background-image: url(../../assets/img/fringe11_rest.png);
+	}
+
+.portfolio__fringe:hover {
+			background-image: url(../../assets/img/fringe11_hover.png);
+		}
+
+.portfolio__sqg {
+		background-image: url(../../assets/img/theSQG_rest.png);
+	}
+
+.portfolio__sqg:hover {
+			background-image: url(../../assets/img/theSQG_hover.png);
+		}  
 
       
 

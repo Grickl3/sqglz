@@ -131,13 +131,27 @@ li {
 	display: none;
 }
 
+.space--medium {
+	height: 50px;
+}
+
+@media (min-width: 985px) {
+
+.space--medium {
+		height: 150px
+}
+	}
+
 .space--large {
 	height: 100px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 985px) {
 
 .space--large {
 		height: 300px
 }
 	}
+
+
+

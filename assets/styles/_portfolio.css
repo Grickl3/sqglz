@@ -25,6 +25,93 @@
 	&__tile {
 		margin: 20px;
 
+		height: 300px;
+		width: 300px;
+			
 		/*border: 1px solid gold;*/
+
+		@media (min-width: 985px) {
+			height: 300px;
+			width: 300px;
+		}
 	}
+
+	&__missys {
+		background-image: url(../../assets/img/missys_rest.png);
+	}
+		&__missys:hover {
+			background-image: url(../../assets/img/missys_hover.png);
+		}
+
+	&__sunshower {
+		background-image: url(../../assets/img/sunshower_rest.png);
+	}
+		&__sunshower:hover {
+			background-image: url(../../assets/img/sunshower_hover.png);
+		}
+
+	&__windowking {
+		background-image: url(../../assets/img/windowking_rest.png);
+	}
+		&__windowking:hover {
+			background-image: url(../../assets/img/windowking_hover.png);
+		}
+
+	&__sanssouci {
+		background-image: url(../../assets/img/sanssouci_rest.png);
+	}
+		&__sanssouci:hover {
+			background-image: url(../../assets/img/sanssouci_hover.png);
+		}
+
+	&__cardiganio {
+		background-image: url(../../assets/img/cardigan_rest.png);
+	}
+		&__cardiganio:hover {
+			background-image: url(../../assets/img/cardigan_hover.png);
+		}
+
+	&__fringe {
+		background-image: url(../../assets/img/fringe11_rest.png);
+	}
+		&__fringe:hover {
+			background-image: url(../../assets/img/fringe11_hover.png);
+		}
+
+	&__sqg {
+		background-image: url(../../assets/img/theSQG_rest.png);
+	}
+		&__sqg:hover {
+			background-image: url(../../assets/img/theSQG_hover.png);
+		}
+
+
+
+
+
+	/*&__image--rest {
+		position: relative;
+		transition: opacity .3s;
+		opacity: 1;
+
+		@media (min-width: 985px) {
+		}
+	}
+		&__image--rest:hover {
+			opacity: 0;
+		}
+
+	&__image--hover {
+
+		position: relative;
+		transition: opacity .3s;
+		opacity: 0;
+
+		@media (min-width: 985px) {
+		}
+	}
+		&__image--hover:hover {
+			opacity: 1;
+		}*/
+
 }
