@@ -3,12 +3,12 @@
 
 /* COLOR */
 	$deathsBreath: #151c24; /* body text */
-	$oxBlood: #450c09;  /* drawings (gradient) */
-	$twiLight: #1a2744; /* links */ 
+	$oxBlood: rgba(69, 12, 9, 1);  /* rgba(69, 12, 9, N) #450c09 drawings (gradient) */
+	$twiLight: #1a2744; /* four shades (#1A2744, #3c4760 [link], #656e82, #b1b5bf) */ 
 	$sageGold: #d49a00;  /* brand main */
-	$lostBrick: #985617;  /* headers and layout elements (gradient) */
-	$drabGowth: #3f4000;  /* large fills and oxBlood offset (gradient) */
-	$purpHills: #2f1f3f;  /* link - hover */
+	$lostBrick: rgba(152, 86, 23, 1);  /* rgba(152, 86, 23, 1) #985617 headers and layout elements (gradient) */
+	$drabGowth: rgba(63, 64, 0);  /* rgba(63, 64, 0) #3f4000 large fills and oxBlood offset (gradient) */
+	$purpHills: #2f1f3f;  /* uses unknown at present */
 
 	/* Also, shades of grey:
 

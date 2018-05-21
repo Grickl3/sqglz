@@ -54,9 +54,11 @@ h4 {
 	text-align: center;
 	color: #151c24;
 
+	margin-top: -40px;
 	font-size: 3em;
 
 	@media (min-width: 985px) {
+		margin-top: -20px;
 		font-size: 1.5em;
 	}
 }
@@ -86,7 +88,7 @@ h6 {
 a {
 	text-decoration: none;
 	font-weight: 600;
-	color: #1a2744;
+	color: #3c4760;
 }
 	a:hover {
 		color: #985617;;

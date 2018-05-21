@@ -3,12 +3,38 @@
 
 .home-corner {
 
+	position: fixed;
 	margin: 30px 30px;
-	height: 30px;
+	padding: 20px;
+	
+	background-color: rgba(255,255,255,.8);
+	border-radius: 80px;
+	border: 1px solid ghostwhite;
 
 	@media (min-width: 985px) {
-		margin: 15px 15px;
-		height: 30px;
+
+		padding: 20px;
+		margin: -25px 15px;
+		height: 60px;
+
+		background-color: rgba(255,255,255,0);
+		border-radius: 80px;
+		border: 0px solid white;
+	}
+
+	&__home-logo {
+
+		/*position: fixed;*/
+		height: 100px;
+		width: 100px;
+	
+		@media (min-width: 985px) {
+			height: 60px;
+			width: 60px;
+			border-radius: 10px;
+			
+			/*border: 2px solid slategrey;*/
+		}	
 	}
 }
 
