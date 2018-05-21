@@ -1,4 +1,4 @@
-
+ 
 
 p {
 	font-family: 'Cormorant Garamond', Garamond, serif;
@@ -9,7 +9,7 @@ p {
     color: #151c24;
 }
 
-    @media (min-width: 985px) {
+    @media (min-width: 985px) { 
 
 p {
     	font-size: 1.3em;
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Cormorant', Garamond, serif;
+	font-family: 'Cormorant Upright', Garamond, serif;
 	font-weight: 400;
 	color: #151c24;
 
@@ -97,6 +97,33 @@ h5 {
 h6 {
 	font-size: 1.1em;
 }
+
+a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #1a2744;
+}
+
+a:hover {
+		color: #985617;;
+	}
+
+li {
+	font-family: 'Cormorant Garamond', Garamond, serif;
+    font-weight: 300;
+    font-size: 3.3em;
+    line-height: 1.2em;
+
+    color: #151c24;
+}
+
+@media (min-width: 985px) {
+
+li {
+    	font-size: 1.3em;
+    	line-height: 1.4em
+}
+    }
 
 .hidden {
 	display: none;
