@@ -12,6 +12,20 @@
 
 	/*border: 1px solid gold;*/
 
+	.portfolio__heading-box {
+		margin:  160px 0 75px 0;
+		max-width: 65%;
+		text-align: center;
+	}
+
+	@media (min-width: 985px) {
+
+	.portfolio__heading-box {
+			margin: 60px 0 50px 0;
+			max-width: 50%
+	}
+		}
+
 	.portfolio__tile {
 		margin: 20px;
 
