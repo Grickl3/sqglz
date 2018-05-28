@@ -14,6 +14,7 @@ The Style Guide
 
 	To get moving on any design project, an organization must have an established brand documented in a style guide appropriate to their scale of business. If a business has never established its brand parameters then this will be the first order of business with SQGLZ.
 
+
 The Project Brief
 
 	Before jumping into any project it must be defined. A client may draft a project brief or hire SQGLZ for a consultation, following which SQGLZ will create a proposal outlining its plan for solving the problems facing the client. 
@@ -35,17 +36,20 @@ The Project Brief
 
 	A SQGLZ provided proposal, or SQGLZ agreement to a client provided brief, constitute a quote from SQGLZ. This quote will stand for sixty days, following which SQGLZ cannot guarantee that its time will be available and at the same price. 
 
+
 Revisions
 
 	CONTENT REVISIONS
 	Changing text, swapping graphical assets, and any similar alterations of content are usually incidental, and should not incur any additional billing. In some cases, such as when a photo has had to be retouched - and the new replacing photo will have to have the same work repeated, or when a text header has been treated with a cut-away effect, or a section of body text gets substantially longer, it may be the case that a non-negligible degree of work will be incurred. For these types of content revisions additional billing will have to be assessed. 
+
 
 	DESIGN REVISIONS
 
 	SCOPE CREEP
 	SQGLZ does not work by the hour. For the client this means that all concerns about scope-creep, the tendency of projects to grow in complexity and time, are ours. This also means that SQGLZ pays keen attention to the deliverables defined in the project documentation. Requests outside of the project specs will be billed as additions to the project. 
 
-Payment
+
+Quotes & Payment
 
 	SQGLZ does not require payment to review a client style guide and project brief, but does require a flat rate of $200 for initial consultation (as described above) on a project which does not yet have a brief written.
 
@@ -53,14 +57,73 @@ Payment
 
 	Projects of a dollar value of five figures are done under contract.
 
+	Quotes shall remain valid for thirty days unless otherwise stated.
+
 	Contracted work may incur additional billing for efforts beyond their initial quote for the following reasons:
 		- Communications with individuals other than our client contact person.
 		- Revisions due to inadequate specification. 
 		- Changes in project direction.
 		- Changes in project scope.
 
+
+Deadlines
+
+	Quoted turnaround time begins when we have a signed agreement, and all stated necessary assets from the client.
+
+	Novel Programming and original creative assets do not come with hard deadlines. Routine work does.
+
+	Nearly every project may be made less expensive with an easement of time-frame. The inverse is equally true.
+
+
+Rights & Usage
+
+	All services provided by the designer shall be for the exclusive use of the client other than for the designer’s promotional use. Upon payment of all fees, the following reproduction rights for all approved final designs created by the designer for this project shall be granted.
+
+	SQGLZ may contract with other creative professionals to provide services such as web development, photography, and illustration. Any third party terms and conditions will include full reproduction rights for the client.
+
+	SQGLZ shall retain samples from the project deliverables, as well as screen captures, photographs of the completed product, as well as production sketches, and other content. SQGLZ may use such copies, photos, and samples for publication, exhibition, or other promotional purposes.
+
+	The client may elect to pay to keep their project confidential. The client shall inform the designer in writing before the project commences if any portion of any material or information provided by the client or if any portion of the project is confidential.
+
+
+Contact
+
+	SQGLZ will maintain contact with a single representative of a client firm. All communications between SQGLZ and that contact person are free of charge, whenever related to SQGLZ contracted responsibilities with regard to said client. Contact with additional personnel, or regarding business other than contracted dealings is billable at $45/hr.
+
+	A client may appoint a new contact person at their sole discretion, and is responsible for informing them of the status and prior communication concerning the contract, or request that SQGLZ do so at a rate of $45/hr.
+
+	It is the responsibility of the client to manage their employees's use of billable time and resources.
+
+
+Proofs & Approval
+
+	Once a proof has been approved all maters of design, content, and any other considerations represented in the proof and attached material, such as — but not limited to — hosting details, run numbers, and expected time of delivery are considered accepted by the client. Approval of a proof or writen approval of a development site constitutes final acceptance of a project's state, providing that the delivered project is consistent with the proof.
+
+
 Completion
 
-	SQGLZ stands by its work. If, upon completion, some aspect of the project is found to have not met the project specifications then SQGLZ would like to made aware of this first. Design problems are dynamic and guarantees regarding design are correspondingly nebulous, but what SQGLZ can guarantee is that it will not ignore any requests to remedy a design problem which it has left merely partially solved.
+	SQGLZ stands by its work. If, upon completion, some aspect of the project is found to have not met the project specifications then SQGLZ would like to made aware of this first.
+
+	Due to the vast number of considerations that search engines use when determining a site’s ranking, SQGLZ cannot guarantee any particular ranking with any particular search engine at any particular time. Appearance and ranking will vary. Likewise, no other marketing effort, advertising design, or branding effort which SQGLZ provides for, or assists with can be guaranteed to produce any particular result.
+
+	Design problems are dynamic and guarantees regarding design are correspondingly nebulous, but what SQGLZ can guarantee is that it will not ignore any requests to remedy a design problem which it has left un-solved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

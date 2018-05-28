@@ -1,4 +1,4 @@
-
+ 
 .terms__heading {
 
 		text-align: center;
@@ -6,7 +6,7 @@
 		max-width: 50%;
 	}
 
-		@media (min-width: 985px) {
+		@media (min-width: 985px) { 
 .terms__heading {
 			max-width: 700px
 	}

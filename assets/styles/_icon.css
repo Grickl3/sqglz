@@ -46,7 +46,7 @@
 	&--hidden {
 		/*display: none;*/
 		transition: all .5s;
-		transform: scale(1.5);
+		transform: scale(0);
 		opacity: 0;
 	}
 
@@ -90,7 +90,11 @@
 		}
 	}
 
-	&__portfolio--dot {
+		&__sqglz:hover {
+			cursor: pointer;
+		}
+
+	/*&__portfolio--dot {
 		background-color: #450c09; 
 	}
 	&__about--dot {
@@ -107,6 +111,6 @@
 	}
 	&__articles--dot {
 		background-color: #2f1f3f;
-	}
+	}*/
 }
 
