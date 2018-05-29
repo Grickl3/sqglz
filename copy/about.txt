@@ -1,22 +1,24 @@
 
+SQGLZ seeks to understand worthy problems, to craft masterful processes, and to design elegant tools for bringing visions to life.
 
 SQGLZ solves problems for the little guy.
 
 	Shifting - recently - to focus on web development over print design or production, sqglz hopes to provide increased value to its clients through specialized service which is informed by widely varied experience.
 
-	While sqglz is now working primarily in the single medium of the web, it maintains its position that design is and must be about solving problems. Our goal when approaching a clients project is not to build them a pretty website, but to solve the problems that the business experiences.
+	While focusing on web development, SQGLZ maintains its position that design is and must be about solving problems. Our goal when approaching a clients project is not to build them a pretty website, but to solve the problems that the business experiences.
 
 
 		These days, sqglz is mostly involved in front-end web development. It's good to have focus. And, though this may seem like a far cry from SQGLZ early days of screen-printing posters and designing show fliers, the focus and process of sqglz is still much the same. When a client comes to us with a request we always consider the situation. Many times, clients know exactly what they need and we either get it done or connect them with exactly the firm that can. 
 
 	A short list of the problems that clients have come to sqglz to solve:
-		- Sort ad placements according to conflicts of interest between hundreds of advertisers and advertising venues on a recurring basis.
+		
 		- Create a ticketing system for a festival which allows each performer to choose between a set of discounts and sliding scale options.
 		- Create a quoting plug-in for a website which gives customers accurate pricing for window washing, accounting for number of windows height of windows, and all other relevant factors.
 		- Create a public service announcement which will effectively persuade teenagers not to park in space reserved for people with disabilities. 
 		- Determine and produce the greatest amount of high quality merchandise for a band tour on a very limited budget.
 		- Create an algorithm that solves for constantly shifting scheduling conflicts and an interface for informing that algorithm quickly and accurately. 
 		- Create anti-counterfeit features for a paper currency, which also needs to be a hundred times as physically resilient as the American Dollar. 
+		- Build software to sort ad placements according to conflicts of interest between hundreds of advertisers and advertising venues on a recurring basis.
 
 
 
@@ -30,5 +32,23 @@ SQGLZ has opinions
 
 
 SQGLZ respects good tools and mastery
+
+
+
+Deacon Rodda
+In 2004 a friend who was moving across the country dropped a hobby level screen printing press in my lap and said, "You went to art school; you can do this." I started printing shirts (badly) for a couple of friend's bands and a few small businesses. Eventually, with a lot of help, I figured out what I was doing, and started branching out. After a few adventurous collaborations I founded SQGLZ in 2010. For years band shirts, handbills, posters, and album production were the mainstay. With some proding from clients and partners I decided to try my hands at making things pretty with 1s and 0s. Now, I mostly write code and relish the jobs that allow me to do a little lettering or illustration. 
+
+Informing my contribution to the company are years of studying painting, economics, game design, lettering and now MEAN Stack front end development. I believe that design can &#8212; and should &#8212; be used to enliven the world, rather than merely ease the passing of days. My hope is that this conviction is expressed through SQGLZ in-house projects as well as our service to client's needs.
+
+
+
+Resources
+Below, you will find a list of quality tools for getting creative and entrepreneurial tasks done. These are tools I've returned to again and again, even the ones made by us.  
+
+
+
+
+
+
 
 
