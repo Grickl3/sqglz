@@ -1,5 +1,7 @@
 
 .pull-down__box {
+
+			overflow-x: hidden;
 			padding: 15px 50px;
 			border-radius: 21px 21px 0 0;
 
@@ -22,6 +24,24 @@
 				border-left: 1px solid #1a2744
 
 				/*background-color: ghostwhite;*/
+		}
+			}
+
+	.pull-down__image {
+			position: relative;
+			float: right;
+			left: 10%;
+			margin: 0 0 20px 0;
+
+			max-height: 800px;
+		}
+
+	@media (min-width: 985px) {
+
+	.pull-down__image {
+				/*float: right;*/
+				left: 5%;
+				max-height: 400px
 		}
 			}
 
