@@ -76,15 +76,149 @@
 			/*border: 1px solid gold;*/
 		}
 
+	&__breakdown__skills-box--outer {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		@media (min-width: 985px) {
+
+		}
+	}
+
+	&__breakdown__skills-box--inner {
+
+		margin: 60px 20px 0 20px;
+
+		@media (min-width: 985px) {
+			margin: 30px 15px 0 15px;
+		}
+	}
+
+	&__breakdown__copy {
+		
+		text-align: center;
+
+		@media (min-width: 985px) {
+
+		}
+	}
+
+	&__breakdown-hr {
+
+		margin: 25px 0;
+		width: 95%;
+		border: 0;
+    	height: 1px;
+    	background-image: linear-gradient(to right, 
+    	rgba(0, 0, 0, 0), 
+    	rgba(152, 86, 23, 1), 
+    	rgba(0, 0, 0, 0));
+
+	}
+
+	&__breakdown__title {
+		
+		margin: 0px 0 15px 0;
+		font-size: 3em;
+
+		@media (min-width: 985px) {
+
+			margin: 0px 0 8px 0;
+			font-size: 1.75em;
+
+		}
+	}
+
+	&__breakdown__proficiency-toggle {
+
+		font-style: italic;
+
+	}
+		&__breakdown__proficiency-toggle:hover {
+
+		color: #3c4760;
+	}
+	
+
+	&__breakdown__subtitle {
+		
+		font-family: 'Cormorant SC', Garamond, serif;
+		font-weight: 600;
+
+		font-size: 2.4em;
+
+		@media (min-width: 985px) {
+
+			font-size: 1.8em;
+
+		}
+	}
+
+	&__breakdown__heading {
+		
+		font-family: 'Cormorant Unicase', Garamond, serif;
+		font-weight: 300;
+
+		margin-top: 40px;
+		font-size: 2em;
+
+		@media (min-width: 985px) {
+
+			margin-top: 20px;
+			font-size: 1.6em;
+		}
+	}
+
+	&__breakdown__skill-heading {
+
+		font-family: 'Cormorant Infant', Garamond, serif;
+
+		font-size: 2.3em;
+
+		@media (min-width: 985px) {
+
+			font-size: 1.5em;
+
+		}
+	}
+
 	&__breakdown-head {
 
 		text-align: center;
-		
+
 		@media (min-width: 985px) {
 
 		}
 	}
 }
 
+li.skill {
+
+	list-style: circle;
+
+	font-size: 2.2em;
+
+	@media (min-width: 985px) {
+
+		font-size: 1.2em;
+
+		}
+}
+
+li.focus {
+
+	list-style: none;
+	font-style: italic;
+
+	font-size: 2em;
+
+	@media (min-width: 985px) {
+
+		font-size: 1em;
+	}
+}
 
 
