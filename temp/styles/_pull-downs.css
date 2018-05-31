@@ -85,5 +85,14 @@
 		}
 			}
 
+	.pull-down__breakdown-head {
+
+		text-align: center;
+	}
+
+	@media (min-width: 985px) {
+
+		}
+
 
 

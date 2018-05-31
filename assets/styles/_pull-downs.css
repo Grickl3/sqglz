@@ -76,6 +76,14 @@
 			/*border: 1px solid gold;*/
 		}
 
+	&__breakdown-head {
+
+		text-align: center;
+		
+		@media (min-width: 985px) {
+
+		}
+	}
 }
 
 
