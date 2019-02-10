@@ -1,3 +1,83 @@
+
+
+
+.icon__animated-sqgl {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	height: 20rem;
+	/*border: 1px solid red;*/
+}
+
+.sqg-outline-svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 100%;
+	/*height: 5rem;*/
+
+}
+
+.sqg-outline-path {
+	cursor: none;
+	stroke-dasharray: 1323;
+	stroke-dashoffset: -1323;
+	-webkit-animation: draw-square 12s;
+	        animation: draw-square 12s;
+}
+
+@-webkit-keyframes draw-square {
+	0% {stroke-dashoffset: -1323;} 
+	25% {stroke-dashoffset: 0;}
+	75%{stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1323;}
+}
+
+@keyframes draw-square {
+	0% {stroke-dashoffset: -1323;} 
+	25% {stroke-dashoffset: 0;}
+	75%{stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1323;}
+}
+
+.the-sqg-svg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	height: 100%;
+	/*height: 5rem;*/
+}
+
+.the-sqg-path {
+	-webkit-animation: reveal-sqg 6s;
+	        animation: reveal-sqg 6s;
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+	transition: fill .3s;
+}
+
+@-webkit-keyframes reveal-sqg {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes reveal-sqg {
+	0% {opacity: 0;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
 .icon {
 	display: flex;
 	align-items: center;
@@ -12,37 +92,20 @@
 	max-height: 300px;
 	max-width: 300px;
 
-	/*&__portfolio--dot {
-		background-color: #450c09; 
-	}
-	&__about--dot {
-		background-color: #151c24;
-	}
-	&__contact--dot {
-		background-color: #1a2744;
-	}
-	&__development--dot {
-		background-color: #985617;
-	}
-	&__small-print--dot {
-		background-color: #3f4000;
-	}
-	&__articles--dot {
-		background-color: #2f1f3f;
-	}*/
+	
 }
 
-	/*border: 1px solid #450c09;*/
+/*border: 1px solid #450c09;*/
 
-	.icon--fill-box {
+.icon--fill-box {
 		background-color: #450c09;
 	}
 
-	.icon--periph {
+.icon--periph {
 		/*transition: all .4s;*/
 	}
 
-	.icon__section-image {
+.icon__section-image {
 		position: absolute;
 
 		min-height: 80px;
@@ -56,13 +119,13 @@
 		/*width: 200px;*/
 	}
 
-	.icon__section-image:hover {
+.icon__section-image:hover {
 			transition: all .5s;
 			-webkit-transform: scale(1.2);
 			        transform: scale(1.2);
 		}
 
-	.icon--hidden {
+.icon--hidden {
 		/*display: none;*/
 		transition: all .5s;
 		-webkit-transform: scale(0);
@@ -70,7 +133,7 @@
 		opacity: 0;
 	}
 
-	.icon--visible {
+.icon--visible {
 		/*display: block;*/
 		transition: opacity .5s;
 		-webkit-transform: scale(1);
@@ -78,15 +141,15 @@
 		opacity: 1;
 	}
 
-	.icon--big {
+.icon--big {
 		height: 200px;
 	}
 
-	.icon--wee {
+.icon--wee {
 		height: 75px;
 	}
 
-	.icon--dot {
+.icon--dot {
 		height: 40px;
 		width: 40px;
 		border-radius: 20px;
@@ -96,7 +159,7 @@
 		/*background-color: blue;*/
 	}
 
-	.icon__sqglz__box {
+.icon__sqglz__box {
 		-webkit-transform: translateY(15px);
 		        transform: translateY(15px);
 		padding: 5px;
@@ -104,18 +167,18 @@
 		/*border: 1px solid lightgrey;*/
 	}
 
-	.icon__sqglz {
+.icon__sqglz {
 		height: 400px;
 	}
 
-	@media (min-width: 985px) {
+@media (min-width: 985px) {
 
-	.icon__sqglz {
+.icon__sqglz {
 			height: 250px
 	}
 		}
 
-	.icon__sqglz:hover {
+.icon__sqglz:hover {
 			cursor: pointer;
 		}
 
