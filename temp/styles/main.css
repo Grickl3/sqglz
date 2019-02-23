@@ -529,11 +529,11 @@ h6 {
 a {
 	text-decoration: none;
 	font-weight: 600;
-	color: #3c4760;
+	color: #656e82;
 }
 
 a:hover {
-		color: #985617;;
+		color: #3c4760;
 	}
 
 li {
@@ -1543,7 +1543,16 @@ li.focus {
 .terms__hoverable {
 		font-family: 'Cormorant Upright', Garamond, serif;
 		color: #3c4760;
-	} 
+	}
+
+.about__opener {
+		font-weight: 600;
+		color: #656e82;
+	}
+
+.about__opener:hover {
+		color: #3c4760;
+	}
 
       
 
