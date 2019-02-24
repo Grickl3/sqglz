@@ -1,6 +1,8 @@
 
 
-SQGLZ works with small firms which provide direct value to society. SQGLZ provides these firms with diagnostic services, digging deep into fears about new ventures and pain points in existing systems. 
+SQGLZ works with small firms which provide direct value to society. 
+
+SQGLZ provides its clients with diagnostic services, digging deep into fears about new ventures and pain points in existing systems. 
 
 We open and expand targeted channels of communication. We develop engagement building content. And, we increase brand consistency. 
 
@@ -16,18 +18,36 @@ SQGLZ designs solutions.
 
 ===========================================================
 
-SQGLZ works with [(A)small firms] which provide [(B1)direct] [(B2)value] to [(C)society]. {(A) We consider a firm to be small if all of the members have some familiarity with each other. This includes volunteers, employees, managers, executives, and board members. In total, this could be as many as a hundred-fifty people, but is usually thirty-five or fewer.}{(B) Value is direct, from the SQGLZ perspective, if the providing firm engages with the recipient of the value they produce. This includes most for profit businesses and many non-profits. SQGLZ draws this line because it helps us to maintain a focused strategic tool set. Lobbyists, think tanks, advocacy groups, and any organization providing indirect value simply has a different set of design problems than the ones SQGLZ wants to tackle, at least for anyone but itself.} {(B2) A firm is providing value if it solves a problem, contributes to a discourse, or providing people with the tools they need to provide value, bonus points if you can make it recursive.} SQGLZ provides these firms with [(D)diagnostic services], digging deep into fears about new ventures and pain points in existing systems. {(D) Our diagnostics services are specific to design questions. If you're a carpenter, we won't help you improve your carpentry. There are other consultants for that. Our diagnostics are more about where you're wasting motion in your quoting process, getting you more referrals from your extant customers, and distinguishing you from your competitors so that you can earn more money in less time. Whatever you do for your clients and customers, we'll learn enough about that to sell it; the rest is up to you.} 
+SQGLZ works with [(A)small firms] which provide [(B1)direct] [(B2)value] to [(C)society]. {(A) We consider a firm to be small if all of the members have some familiarity with each other. This includes volunteers, employees, managers, executives, and board members. In total, this could be as many as a hundred-fifty people, but is usually thirty-five or fewer.}{(B2) A firm is providing value if it solves a problem, contributes to a discourse, or provides people with the tools they need to create value. (We're fans of recursion.)}{(B1) Value is direct, from the SQGLZ perspective, if the providing firm generally engages with each recipient of the primary good or service of value which the firm produces. This includes most for profit businesses and many non-profits. SQGLZ draws this line because it helps us to maintain a focused strategic tool set. Lobbyists, think tanks, advocacy groups, and any organization providing indirect value simply has a different set of design problems than the ones SQGLZ has developed most of its experience working on. We produce more potent value for our clients through limiting the kinds of clients we take on, thereby understanding their problems all the better.} {(C) In limiting ourselves to working with firms that provide a net value to society, we are taking a somewhat political and definitely ethical stand. There are a lot of businesses and non-profits built with a foundation that includes a scarcity mindset, or worse, that create artificial scarcity and shore up their slice of the pie instead of growing it. We work with tradesmen who lay bricks and hang drywall. We work with NGOs that build gardens and redirect food waste. SQGLZ will not work with companies that take interest without substantially sharing risk. SQGLZ doesn't work with game developers that use Skinner boxes (1,2,3) or are overtly built to survive on whales (4,5). If you aren't in the gaming industry you can ignore those wonky terms. We believe that it is natural for people to derive their income through acting in service in such a way that makes the shape of the world a little friendly, a little easier to live in, and not for one person at the expense of others.}
 
-We open and expand targeted [(E)channels of communication]. {(E) SQGLZ assembles exactly the team you need to meet your goals. In this way we don't have any reason to shoehorn your project into our favorite type of work. We don't assume that you need to build your social media following or populate a massive mailing list. We sit with you, look at your goals, your audience, your current strengths, and any criterion related to those things. Then, and only then, do we begin the work of determining the specialists to achieve your desired results.} We develop [(F)engagement] building [(G)content]. {(F) } {(G) } And, we increase [(H)brand consistency]. 
+C links
+	1) https://www.youtube.com/watch?v=tWtvrPTbQ_c
+	2) https://www.verywellmind.com/what-is-a-skinner-box-2795875
+	3) https://en.wikipedia.org/wiki/Operant_conditioning_chamber
 
-We hone [(I)incentive systems], polish [(J)functionality], and seek [(K)elegance] in designs and operations. We [(L)automate] tasks when [(M)appropriate]. We do our work in [(N)collaboration] with our clients, [(O)not for them], and [(P)not apart from them].
+	4) https://www.reddit.com/r/gaming/comments/63lvak/what_is_a_whale/
+	5) https://venturebeat.com/2013/03/14/whales-and-why-social-gamers-are-just-gamers/
+
+SQGLZ provides its clients with [(D)diagnostic services], digging deep into fears about new ventures and pain points in existing systems. {(D) Our diagnostics services are specific to design questions. If you're a carpenter, we don't claim that we will help you improve your carpentry. There are other consultants for that, trade unions and things. Our diagnostics are more about finding wasted motion in your quoting process, getting you more referrals from your extant customers, and publicly distinguishing you from your competitors so that you can earn more money in less time. We learn enough about what you do for your customers that we can competently sell it. Then we built or repair the systems to bolster those sales and protect you from loss.} 
+
+We open and expand targeted [(E)channels of communication]. {(E) SQGLZ assembles exactly the team you need to meet your goals. In this way we don't have any reason to shoehorn your project into our favorite type of work. We don't assume that you need to build your social media following or populate a massive mailing list. We sit with you, look at your goals, your audience, your current strengths, and any criterion related to those things. We work with you to figure out what a real win would look like and how we can measure progress along the way. Then, and only then, do we begin the work of determining which specialists are suited to achieve your desired results.} We develop [(F)engagement] building [(G)content]. 
+
+{(F) Engagement begins with interest, as oppossed to compulsion. Better still, is to begin with interest that is already there. We look into your audience's actual interests and initiate dialog which opens up paths to community, discovery, achievement, and excitement through honest interaction with your brand. As an aside, if you don't know which of those experiences your service offering relates to most shoot me a text right now: (303) 501-7244, seriously.  Note: Some design firms offer gamification with a one-size-fits-all, plug and play, formula. This really means that they know how to trigger dopamine and cortisol release in humans in general. Those aren't designers; they're muggers with cleverly designed weaponry.} And, we increase [(H)brand consistency]. 
+
+{(G) Content includes every element which tells your clients and prospects anything about you. This includes business cards and stationary, blog and social media posts, vehicle wraps and dress codes, copy writing and photography, and your company policy about dogs in the shop. In the proto-sqglz days, circa 2006, when I was screen printing coffee shop and band T-shirts in the basement, I noticed that small businesses and punk bands had very different interests in the outcome of their shirts. SQGLZ expanded into other offerings and watched how each piece of merchandise and marketing collateral reflected the identity of the firm, or failed to, 'cause that also happens. In 2012, when SQGLZ was asked to develop a large icon set for a very heady piece of software, it was because that piece of software was highly technical and had the potential to feel a bit draining. The icon sets on the market, besides not being comprehensive enough for the task, were very stark even when meant to be jovial. By creating an icon set with varied stroke widths and even some implied word-play, SQGLZ produced a very subtle indication that this piece of software was meant for use by humans with novel and fun goals.} 
+
+{(H)}
+
+We hone [(I)incentive systems]. {(I)} We polish [(J)functionality]. {(J)} And, we seek [(K)elegance] in designs and operations. {(K)} We [(L)automate] tasks when [(M)appropriate]. {(L)} {(M)} We do our work in [(N)collaboration] with our clients, [(O)not for them], and [(P)not apart from them].{(N)}{(O)}{(P)}
 
 SQGLZ diagnoses [(Q)problems].
+{(Q)}
 
 SQGLZ develops [(R)strategies].
+{(R)}
 
 SQGLZ designs [(S)solutions].
-
+{(S)}
 
 
 
@@ -71,7 +91,7 @@ SQGLZ respects good tools and mastery
 
 
 Deacon Rodda
-In 2004 a friend who was moving across the country dropped a hobby level screen printing press in my lap and said, "You went to art school; you can do this." I started printing shirts (badly) for a couple of friend's bands and a few small businesses. Eventually, with a lot of help, I figured out what I was doing, and started branching out. After a few adventurous collaborations I founded SQGLZ in 2010. For years band shirts, handbills, posters, and album production were the mainstay. With some proding from clients and partners I decided to try my hands at making things pretty with 1s and 0s. Now, I mostly write code and relish the jobs that allow me to do a little lettering or illustration. 
+In 2004 a friend who was moving across the country dropped a hobby level screen printing press in my lap and said, "You went to art school; you can do this." I started printing shirts (badly) for a couple of friend's bands and a few small businesses. Eventually, with a lot of help, I figured out what I was doing, and started branching out. After a few adventurous collaborations I founded SQGLZ in 2010. For years band shirts, handbills, posters, and album production were the mainstay. With some prodding from clients and partners I decided to try my hands at making things pretty with 1s and 0s. Now, I mostly write code and relish the jobs that allow me to do a little lettering or illustration. 
 
 Informing my contribution to the company are years of studying painting, economics, game design, lettering and now MEAN Stack front end development. I believe that design can &#8212; and should &#8212; be used to enliven the world, rather than merely ease the passing of days. My hope is that this conviction is expressed through SQGLZ in-house projects as well as our service to client's needs.
 

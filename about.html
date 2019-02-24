@@ -31,7 +31,9 @@
 		</div><!-- HEADER -->
 		<div class="main-content__section">
 			<h3 class="main-content__title">The Mission of SQGLZ</h3>
-			<p class="main-content__body-text">SQGLZ works with <span class="about__opener">small firms</span> which provide <span class="about__opener">direct value</span> to <span class="about__opener">society</span>. SQGLZ provides these firms with <span class="about__opener">diagnostic services</span>, digging deep into fears about new ventures and pain points in existing systems. We develop smooth <span class="about__opener">channels of communication</span>, develop <span class="about__opener">engagement</span> building <span class="about__opener">content</span>, and increase <span class="about__opener">brand consistency</span>. We hone <span class="about__opener">incentive systems</span>, polish <span class="about__opener">functionality</span>, and seek <span class="about__opener">elegance</span> in designs and operations. We <span class="about__opener">automate</span> tasks when <span class="about__opener">appropriate</span>. We do our work in <span class="about__opener">collaboration</span> with our clients, <span class="about__opener">not for them</span>, and <span class="about__opener">not apart from them</span>.</p>
+			<p class="main-content__body-text">SQGLZ works with <span id="A-trigger" class="about__opener">small firms</span> which provide <span class="about__opener">direct value</span> to <span class="about__opener">society</span>.<span id="A-content" class="about__hidden"> We consider a firm to be small if all of the members have some familiarity with each other. This includes volunteers, employees, managers, executives, and board members. In total, this could be as many as a hundred-fifty people, but is usually thirty-five or fewer.</span></p> 
+			<p>SQGLZ provides these firms with <span class="about__opener">diagnostic services</span>, digging deep into fears about new ventures and pain points in existing systems.</p> 
+			<p>We develop smooth <span class="about__opener">channels of communication</span>, develop <span class="about__opener">engagement</span> building <span class="about__opener">content</span>, and increase <span class="about__opener">brand consistency</span>. We hone <span class="about__opener">incentive systems</span>, polish <span class="about__opener">functionality</span>, and seek <span class="about__opener">elegance</span> in designs and operations. We <span class="about__opener">automate</span> tasks when <span class="about__opener">appropriate</span>. We do our work in <span class="about__opener">collaboration</span> with our clients, <span class="about__opener">not for them</span>, and <span class="about__opener">not apart from them</span>.</p>
 
 			<p class="main-content__body-text">SQGLZ diagnoses <span class="about__opener">problems</span>.</p>
 			<p class="main-content__body-text">SQGLZ develops <span class="about__opener">strategies</span>.</p>
@@ -49,36 +51,44 @@
 
 <script type="text/javascript">
 
-	//BRUTE FORCE SERVICE BOX
-	var $serviceHandle = $("#service-handle");
-	var $serviceBox = $("#service-box");
-	
-	function serviceLid() {
-		$serviceBox.toggleClass("hidden");
-	}
+	// BRUTE FORCE SERVICE BOX
+		var $serviceHandle = $("#service-handle");
+		var $serviceBox = $("#service-box");
+		
+		function serviceLid() {
+			$serviceBox.toggleClass("hidden");
+		}
 
-	$serviceHandle.click(serviceLid);
+		$serviceHandle.click(serviceLid);
 
-	//BRUTE FORCE DEACON BOX
-	var $deaconHandle = $("#deacon-handle");
-	var $deaconBox = $("#deacon-box");
+		//BRUTE FORCE DEACON BOX
+		var $deaconHandle = $("#deacon-handle");
+		var $deaconBox = $("#deacon-box");
 
-	function deaconLid() {
-		$deaconBox.toggleClass("hidden");
-	}
+		function deaconLid() {
+			$deaconBox.toggleClass("hidden");
+		}
 
-	$deaconHandle.click(deaconLid);
+		$deaconHandle.click(deaconLid);
 
 
-	//BRUTE FORCE RESOURCE BOX
-	var $resourcesHandle = $("#resources-handle");
-	var $resourcesBox = $("#resources-box");
+		//BRUTE FORCE RESOURCE BOX
+		var $resourcesHandle = $("#resources-handle");
+		var $resourcesBox = $("#resources-box");
 
-	function resourcesLid() {
-		$resourcesBox.toggleClass("hidden");
-	}
+		function resourcesLid() {
+			$resourcesBox.toggleClass("hidden");
+		}
 
-	$resourcesHandle.click(resourcesLid);
+		$resourcesHandle.click(resourcesLid);
+
+	// COLLAPSICLE CONTROLS
+		var aTrigger = document.getElementById("A-trigger");
+		var aContent = document.getElementById("A-content");
+
+		aTrigger.addEventListener("click", function aToggle() {
+			aContent.classList.toggle("about__hidden");
+		});
 </script>
 
 </body>

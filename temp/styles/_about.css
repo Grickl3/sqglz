@@ -8,3 +8,7 @@
 	.about__opener:hover {
 		color: #3c4760;
 	}
+
+.about__hidden {
+	display: none;
+}
