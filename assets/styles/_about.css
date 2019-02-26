@@ -4,6 +4,7 @@
 
 	&__opener {
 		font-family: 'Cormorant Upright', Garamond, serif;
+		cursor: pointer;
 		color: #656e82;
 	}
 
