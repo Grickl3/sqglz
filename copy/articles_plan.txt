@@ -1,31 +1,41 @@
 
 
-David Scarpetti
-	#Design_Process #Business #Personal_Narrative 
+collapsicles 
 
-From Wordpress to Bootstrap w/ Perch CMS Backend onto MEAN Stack
-	#Design_Process #Code
+Order Up, Loss and Failure when the Customer is Always Right
 
-Leslie Minnis Collaboration
-	#Collaboration #Personal_Narrative 
+	Doctors, Lawyers & Good Waiters
 
-Clockwork Leviathan Consulting
-	#Design_Process #Game_Design #Personal_Narrative
+	Should anyone be placing orders anywhere?
+
+	Suggestions about Designer Licensing
+
+	#design_business #culture
+
 
 Lantern Waste
-	#Design_Theory #Culture
 
-SPDC, Adam Brock Collaboration
-	#Design_Theory #Personal_Narrative
+	Lighting design in public space in Denver. A SQGLZ photojournalism project.
 
-Calvin Ball & Monster Cards - An Experiment in Game Design
-	#Design_Theory #Design_Process #Game_Design
+	#design_Theory #culture #public_space
+
+Open Source Table Tops
+
+	Calvin Ball, Monster Cards & D.I.War
+
+	#design_theory #design_process #game_design
 
 Business Ethics
-	#Business #Culture
+
+	IBM and Nationalism
+
+	#business #culture
 
 Words NOT to Misuse
-	#Culture
+
+	Ambivalence & Indifference, Literally & Actually, Responsibility & Fault
+
+	#culture
 
 
 	
