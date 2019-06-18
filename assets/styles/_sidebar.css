@@ -7,6 +7,7 @@
 		bottom: 20vw;
 		left: 0;
 		width: 300px;
+		z-index: 4;
 
 		display: flex;
 		flex-direction: column;
@@ -18,7 +19,7 @@
 
 	.sidebar-hidden {
 		transition: transform .3s;
-		transform: translateX(-300px);
+		transform: translateX(-315px);
 	}
 
 	.sidebar-peek {
@@ -27,20 +28,32 @@
 	}
 
 	.sidebar-open {
-		transition: transform .6s ease-in;
+		transition: transform .3s;
 		transform: translateX(0px);
 	}
 
 
 /* ================================= LINKS ========== */
+	.sidebar__ahref {
+		width: 100%;
+	}
+
 	.sidebar__link-box {
 		display: flex;
 		align-items: flex-end;
 		justify-content: flex-end;
 		width: 100%;
+		padding: 7px;
+		cursor: pointer;
 
-		/*transition: background-color .3s;*/
-		/*border: 1px solid black;*/
+		transition: background-color .3s;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+	.sidebar__link-box:hover {
+		transition: background-color .3s;
+		background-color: #b1b5bf;
 	}
 
 	.sidebar__image-wrapper {
@@ -64,9 +77,4 @@
 		font-family: 'Cormorant Infant', Garamond, serif;
 		color: #3c4760;
 		font-size: 1.4rem;
-	}
-
-	.sidebar__link-name:hover {
-		/*transition: background-color .3s;*/
-		background-color: #b1b5bf;
 	}
