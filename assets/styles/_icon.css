@@ -3,11 +3,12 @@
 
 .icon__animated-sqgl {
 	position: absolute;
-	top: 0;
+	top: 35vh;
+	transform: translateY(50%);
 	right: 0;
 	bottom: 0;
-	left: 0;
-	margin: auto;
+	left: 50%;
+	transform: translateX(-50%);
 
 	height: 20rem;
 	cursor: pointer;

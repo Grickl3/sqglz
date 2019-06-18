@@ -2,7 +2,7 @@
 <html lang="en"> 
 <head>
 	<title>the SQGLiest!!</title>
-	<meta charset="utf-8">
+	<meta charset="utf-8"> 
 	<!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 
 	<!-- FAVICON -->
@@ -20,32 +20,61 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 </head>
-<body>
+<body> 
 	<div class="home-corner">
 		<h3 class="icon__home-text icon--hidden">HOME</h3>
 		<img class="icon--hidden icon__home-logo" src="./assets/img/sqglz.svg" nopin="nopin">
 	</div><!-- HOME CORNER -->
+
+	<nav id="sidebar" class="sidebar sidebar-hidden">
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">about</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/about-min.svg" alt="about icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">contact</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/contact-min.svg" alt="contact icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">portfolio</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/portfolio-min.svg" alt="portfolio icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">articles</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/articles-min.svg" alt="articles icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">small print</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/small-print-min.svg" alt="small print icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+
+		<div class="sidebar__link-box">
+			<span class="sidebar__link-name">in development</span>
+			<div class="sidebar__image-wrapper">
+				<img class="sidebar__icon" src="./assets/img/dev-min.svg" alt="in development icon" nopin="nopin">
+			</div><!-- IMAGE WRAPPER -->
+		</div><!-- END LINK BOX-->
+	</nav>
+
 	<div class="whole-shebang"> 
 
 		<div class="central-content">
-			<div class="central-content__column central-content__left-column">
-				<a href="portfolio.html"><div class="icon icon__portfolio">
-					<img class="icon__section-image icon--hidden" src="./assets/img/portfolio.png" nopin="nopin">
-					<!-- <div class="icon__portfolio--dot icon--periph icon--dot icon--hidden"></div> -->
-				</div></a><!-- PORTFOLIO -->
-				<a href="http://sqglz.ink/"><div class="icon icon__development">
-					<img class="icon__section-image icon--hidden" src="./assets/img/development.png" nopin="nopin">
-					<!-- <div class="icon__development--dot icon--periph icon--dot icon--hidden"></div> -->
-				</div></a><!-- DEVELOPMENT -->
-			</div><!-- LEFT COLUMN -->
+			
 			<div class="central-content__column central-content__middle-column">
-				<a href="about.html"><div class="icon icon__about">
-					<img class="icon__section-image icon--hidden" src="./assets/img/about.png" nopin="nopin">
-					<!-- <div class="icon__about--dot icon--periph icon--dot icon--hidden"></div> -->
-				</div></a><!-- ABOUT --> 
-				<!-- <div class="icon__sqglz__box icon--hidden">
-					<img id="sqglz-center" class="icon__sqglz" src="./assets/img/sqglz.svg" nopin="nopin"> 
-				</div> --><!-- SQGLZ -->
 
 				<div id="sqglz-center" class="icon__animated-sqgl"><!-- ANIMATED SQGL -->
 					<svg class="the-sqg-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.24 161.41">
@@ -56,22 +85,11 @@
 					  <path id="sqg-outline" class="sqg-outline-path" d="M102.6 28c-1.07 3.69-6.12 4.65-10.44 3.12-4.68-1.64-9.16-6.49-12.47-8.62-12.7 2.1-25.19-1-36.58-2.13-.91 3.89 0 6.31 3.22 8.85 2.2 1.74 12.15 6.32 14.4 7.08 6.17 2.07 19.27 5.6 26.52 7.08 11.74 2.42 26.07 6 29.73 18 5.67 1.59 24 1.06 26.18-11.25 1.54-8.62-3.56-12.29-5.51-13.63 4.88 2.38 8.45 8.62 7.59 15.26-1.46 11.33-15.17 14.75-27.67 12.5 2.41 17.17-22.83 30.08-41 26.24-1.08 6.24-10.25 27.26-9.24 41.16a32.75 32.75 0 0 0 6.24 16.56c2.59 3.76 7.56 6.62 7.56 13.08-3.23.77-5.87-1-7.56-2.4-5.71-4.83-7.69-15.1-7.75-25-.09-14.22 8.78-38.06 8-48.29-.67-8.75-3.91-14.46-7.67-18.25-3.31-3.34-12.36-5.2-15.83-1.5-3.83 4.08-2.83 9.83 3.42 16.75 2.74 3 7.58 4.95 8.58 7.92.39 1.16-.08.57-.53-.12-1.72-2.63-6.14-3.37-8-3.81-10.87-2.47-21.47-5.77-27.47-14.3-7.53-10.7-.5-20.5 8.25-24.25 7.8-3.34 19.59-3.93 32.76-1.06 8.81 1.92 31.75 10.54 39.41 12.6-2.11-5.94-8.87-10.14-15.08-13-6.43-2.92-28.25-7.58-37.16-9.37-9.21-1.85-16-4-19.44-8.28-1.77-2.18-1.62-6.41-.35-9-15-2-32.75 6-34.57 26.85 0-21.31 19.32-31.69 36.82-30.1 3.44-3.92 10.13-6.82 15.26-7.34a35.8 35.8 0 0 1 16 2c3.16 1.16 11.05 6.9 11.64 7 1.53.17 4-1.68 5.28-2.76 3.29-2.86 5-10.37 4.08-15.24-.07-.38.11-.32.36-.24C91.77.89 95 5 95 8.82c0 2.58-1.76 4.82-2.76 7.08s-2.59 5.1-2.12 7.56c.35 1.87 5 4.11 6.84 4.8s4.2 1 5.64-.26zm-30-11.64c-3.86-3.09-10-6.6-16.2-6.24-5.56.35-10.4 2.36-12.4 7.12 10.31 1.07 21.12 3.53 32.34 2.14zm15.24 3.48c-1.14.74-2.66 1.1-3.84 1.8a60.56 60.56 0 0 0 5.52 3.72 39.37 39.37 0 0 1-1.67-5.5zM44.48 78.63c-2.17-2.72-5.81-9.79-2.09-15.47 4.93-7.53 18.51-7.2 26.26-.61 5.71 4.85 8.42 11.75 8.92 21.63.63 2.88 4.5 4.55 5.63 4.75 17.63 3.13 26.47-17.38 24.63-26.63-4.46-1.54-31-11.2-37.67-12.83-8.79-2.14-20.08-1.42-26.25 1.83-6.79 3.58-14.08 12.25-8.08 23.5 3.17 5.88 11.68 8.41 18.3 10.41-4.13-1.9-7.9-4.38-9.65-6.58z" fill="none" stroke="#d19a2a" stroke-miterlimit="10" stroke-width=".25" data-name="Layer 2"/>
 					</svg>					
 				</div><!-- ANIMATED SQGL -->
-
-				<a href="articles.html"><div class="icon icon__articles">
-					<img class="icon__section-image icon--hidden" src="./assets/img/articles.png" nopin="nopin">
-					<!-- <div class="icon__articles--dot icon--periph icon--dot icon--hidden"></div> -->
+	
 				</div></a><!-- ARTICLES -->
 			</div><!-- MIDDLE COLUMN -->
-			<div class="central-content__column central-content__right-column">
-				<a href="contact.html"><div class="icon icon__contact">
-					<img class="icon__section-image icon--hidden" src="./assets/img/contact.png" nopin="nopin">
-					<!-- <div class="icon__contact--dot icon--periph icon--dot icon--hidden"></div> -->
-				</div></a><!-- CONTACT -->
-				<a href="small-print.html"><div class="icon icon__small-print">
-					<img class="icon__section-image icon--hidden" src="./assets/img/small-print.png" nopin="nopin">
-					<!-- <div class="icon__small-print--dot icon--periph icon--dot icon--hidden"></div> -->
-				</div><!-- SMALL PRINT -->
-			</div><!-- RIGHT COLUMN -->
+
+			
 		</div><!-- CENTRAL CONTENT -->
 
 		<div class="footer">
@@ -82,7 +100,9 @@
 
 <script type="text/javascript">
 	// VARIABLES
-		var $sqgCtr = $("#sqglz-center");
+		const $sqgCtr = $("#sqglz-center");
+		const $sidebar = $("#sidebar");
+
 		var $periphs = $(".icon--periph");
 		var $periphGlyphBoxes = $(".icon");
 		var $homeText = $(".icon__home-text");
@@ -102,31 +122,33 @@
 
 	function centerButtonHover(e) {
 		if(glyphReveal===false) {
-			$periphs.removeClass("icon--hidden");
-			$periphs.addClass("icon--visible");
+			$sidebar.removeClass("sidebar-hidden");
+			$sidebar.addClass("sidebar-peek");
 		} else {
 			return;
 		}
 	}
 
 	function centerButtonUnhover(e) {
-		$periphs.removeClass("icon--visible");
-		$periphs.addClass("icon--hidden");
+		if(glyphReveal===false) {
+			$sidebar.removeClass("sidebar-peek");
+			$sidebar.addClass("sidebar-hidden");
+			// console.log(glyphReveal + ", logo unhovered");
+		} else {
+			return;
+		}
 	}
 
 	function centerButtonClick(e) {
 		if(glyphReveal===false) {
-			$periphs.addClass("icon--hidden");
-			$periphs.removeClass("icon--visible");
-			// $periphGlyphBoxes.addClass("icon--fill-box");
-			$sectionImages.removeClass("icon--hidden");
-			$sectionImages.addClass("icon--visible");
+			$sidebar.removeClass("sidebar-hidden");
+			$sidebar.removeClass("sidebar-peek");
+			$sidebar.addClass("sidebar-open");
 			return glyphReveal = true;
 		} else {
-			$periphs.removeClass("icon--hidden");
-			// $periphGlyphBoxes.removeClass("icon--fill-box");
-			$sectionImages.addClass("icon--hidden");
-			$sectionImages.removeClass("icon--visible");
+			$sidebar.removeClass("sidebar-open");
+			$sidebar.removeClass("sidebar-peek");
+			$sidebar.addClass("sidebar-hidden");
 			return glyphReveal = false;
 		}
 	}

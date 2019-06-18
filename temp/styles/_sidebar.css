@@ -1,0 +1,72 @@
+
+
+/* ================================ OPERATIONS ======= */
+	.sidebar {
+		position: fixed;
+		top: 20vw;
+		bottom: 20vw;
+		left: 0;
+		width: 300px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: flex-end;
+
+		background-color: white;
+	}
+	.sidebar-hidden {
+		transition: -webkit-transform .3s;
+		transition: transform .3s;
+		transition: transform .3s, -webkit-transform .3s;
+		-webkit-transform: translateX(-300px);
+		        transform: translateX(-300px);
+	}
+	.sidebar-peek {
+		transition: -webkit-transform .6s ease-in;
+		transition: transform .6s ease-in;
+		transition: transform .6s ease-in, -webkit-transform .6s ease-in;
+		-webkit-transform: translateX(-260px);
+		        transform: translateX(-260px);
+	}
+	.sidebar-open {
+		transition: -webkit-transform .6s ease-in;
+		transition: transform .6s ease-in;
+		transition: transform .6s ease-in, -webkit-transform .6s ease-in;
+		-webkit-transform: translateX(0px);
+		        transform: translateX(0px);
+	}
+	/* ================================= LINKS ========== */
+	.sidebar__link-box {
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		width: 100%;
+
+		/*transition: background-color .3s;*/
+		/*border: 1px solid black;*/
+	}
+	.sidebar__image-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		height: 5rem;
+		width: 5rem;
+	}
+	.sidebar__icon {
+		max-width: 5rem;
+		max-height: 5rem;
+	}
+	.sidebar__link-name {
+		align-self: center;
+		margin-right: 35px;
+
+		font-family: 'Cormorant Infant', Garamond, serif;
+		color: #3c4760;
+		font-size: 1.4rem;
+	}
+	.sidebar__link-name:hover {
+		/*transition: background-color .3s;*/
+		background-color: #b1b5bf;
+	}
