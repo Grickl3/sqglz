@@ -1076,9 +1076,11 @@ li {
 		}
 
 .main-content__github-link {
-		position: absolute;
+		/*position: absolute;*/
 		margin-top: 30px;
-		margin-left: -40px;
+		margin-left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
 		height: 100px;
 
 		transition: opacity .3s;
@@ -1098,9 +1100,11 @@ li {
 		}
 
 .main-content__github-link--lost-brick {
-		position: absolute;
+		/*position: absolute;*/
 		margin-top: 30px;
-		margin-left: -40px;
+		margin-left: 50%;
+		-webkit-transform: translateX(-50%);
+		        transform: translateX(-50%);
 		height: 100px;
 
 		transition: opacity .3s;
@@ -1658,13 +1662,5 @@ li.focus {
 	}
 
       
-
-
-		
-		
-
-		
-
-
-
-		
+ 
+		 
