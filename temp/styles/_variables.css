@@ -31,4 +31,15 @@
 	font-family: 'Cormorant Unicase', Garamond, serif;
 
 	*/ 
-/* ======================= END FONTS ==================== */
+/* ======================= END FONTS ==================== */ 
+/* ======================= BREAKPOINTS ================== */ 
+/*
+	
+		@media (max-width: 599px) { @content; }
+		@media (min-width: 600px) { @content; }
+		@media (min-width: 900px) { @content; }
+		@media (min-width: 1200px) { @content; }
+		@media (min-width: 1800px) { @content; }
+
+	*/ 
+/* ===================== END BREAKPOINTS ================ */

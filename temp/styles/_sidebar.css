@@ -6,7 +6,7 @@
 		top: 20vw;
 		bottom: 20vw;
 		left: 0;
-		width: 300px;
+		/*width: 300px;*/
 		z-index: 4;
 
 		display: flex;
@@ -16,26 +16,68 @@
 
 		background-color: white;
 	}
+	@media (max-width: 599px) { 
+		.sidebar { width: 600px; }
+
+		.sidebar-hidden { -webkit-transform: translateX(-615px); transform: translateX(-615px); }
+
+		.sidebar-peek { -webkit-transform: translateX(-460px); transform: translateX(-460px); }
+
+		.sidebar-open { -webkit-transform: translateX(0px); transform: translateX(0px);}
+ 	}
+	@media (min-width: 600px) { 
+		.sidebar { width: 600px; }
+
+		.sidebar-hidden { -webkit-transform: translateX(-615px); transform: translateX(-615px); }
+
+		.sidebar-peek { -webkit-transform: translateX(-460px); transform: translateX(-460px); }
+
+		.sidebar-open { -webkit-transform: translateX(0px); transform: translateX(0px);}
+ 	}
+	@media (min-width: 900px) { 
+		.sidebar { width: 300px; }
+
+		.sidebar-hidden { -webkit-transform: translateX(-315px); transform: translateX(-315px); }
+
+		.sidebar-peek { -webkit-transform: translateX(-260px); transform: translateX(-260px); }
+
+		.sidebar-open { -webkit-transform: translateX(0px); transform: translateX(0px);}
+ 	}
+	@media (min-width: 1200px) { 
+		.sidebar { width: 300px; }
+
+		.sidebar-hidden { -webkit-transform: translateX(-315px); transform: translateX(-315px); }
+
+		.sidebar-peek { -webkit-transform: translateX(-260px); transform: translateX(-260px); }
+
+		.sidebar-open { -webkit-transform: translateX(0px); transform: translateX(0px);}
+ 	}
+	@media (min-width: 1800px) { 
+		.sidebar { width: 300px; }
+
+		.sidebar-hidden { -webkit-transform: translateX(-315px); transform: translateX(-315px); }
+
+		.sidebar-peek { -webkit-transform: translateX(-260px); transform: translateX(-260px); }
+
+		.sidebar-open { -webkit-transform: translateX(0px); transform: translateX(0px);}
+ 	}
 	.sidebar-hidden {
 		transition: -webkit-transform .3s;
 		transition: transform .3s;
 		transition: transform .3s, -webkit-transform .3s;
-		-webkit-transform: translateX(-315px);
-		        transform: translateX(-315px);
+		/*transform: translateX(-315px);*/
 	}
 	.sidebar-peek {
 		transition: -webkit-transform .6s ease-in;
 		transition: transform .6s ease-in;
 		transition: transform .6s ease-in, -webkit-transform .6s ease-in;
-		-webkit-transform: translateX(-260px);
-		        transform: translateX(-260px);
+		/*transform: translateX(-260px);*/
 	}
 	.sidebar-open {
 		transition: -webkit-transform .3s;
 		transition: transform .3s;
 		transition: transform .3s, -webkit-transform .3s;
-		-webkit-transform: translateX(0px);
-		        transform: translateX(0px);
+		/*transform: translateX(0px);*/
 	}
 	/* ================================= LINKS ========== */
 	.sidebar__ahref {
