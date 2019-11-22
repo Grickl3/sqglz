@@ -480,7 +480,7 @@ h3 {
 @media (min-width: 985px) {
 
 h3 {
-		/*margin-bottom: -30px;*/
+		margin: 2.5rem 0 .75rem 0;
 		font-size: 1.8em
 }
 	}
@@ -520,8 +520,8 @@ h5 {
 
 h5 {
 		margin-top: -40px;
-		font-size: 1.3em
-}
+		font-size: 2em
+} 
 	}
 
 h6 {
@@ -1722,6 +1722,6 @@ li.focus {
 		font-size: 1.4rem;
 	}
 
-      
+    
  
 		     
