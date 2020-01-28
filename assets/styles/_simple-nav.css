@@ -5,11 +5,28 @@
 	/*position: absolute;*/
 	/*justify-content: space-between;*/
 	top: -3px;
-	left: 50px;
+	left: 20px;
 	padding: 20px 40px;
 
 	min-width: 30vw;
 
+}
+
+.home-icon__nav {
+	margin: -20px 16px;
+	height: 60px;
+	width: 60px;
+	opacity: .4;
+}
+
+.home-icon__nav:hover {
+	opacity: 1;
+	cursor: pointer; 
+}
+
+.simple-nav__divider {
+	margin: -30px 0;
+	height: 100px;
 }
 
 .icon__nav {

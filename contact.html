@@ -19,9 +19,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
-	<div class="home-corner">
-		<a href="index.html"><img class="home-corner__home-logo" src="./assets/img/sqglz.svg" nopin="nopin"></a>
-	</div><!-- HOME CORNER -->
+	
+	<div class="simple-nav">
+		
+		<a href="index.html"><img id="home" class="home-icon__nav" src="./assets/img/sqglz.svg" nopin="nopin"></a>
+
+		<img class="simple-nav__divider" src="./assets/img/nav-divider.svg" alt="divider" nopin="nopin">
+
+		<a href="/contact.html"><img id="contact" class="icon__nav" src="./assets/img/contact-min.svg" alt="contact icon" nopin="nopin"></a>
+
+		<a href="/articles.html"><img id="articles" class="icon__nav" src="./assets/img/articles-min.svg" alt="articles icon" nopin="nopin"></a>
+
+		<a href="http://sqglz.ink/" target="_sqgdev"><img id="dev" class="icon__nav" src="/assets/img/dev-min.svg" alt="in development icon" nopin="nopin"></a>
+
+		<span id="nav-copy" class="simple-nav__copy"></span>
+
+	</div><!-- SIMPLE NAV -->
+
 
 	<div class="main-content">
 		<div class="main-content__section--contact">
@@ -29,11 +43,57 @@
 			<hr class="main-content__hr--lost-brick-tapper">
 			<p class="main-content__body-text--contact">
 			<a href="mailto:deacon@sqglz.com">deacon@sqglz.com</a><br>
-			<a href="tel:13035017244">(303) 501-7244</a></p>
+			<a href="sms:13035017244">(303) 501-7244</a></p>
 			<a href="https://github.com/Grickl3" target="_blank"><img class="main-content__github-link" src="./assets/img/github_icon.svg" nopin="nopin"></a>
 			<a href="https://github.com/Grickl3" target="_blank"><img class="main-content__github-link--lost-brick" src="./assets/img/github_icon_hover.svg" nopin="nopin"></a>
 		</div><!-- SECTION -->
 	</div><!-- MAIN CONTENT -->
+
+<script type="text/javascript">
+	
+	// NAV
+
+		const home = document.getElementById("home");
+		const contact = document.getElementById("contact");
+		const articles = document.getElementById("articles");
+		const dev = document.getElementById("dev");
+		const navCopy = document.getElementById("nav-copy");
+
+		// HOME
+		home.addEventListener("mouseenter", function() {
+			navCopy.innerText = "Home";
+		});
+		home.addEventListener("mouseleave", function() {
+			navCopy.innerText = "";
+		});
+
+		// CONTACT
+		contact.addEventListener("mouseenter", function() {
+			navCopy.innerText = "Contact";
+		});
+		contact.addEventListener("mouseleave", function() {
+			navCopy.innerText = "";
+		});
+
+		// ARTICLES
+		articles.addEventListener("mouseenter", function() {
+			navCopy.innerText = "Articles";
+		});
+		articles.addEventListener("mouseleave", function() {
+			navCopy.innerText = "";
+		});
+
+		// DEV
+		dev.addEventListener("mouseenter", function() {
+			navCopy.innerText = "Development";
+		});
+		dev.addEventListener("mouseleave", function() {
+			navCopy.innerText = "";
+		});
+		
+
+
+</script>
 
 </body>
 </html>
