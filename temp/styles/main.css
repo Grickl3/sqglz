@@ -699,7 +699,7 @@ li {
 	        transform: translateX(-50%);
 
 	height: 20rem;
-	cursor: pointer;
+	/*cursor: pointer;*/
 	/*border: 1px solid red;*/
 }
 
@@ -1730,4 +1730,4 @@ li.focus {
 
     
  
- 	     
+  	     

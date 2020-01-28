@@ -26,51 +26,11 @@
 		<img class="icon--hidden icon__home-logo" src="./assets/img/sqglz.svg" nopin="nopin">
 	</div><!-- HOME CORNER -->
 
+	<nav>
+		
+	</nav>
 
-
-	<nav id="sidebar" class="sidebar sidebar-hidden hidden">
-		<a class="sidebar__ahref" href="about.html"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">about</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/about-min.svg" alt="about icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-
-		<a class="sidebar__ahref" href="contact.html"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">contact</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/contact-min.svg" alt="contact icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-
-		<a class="sidebar__ahref" href="portfolio.html"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">portfolio</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/portfolio-min.svg" alt="portfolio icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-
-		<a class="sidebar__ahref" href="articles.html"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">articles</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/articles-min.svg" alt="articles icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-
-		<a class="sidebar__ahref" href="small-print.html"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">small print</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/small-print-min.svg" alt="small print icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-
-		<a class="sidebar__ahref" href="http://sqglz.ink/"><div class="sidebar__link-box">
-			<span class="sidebar__link-name">in development</span>
-			<div class="sidebar__image-wrapper">
-				<img class="sidebar__icon" src="./assets/img/dev-min.svg" alt="in development icon" nopin="nopin">
-			</div><!-- IMAGE WRAPPER -->
-		</div></a> <!-- END LINK BOX-->
-	</nav><!-- SIDEBAR NAV -->
+	
 
 	<div class="whole-shebang"> 
 
@@ -103,7 +63,7 @@
 <script type="text/javascript">
 	// VARIABLES
 		const $sqgCtr = $("#sqglz-center");
-		const $sidebar = $("#sidebar");
+		// const $sidebar = $("#sidebar");
 
 		var $periphs = $(".icon--periph");
 		var $periphGlyphBoxes = $(".icon");
@@ -122,52 +82,52 @@
 		var $articles = $(".icon__articles");
 	// VARIABLES
 
-	function centerButtonHover(e) {
-		if(glyphReveal===false) {
-			$sidebar.removeClass("sidebar-hidden");
-			$sidebar.addClass("sidebar-peek");
-		} else {
-			return;
-		}
-	}
+	// function centerButtonHover(e) {
+	// 	if(glyphReveal===false) {
+	// 		$sidebar.removeClass("sidebar-hidden");
+	// 		$sidebar.addClass("sidebar-peek");
+	// 	} else {
+	// 		return;
+	// 	}
+	// }
 
-	function centerButtonUnhover(e) {
-		if(glyphReveal===false) {
-			$sidebar.removeClass("sidebar-peek");
-			$sidebar.addClass("sidebar-hidden");
-			// console.log(glyphReveal + ", logo unhovered");
-		} else {
-			return;
-		}
-	}
+	// function centerButtonUnhover(e) {
+	// 	if(glyphReveal===false) {
+	// 		$sidebar.removeClass("sidebar-peek");
+	// 		$sidebar.addClass("sidebar-hidden");
+	// 		// console.log(glyphReveal + ", logo unhovered");
+	// 	} else {
+	// 		return;
+	// 	}
+	// }
 
-	function centerButtonClick(e) {
-		if(glyphReveal===false) {
-			$sidebar.removeClass("sidebar-hidden");
-			$sidebar.removeClass("sidebar-peek");
-			$sidebar.addClass("sidebar-open");
-			return glyphReveal = true;
-		} else {
-			$sidebar.removeClass("sidebar-open");
-			$sidebar.removeClass("sidebar-peek");
-			$sidebar.addClass("sidebar-hidden");
-			return glyphReveal = false;
-		}
-	}
+	// function centerButtonClick(e) {
+	// 	if(glyphReveal===false) {
+	// 		$sidebar.removeClass("sidebar-hidden");
+	// 		$sidebar.removeClass("sidebar-peek");
+	// 		$sidebar.addClass("sidebar-open");
+	// 		return glyphReveal = true;
+	// 	} else {
+	// 		$sidebar.removeClass("sidebar-open");
+	// 		$sidebar.removeClass("sidebar-peek");
+	// 		$sidebar.addClass("sidebar-hidden");
+	// 		return glyphReveal = false;
+	// 	}
+	// }
 
 	// GLYPH FUNCTIONS
 		// Add navigation hints to top left corner
-		function aboutHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("About");
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function aboutUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function aboutHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("About");
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function aboutUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 
 		// function aboutClick(e) {
 		// 	if(glyphReveal===true) {
@@ -177,87 +137,87 @@
 		// 	}
 		// }
 
-		function portfolioHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("Portfolio")
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function portfolioUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function portfolioHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("Portfolio")
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function portfolioUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 
-		function contactHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("Contact")
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function contactUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function contactHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("Contact")
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function contactUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 
-		function developmentHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("Development")
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function developmentUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function developmentHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("Development")
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function developmentUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 
-		function smallPrintHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("Terms & Conditions")
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function smallPrintUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function smallPrintHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("Terms & Conditions")
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function smallPrintUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 
-		function articlesHover(e) {
-			if(glyphReveal===true) {
-				$homeText.text("Articles")
-				$homeText.removeClass("icon--hidden");
-			}
-		}
-		function articlesUnhover(e) {
-			if(glyphReveal===true) {
-				$homeText.addClass("icon--hidden");
-			}
-		}
+		// function articlesHover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.text("Articles")
+		// 		$homeText.removeClass("icon--hidden");
+		// 	}
+		// }
+		// function articlesUnhover(e) {
+		// 	if(glyphReveal===true) {
+		// 		$homeText.addClass("icon--hidden");
+		// 	}
+		// }
 	// GLYPH FUNCTIONS
 
 	//EVENT LISTENERS
-		$sqgCtr.mouseenter(centerButtonHover);
-		$sqgCtr.mouseleave(centerButtonUnhover);
-		$sqgCtr.click(centerButtonClick);
+		// $sqgCtr.mouseenter(centerButtonHover);
+		// $sqgCtr.mouseleave(centerButtonUnhover);
+		// $sqgCtr.click(centerButtonClick);
 
 		//GLYPH LISTENERS
 			// $homeLogo.click(homeLogoClick);
-			$about.mouseenter(aboutHover);
-			$about.mouseleave(aboutUnhover);
+			// $about.mouseenter(aboutHover);
+			// $about.mouseleave(aboutUnhover);
 			// $about.click(aboutClick);
-			$portfolio.mouseenter(portfolioHover);
-			$portfolio.mouseleave(portfolioUnhover);
-			$contact.mouseenter(contactHover);
-			$contact.mouseleave(contactUnhover);
-			$development.mouseenter(developmentHover);
-			$development.mouseleave(developmentUnhover);
-			$smallPrint.mouseenter(smallPrintHover);
-			$smallPrint.mouseleave(smallPrintUnhover);
-			$articles.mouseenter(articlesHover);
-			$articles.mouseleave(articlesUnhover);
+			// $portfolio.mouseenter(portfolioHover);
+			// $portfolio.mouseleave(portfolioUnhover);
+			// $contact.mouseenter(contactHover);
+			// $contact.mouseleave(contactUnhover);
+			// $development.mouseenter(developmentHover);
+			// $development.mouseleave(developmentUnhover);
+			// $smallPrint.mouseenter(smallPrintHover);
+			// $smallPrint.mouseleave(smallPrintUnhover);
+			// $articles.mouseenter(articlesHover);
+			// $articles.mouseleave(articlesUnhover);
 		//GLYPH LISTENERS
 	// EVENT LISTENERS
 
