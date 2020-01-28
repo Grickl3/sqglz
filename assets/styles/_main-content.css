@@ -142,7 +142,7 @@
 	}
 
 	&__hr--lost-brick-tapper {
-		margin-top: -25px;
+		margin-top: 0px;
 		width: 75%;
 		border: 0;
     	height: 1px;
@@ -183,24 +183,6 @@
 			opacity: 0;
 		}
 
-	&__github-link--lost-brick {
-		/*position: absolute;*/
-		margin-top: 30px;
-		margin-left: 50%;
-		transform: translateX(-50%);
-		height: 100px;
-
-		transition: opacity .3s;
-		opacity: 0;
-
-		@media (min-width: 985px) {
-			height: 30px;
-			margin-left: -15px;
-		}
-	}
-		&__github-link--lost-brick:hover {
-			opacity: 1;
-		}
 }
 
 

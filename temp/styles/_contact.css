@@ -1,0 +1,56 @@
+
+
+
+.contact__hr-taper {
+	margin-top: 0px;
+	width: 75%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, 
+	rgba(0, 0, 0, 0), 
+	rgba(152, 86, 23, 1), 
+	rgba(0, 0, 0, 0));
+}
+
+
+.contact__social-links__box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+.contact__social-link {
+	margin: 32px;
+	height: 30px;
+	opacity: .4;
+}
+
+
+.contact__social-link:hover {
+	opacity: 1;
+}
+
+
+@media (min-width: 900px) {
+	.contact__hr-taper {
+		margin-top: -25px;
+	}
+
+	.contact__social-link {
+		margin: 64px;
+		height: 80px;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.contact__social-link {
+		margin: 32px;
+		height: 30px;
+	}
+}
+
+
+
+

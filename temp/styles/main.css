@@ -691,7 +691,7 @@ li {
 
 .icon__animated-sqgl {
 		position: absolute;
-		top: 35vh;
+		top: 30vh;
 		-webkit-transform: translateY(50%);
 		        transform: translateY(50%);
 		right: 0;
@@ -828,12 +828,14 @@ li {
 	align-items: center;
 
 	margin: 20px 15px;
+
 }
 
 @media (min-width: 985px) {
 
 .main-content {
 		margin: 50px 30px
+
 }
 	}
 
@@ -983,7 +985,7 @@ li {
 		}
 
 .main-content__hr--lost-brick-tapper {
-		margin-top: -25px;
+		margin-top: 0px;
 		width: 75%;
 		border: 0;
     	height: 1px;
@@ -1029,30 +1031,6 @@ li {
 
 .main-content__github-link:hover {
 			opacity: 0;
-		}
-
-.main-content__github-link--lost-brick {
-		/*position: absolute;*/
-		margin-top: 30px;
-		margin-left: 50%;
-		-webkit-transform: translateX(-50%);
-		        transform: translateX(-50%);
-		height: 100px;
-
-		transition: opacity .3s;
-		opacity: 0;
-	}
-
-@media (min-width: 985px) {
-
-.main-content__github-link--lost-brick {
-			height: 30px;
-			margin-left: -15px
-	}
-		}
-
-.main-content__github-link--lost-brick:hover {
-			opacity: 1;
 		}
 
 .pull-down__box {
@@ -1647,15 +1625,11 @@ li.focus {
 	}
 
 .simple-nav {
-	/*display: flex;*/
-	/*position: absolute;*/
-	/*justify-content: space-between;*/
 	top: -3px;
 	left: 20px;
 	padding: 20px 40px;
 
 	min-width: 30vw;
-
 }
 
 .home-icon__nav {
@@ -1704,23 +1678,150 @@ li.focus {
 	}
 
 @media (max-width: 599px) {
-
+	.simple-nav {
+		padding: 30px 40px;
+	}
+	.home-icon__nav {
+		margin: -20px 16px;
+		height: 100px;
+		width: 100px;
+	}
+	.simple-nav__divider {
+		margin: -30px 0;
+		height: 100px;
+	}
+	.icon__nav {
+		margin: 0 16px;
+		height: 80px;
+		width: 80px;
+	}
 }
 
 @media (min-width: 600px) {
-	
+	.simple-nav {
+		padding: 50px 40px;
+	}
+		.home-icon__nav {
+		margin: -20px 16px;
+		height: 100px;
+		width: 100px;
+	}
+	.simple-nav__divider {
+		margin: -30px 0;
+		height: 100px;
+		/*display: none;*/
+	}
+	.icon__nav {
+		margin: 0 16px;
+		height: 80px;
+		width: 80px;
+	}
 }
 
-@media (min-width: 900px) {
-	
+@media (min-width: 900px) {  /* pretty much all of the phones */
+	.simple-nav {
+		padding: 20px 40px;
+	}
+	.home-icon__nav {
+		margin: -20px 32px;
+		height: 120px;
+		width: 120px;
+	}
+	.simple-nav__divider {
+		margin: -30px 20px;
+		height: 200px;
+		/*display: none;*/
+	}
+	.icon__nav {
+		margin: 24px 40px;
+		height: 80px;
+		width: 80px;
+	}
 }
 
 @media (min-width: 1200px) {
-	
+	.simple-nav {
+		padding: 50px 40px;
+	}
+	.home-icon__nav {
+		margin: -20px 16px;
+		height: 60px;
+		width: 60px;
+	}
+	.simple-nav__divider {
+		margin: -30px 0;
+		height: 100px;
+	}
+	.icon__nav {
+		margin: 0 16px;
+		height: 40px;
+		width: 40px;
+	}
 }
 
 @media (min-width: 1800px) {
-	
+	.simple-nav {
+		padding: 20px 40px;
+	}
+	.home-icon__nav {
+		margin: -20px 16px;
+		height: 60px;
+		width: 60px;
+	}
+	.simple-nav__divider {
+		margin: -30px 0;
+		height: 100px;
+	}
+	.icon__nav {
+		margin: 0 16px;
+		height: 40px;
+		width: 40px;
+	}
+}
+
+.contact__hr-taper {
+	margin-top: 0px;
+	width: 75%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, 
+	rgba(0, 0, 0, 0), 
+	rgba(152, 86, 23, 1), 
+	rgba(0, 0, 0, 0));
+}
+
+.contact__social-links__box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contact__social-link {
+	margin: 32px;
+	height: 30px;
+	opacity: .4;
+}
+
+.contact__social-link:hover {
+	opacity: 1;
+}
+
+@media (min-width: 900px) {
+	.contact__hr-taper {
+		margin-top: -25px;
+	}
+
+	.contact__social-link {
+		margin: 64px;
+		height: 80px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.contact__social-link {
+		margin: 32px;
+		height: 30px;
+	}
 }
 
  
