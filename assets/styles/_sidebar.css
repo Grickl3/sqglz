@@ -17,12 +17,18 @@
 		background-color: white;
 	}
 
+	/* I decided to make the sidebar less of a game of hide and seek, you know, to appease the hoi paloi. I'm commenting out the hard hide and seek version, in case I decide to go back to it, or want it for something else. */
+
+	/*  Okay, second thought, I'm taking out the entire sidebar thing in favour of something much simpler. Speed is presently a virtue. */
+
 	@media (max-width: 599px) { 
 		.sidebar { width: 600px; }
 
 		.sidebar-hidden { transform: translateX(-615px); }
+		/*.sidebar-hidden { transform: translateX(0px);}*/
 
 		.sidebar-peek { transform: translateX(-460px); }
+		/*.sidebar-peek { transform: translateX(0px); }*/
 
 		.sidebar-open { transform: translateX(0px);}
  	}
