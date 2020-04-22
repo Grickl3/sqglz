@@ -1,0 +1,20 @@
+    <div class="simple-nav">
+
+        {% unless page.url == "/" %}
+        <a href="{{ '/' | relative_url }}"><img id="home" class="home-icon__nav" src="{{ 'assets/img/sqglz.svg' | relative_url }}" nopin="nopin"></a>
+        
+        <img class="simple-nav__divider" src="{{ 'assets/img/nav-divider.svg' | relative_url }}" alt="divider" nopin="nopin">
+        {% endunless %}
+
+        <a href="{{ 'contact.html' | relative_url }}"><img id="contact" class="icon__nav" src="{{ 'assets/img/contact-min.svg' | relative_url }}" alt="contact icon"
+                nopin="nopin"></a>
+    
+        <a href="{{ 'articles.html' | relative_url }}"><img id="articles" class="icon__nav" src="{{ 'assets/img/articles-min.svg' | relative_url }}" alt="articles icon"
+                nopin="nopin"></a>
+    
+        <a href="http://sqglz.ink/" target="_sqgdev"><img id="dev" class="icon__nav" src="{{ 'assets/img/dev-min.svg' | relative_url }}"
+                alt="in development icon" nopin="nopin"></a>
+    
+        <span id="nav-copy" class="simple-nav__copy"></span>
+    
+    </div><!-- SIMPLE NAV -->

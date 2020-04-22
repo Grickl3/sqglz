@@ -1,41 +1,6 @@
-<!DOCTYPE html> 
-<html lang="en">
-<head>
-	<title>Articles</title>
-	<meta charset="utf-8">
-
-	<!-- FAVICON -->
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d49a00">
-		<meta name="msapplication-TileColor" content="#d49a00">
-		<meta name="theme-color" content="#ffffff">
-	<!-- FAVICON -->
-	
-	<link rel="stylesheet" type="text/css" href="./temp/styles/main.css">
-	<link rel="stylesheet" type="text/css" href="./assets/styles/home-page.css">
-
-	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-</head>
-<body>
-	<div class="simple-nav">
-		
-		<a href="index.html"><img id="home" class="home-icon__nav" src="./assets/img/sqglz.svg" nopin="nopin"></a>
-
-		<img class="simple-nav__divider" src="./assets/img/nav-divider.svg" alt="divider" nopin="nopin">
-
-		<a href="contact.html"><img id="contact" class="icon__nav" src="./assets/img/contact-min.svg" alt="contact icon" nopin="nopin"></a>
-
-		<a href="articles.html"><img id="articles" class="icon__nav" src="./assets/img/articles-min.svg" alt="articles icon" nopin="nopin"></a>
-
-		<a href="http://sqglz.ink/" target="_sqgdev"><img id="dev" class="icon__nav" src="./assets/img/dev-min.svg" alt="in development icon" nopin="nopin"></a>
-
-		<span id="nav-copy" class="simple-nav__copy"></span>
-
-	</div><!-- SIMPLE NAV -->
-
+---
+title: Articles
+---
 	<div class="space--large"></div>
 	<div class="main-content">
 		<div class="main-content__narrow-box">
@@ -43,8 +8,9 @@
 			<h5>about life, death, love, hate, wealth, poverty, racism, <a href="https://open.spotify.com/track/54XieTFptuMH4PcjQMpqGn?si=XqQM1u8kSky6rLT4pciw5Q" target="_blank">just a few things</a> that've been running through my head.</h5>
 
 			<ul>
-				<li><a href="./a/not-a-branding-agency.html">SQGLZ is not <em>exactly</em> a branding agency.</a></li>
-				<li><a href="./a/gamification-ethics.html">Ethical Considerations in Gamification</li>
+				{% for article in site.articles %}
+					<li><a href="{{ article.url }}">{{ article.label | default: article.title }}</a></li>
+				{% endfor %}
 			</ul>
 		</div><!-- NARROW BOX -->
 	</div><!-- MAIN CONTENT -->
@@ -94,6 +60,3 @@
 
 
 </script>
-
-</body>
-</html>
