@@ -1,4 +1,4 @@
-.whole-shebang {
+/*.whole-shebang {
 	position: absolute;
 
 	display: flex;
@@ -7,5 +7,5 @@
 	height: 100%;
 	width: 100%;
  
-	/*border: 1px solid black;*/
-}
+	/*border: 1px solid black;
+}*/

@@ -403,7 +403,7 @@ template {
 
 /* ===================== END BREAKPOINTS ================ */
 
-.whole-shebang {
+/*.whole-shebang {
 	position: absolute;
 
 	display: flex;
@@ -412,7 +412,12 @@ template {
 	height: 100%;
 	width: 100%;
  
-	/*border: 1px solid black;*/
+	/*border: 1px solid black;
+}*/
+
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("./assets/fonts/TT Bluescreens Regular.otf");
 }
 
 p {
@@ -1662,7 +1667,7 @@ li.focus {
 }
 
 .simple-nav__copy {
-	font-family: 'Cormorant Upright', Garamond, serif;
+	font-family: 'TT Bluescreens Regular', Garamond, serif;
 	font-weight: 400;
 	color: #151c24;
 
@@ -1824,8 +1829,37 @@ li.focus {
 	}
 }
 
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("../../assets/fonts/TT Bluescreens Regular.otf");
+}
+
+.nav {
+
+ 	position: fixed;
+ 	top: 1rem;
+ 	left: 1rem;
+}
+
+.nav__home {
+ 		-webkit-transform: translateY(.75rem);
+ 		        transform: translateY(.75rem);
+ 	}
+
+.nav__link-title {
+		margin: .75rem;
+
+		font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
+		font-size: 2rem;
+		color: #656e82;
+	}
+
+.nav__link-title:hover {
+		color: #1a2744;
+	}
+
  
 
-    
+  
  
   	     

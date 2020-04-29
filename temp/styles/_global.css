@@ -1,4 +1,7 @@
- 
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("./assets/fonts/TT Bluescreens Regular.otf");
+}
 
 p {
 	font-family: 'Cormorant Garamond', Garamond, serif;
@@ -9,7 +12,7 @@ p {
     color: #151c24;
 }
 
-    @media (min-width: 985px) { 
+@media (min-width: 985px) {
 
 p {
     	font-size: 1.3em;
