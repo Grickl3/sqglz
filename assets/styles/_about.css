@@ -75,9 +75,10 @@
 
 	.about__toggle {
 		display: inline-block;
-		transform: translateX(-150%);
+		cursor: pointer;
 		font-size: 1.5rem;
 		color: #985617;
+		transition: transform .3s ease-out;
 	}
 
 	.about__toggle:hover {
@@ -86,11 +87,13 @@
 
 	.about__toggle-open {
 		transform: rotate(90deg);
+		transition: transform .3s ease-out;
+
 	}
 
 
 	.about__body-block {
-
+		margin: 0 0 4rem 0;
 	}
 
 	.about__body-block__header {
@@ -118,7 +121,8 @@
 
 	.about__body-block__read-more-button {
 		display: inline-block;
-		padding: .5rem;
+		cursor: pointer;
+		padding: .5rem .75rem;
 		border-radius: 7px;
 		background-color: #985617;
 	}
