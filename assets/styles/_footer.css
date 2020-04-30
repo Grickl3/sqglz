@@ -20,17 +20,77 @@
 
 }
 
-.footer__box {
+.footer__closed {
+	transform: translateY(400px);
+	transition: transform .3s ease-out;
+}
+
+.footer__insides {
+	display: flex;
+	justify-content: space-around;
+
 	height: 400px;
 	width: 70vw;
 	background-color: #985617;
 	border-top-right-radius: 33px;
 	border-top-left-radius: 33px;
-
 }
 
-.footer__closed {
-	transform: translateY(400px);
-	transition: transform .3s ease-out;
+.section { 
+	margin-top: 2rem;
+	height: 80%;
+	/*background-color: rgba(255,255,255,.3); */
 }
+
+.footer__section-1 {
+
+	width: 35%;
+}
+
+.footer__section-2 {
+	width: 10%;
+}
+
+.footer__section-3 {
+	width: 35%;
+}
+
+.footer__mailchimp-cta {
+	font-family: "Uniform-Medium";
+}
+
+.footer__newsletter-button {
+	padding: .5rem 0 .1rem 0;
+	font-family: "UniformCondensed-Medium";
+	font-size: 2rem;
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+	color: #985617;
+}
+
+.footer__link-list {
+	list-style-type: none;
+}
+
+.footer__link {
+	margin: 0 0 1rem 0;
+	padding: .6rem;
+	font-family: "UniformExtraCondensed-Light";
+	font-size: 1.6rem;
+	line-height: 1.8rem;
+	color: white;
+	border: 1px solid rgba(255,255,255,.3);
+	border-radius: 5px;
+}
+
+.footer__link:hover {
+	background-color: white;
+	color: #985617;
+}
+
+
+
+
+
 
