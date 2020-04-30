@@ -75,7 +75,11 @@
 			
 		</div><!-- CENTRAL CONTENT -->
 
-		<div class="footer">
+		<div id="footer-box" class="footer footer__closed">
+			<img id="footer-handle" class="footer__handle" src="assets/img/footer-handle.svg">
+			<div class="footer__box">
+				
+			</div><!-- FOOTER BOX -->
 		</div><!-- FOOTER -->
 	</div><!-- WHOLE SHEBANG -->
 
@@ -105,9 +109,21 @@
 		let yearVar = new Date();
 		document.getElementById("year").innerHTML = yearVar.getFullYear();
 
+	// FOOTER
+		const footerHandle = document.getElementById("footer-handle");
+		const footerBox = document.getElementById("footer-box");
+
+		footerHandle.addEventListener("click", function() {
+			footerBox.classList.toggle("footer__closed");
+		});
 
 
 </script>
 
 </body>
 </html>
+
+
+
+
+
