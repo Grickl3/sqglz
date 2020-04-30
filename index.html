@@ -37,7 +37,7 @@
 
 	
 
-	<div class="whole-shebang">  
+	<div class="whole-shebang"> 
 
 		<!-- SPRING FEVER NAV -->
 			<div class="nav">
@@ -48,6 +48,13 @@
 				<a href="articles.html"><span class="nav__link-title">ARTICLES</span></a>
 			</div>
 		<!-- SPRING FEVER NAV -->
+
+		<a href="https://calendly.com/deacon-rodda" target="_sqg"><div class="calendly">
+			<span id="day" class="calendly__day">wednesday</span><br><div class="calendly__hr"></div>
+			<span id="month" class="calendly__month">FEB</span><br>
+			<span id="date" class="calendly__date">31</span><br>
+			<span id="year" class="calendly__year"></span>
+		</div></a><!-- CALENDLY -->
 
 		<div class="central-content">
 			
@@ -75,53 +82,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script type="text/javascript">
-	// VARIABLES
-		const $sqgCtr = $("#sqglz-center");
-		// const $sidebar = $("#sidebar");
-
-		var $periphs = $(".icon--periph");
-		var $periphGlyphBoxes = $(".icon");
-		var $homeText = $(".icon__home-text");
-		var $homeLogo = $(".icon__home-logo");
-		var $centerContent = $(".central-content");
-		var $sectionImages = $(".icon__section-image");
-
-		var glyphReveal = false;
-
 		
-	// NAV
+	// CALENDLY
 
-		const contact = document.getElementById("contact");
-		const articles = document.getElementById("articles");
-		const dev = document.getElementById("dev");
-		const navCopy = document.getElementById("nav-copy");
-
-		// CONTACT
-		contact.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Contact";
-		});
-		contact.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
-
-		// ARTICLES
-		articles.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Articles";
-		});
-		articles.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
-
-		// DEV
-		dev.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Development";
-		});
-		dev.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
+		let dayVar = new Date();
+		let days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
+		let day = document.getElementById("day");
+		let today = dayVar.getDay();
+		day.innerHTML = days[today];
 		
+		
+		let monthVar = new Date();
+		let months = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
+		let month = document.getElementById("month");
+		let thismonth = dayVar.getMonth();
+		month.innerHTML = months[thismonth];
 
-	
+
+		let dateVar = new Date();
+		document.getElementById("date").innerHTML = dateVar.getDate();
+
+		let yearVar = new Date();
+		document.getElementById("year").innerHTML = yearVar.getFullYear();
 
 
 

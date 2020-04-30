@@ -457,6 +457,51 @@ template {
 	    src: url("./assets/fonts/TT Bluescreens Black Italic.otf");
 	}
 
+@font-face {
+	    font-family: "Uniform-Light";
+	    src: url("./assets/fonts/Uniform-Light.otf");
+	}
+
+@font-face {
+	    font-family: "Uniform-Medium";
+	    src: url("./assets/fonts/Uniform-Medium.otf");
+	}
+
+@font-face {
+	    font-family: "Uniform-Ultra";
+	    src: url("./assets/fonts/Uniform-Ultra.otf");
+	}
+
+@font-face {
+	    font-family: "UniformCondensed-Light";
+	    src: url("./assets/fonts/UniformCondensed-Light.otf");
+	}
+
+@font-face {
+	    font-family: "UniformCondensed-Medium";
+	    src: url("./assets/fonts/UniformCondensed-Medium.otf");
+	}
+
+@font-face {
+	    font-family: "UniformCondensed-Ultra";
+	    src: url("./assets/fonts/UniformCondensed-Ultra.otf");
+	}
+
+@font-face {
+	    font-family: "UniformExtraCondensed-Light";
+	    src: url("./assets/fonts/UniformExtraCondensed-Light.otf");
+	}
+
+@font-face {
+	    font-family: "UniformExtraCondensed-Medium";
+	    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
+	}
+
+@font-face {
+	    font-family: "UniformExtraCondensed-Ultra";
+	    src: url("./assets/fonts/UniformExtraCondensed-Ultra.otf");
+	}
+
 p {
 	font-family: 'Cormorant Garamond', Garamond, serif;
     font-weight: 300;
@@ -2022,6 +2067,55 @@ li.focus {
 		color: #1a2744;
 	}
 
+.calendly {
+	position: fixed;
+	top: 0px;
+	right: 20px;
+	padding: 5px;
+
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-left: 3px solid #985617;
+	border-bottom: 3px solid #985617;
+	border-right: 3px solid #985617;
+	color: #985617;
+	text-align: center;
+	opacity: .5;
+}
+
+.calendly:hover { opacity: 1; cursor: pointer; }
+
+.calendly__hr {
+	margin: 3px 0 2px 0;
+	width: 100%;
+	height: 1px;
+	background-color: #985617;
+}
+
+.calendly__day {
+	font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
+	font-size: 1.5rem;
+}
+
+.calendly__month {
+	font-family: "Uniform-Ultra", Helvetica, sans-serif;
+	font-size: 1.3rem;
+}
+
+.calendly__date {
+	display: block;
+	margin: -.2rem 0 ;
+	font-family: "UniformExtraCondensed-Medium";
+	font-size: 3.3rem;
+}
+
+.calendly__year {
+	display: block;
+	margin: -1.6rem 0 0 0;
+	font-family: "Uniform-Light";
+	font-size: 1.2rem;
+}
+ 
  
 
   

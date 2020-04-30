@@ -40,6 +40,61 @@
 	    src: url("./assets/fonts/TT Bluescreens Black Italic.otf");
 	}
 
+	@font-face {
+	    font-family: "Uniform-Light";
+	    src: url("./assets/fonts/Uniform-Light.otf");
+	}
+
+	@font-face {
+	    font-family: "Uniform-Medium";
+	    src: url("./assets/fonts/Uniform-Medium.otf");
+	}
+
+	@font-face {
+	    font-family: "Uniform-Ultra";
+	    src: url("./assets/fonts/Uniform-Ultra.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformCondensed-Light";
+	    src: url("./assets/fonts/UniformCondensed-Light.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformCondensed-Medium";
+	    src: url("./assets/fonts/UniformCondensed-Medium.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformCondensed-Ultra";
+	    src: url("./assets/fonts/UniformCondensed-Ultra.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformExtraCondensed-Light";
+	    src: url("./assets/fonts/UniformExtraCondensed-Light.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformExtraCondensed-Medium";
+	    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
+	}
+
+	@font-face {
+	    font-family: "UniformExtraCondensed-Ultra";
+	    src: url("./assets/fonts/UniformExtraCondensed-Ultra.otf");
+	}
+
+	
+
+
+
+
+
+
+
+
+
 p {
 	font-family: 'Cormorant Garamond', Garamond, serif;
     font-weight: 300;
