@@ -3,11 +3,15 @@
       src: url("../../assets/fonts/TT Bluescreens Regular.otf");
 }
 
- .nav {
+
+.nav {
 
  	position: fixed;
- 	top: 1rem;
- 	left: 1rem;
+ 	top: 0rem;
+ 	left: 0rem;
+ 	padding: 1rem;
+ 	width: 100%;
+ 	background-color: white;
 
  	&__home {
  		transform: translateY(.75rem);
@@ -18,7 +22,7 @@
 
 		font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
 		font-size: 2rem;
-		color: #656e82;
+		color: #985617;
 	}
 
 	&__link-title:hover {

@@ -1,7 +1,44 @@
-@font-face {
-      font-family: "TT Bluescreens Regular";
-      src: url("./assets/fonts/TT Bluescreens Regular.otf");
-}
+
+/* ================== IMPORTED FONTS ================== */
+	@font-face {
+	    font-family: "TT Bluescreens Thin";
+	    src: url("./assets/fonts/TT Bluescreens Thin.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Thin Italic";
+	    src: url("./assets/fonts/TT Bluescreens Thin Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Regular";
+	    src: url("./assets/fonts/TT Bluescreens Regular.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Italic";
+	    src: url("./assets/fonts/TT Bluescreens Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold";
+	    src: url("./assets/fonts/TT Bluescreens DemiBold.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold Italic";
+	    src: url("./assets/fonts/TT Bluescreens DemiBold Italic.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Black";
+	    src: url("./assets/fonts/TT Bluescreens Black.otf");
+	}
+
+	@font-face {
+	    font-family: "TT Bluescreens Black Italic";
+	    src: url("./assets/fonts/TT Bluescreens Black Italic.otf");
+	}
 
 p {
 	font-family: 'Cormorant Garamond', Garamond, serif;

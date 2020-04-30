@@ -1,9 +1,38 @@
-@font-face {
-      font-family: "TT Bluescreens Regular";
-      src: url("./assets/fonts/TT Bluescreens Regular.otf");
-}
 
-p {
+/* ================== IMPORTED FONTS ================== */
+	@font-face {
+	    font-family: "TT Bluescreens Thin";
+	    src: url("./assets/fonts/TT Bluescreens Thin.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens Thin Italic";
+	    src: url("./assets/fonts/TT Bluescreens Thin Italic.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens Regular";
+	    src: url("./assets/fonts/TT Bluescreens Regular.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens Italic";
+	    src: url("./assets/fonts/TT Bluescreens Italic.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold";
+	    src: url("./assets/fonts/TT Bluescreens DemiBold.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens DemiBold Italic";
+	    src: url("./assets/fonts/TT Bluescreens DemiBold Italic.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens Black";
+	    src: url("./assets/fonts/TT Bluescreens Black.otf");
+	}
+	@font-face {
+	    font-family: "TT Bluescreens Black Italic";
+	    src: url("./assets/fonts/TT Bluescreens Black Italic.otf");
+	}
+	p {
 	font-family: 'Cormorant Garamond', Garamond, serif;
     font-weight: 300;
     font-size: 3.3em;
@@ -11,16 +40,13 @@ p {
 
     color: #151c24;
 }
-
-@media (min-width: 985px) {
-
-p {
+	@media (min-width: 985px) {
+	p {
     	font-size: 1.3em;
     	line-height: 1.4em
 }
     }
-
-h1 {
+	h1 {
 
 	font-family: 'Cormorant Unicase', Garamond, serif;
 	font-weight: 600;
@@ -29,16 +55,13 @@ h1 {
 	font-size: 8em;
 	line-height: .8em;   
 }
-
-@media (min-width: 985px) {
-
-h1 {
+	@media (min-width: 985px) {
+	h1 {
 		font-size: 4.5em;
 		line-height: .7em   
 }
 	}
-
-h2 {
+	h2 {
 
 	font-family: 'Cormorant Unicase', Garamond, serif;
 	font-weight: 300;
@@ -46,17 +69,14 @@ h2 {
 
 	font-size: 4.2em;
 }
-
-@media (min-width: 985px) {
-
-h2 {
+	@media (min-width: 985px) {
+	h2 {
 		
 	    font-size: 2.2em
 }
 	    
     }
-
-h3 {
+	h3 {
 	font-family: 'Cormorant Upright', Garamond, serif;
 	font-weight: 400;
 	color: #151c24;
@@ -64,16 +84,13 @@ h3 {
 	/*margin-bottom: -60px;*/
 	font-size: 2.8em;
 }
-
-@media (min-width: 985px) {
-
-h3 {
+	@media (min-width: 985px) {
+	h3 {
 		margin: 2.5rem 0 .75rem 0;
 		font-size: 1.8em
 }
 	}
-
-h4 {
+	h4 {
 	font-family: 'Cormorant SC', Garamond, serif;
 	font-weight: 300;
 	text-align: center;
@@ -82,63 +99,51 @@ h4 {
 	margin-top: -40px;
 	font-size: 3em;
 }
-
-@media (min-width: 985px) {
-
-h4 {
+	@media (min-width: 985px) {
+	h4 {
 		margin-top: -20px;
 		font-size: 1.5em
 }
 	}
-
-h5,h6 {
+	h5,h6 {
 	
     font-family: 'Cormorant SC', Garamond, serif;
     font-weight: 400;
     color: #151c24;
 }
-
-h5 {
+	h5 {
 
 	margin-top: -85px;
 	font-size: 2.6em;
 }
-
-@media (min-width: 985px) {
-
-h5 {
+	@media (min-width: 985px) {
+	h5 {
 		margin-top: -40px;
 		font-size: 2em
 } 
 	}
-
-h6 {
+	h6 {
 
 	margin-top: -10px;
 	margin-bottom: -30px;
 	font-size: 2.4em;
 }
-
-@media (min-width: 985px) {
-
-h6 {
+	@media (min-width: 985px) {
+	h6 {
 		margin-top: -5px;
 		margin-bottom: -10px;
 		font-size: 1.1em
 }
 	}
-
-a {
+	a {
 	text-decoration: none;
 	font-family: 'Cormorant Upright', Garamond, serif;
 	color: #656e82;
 }
-
-a:hover {
+	a:hover {
 		color: #3c4760;
 	}
-
-li {
+	li {
 	font-family: 'Cormorant Garamond', Garamond, serif;
     font-weight: 300;
     font-size: 3.3em;
@@ -146,54 +151,41 @@ li {
 
     color: #151c24;
 }
-
-@media (min-width: 985px) {
-
-li {
+	@media (min-width: 985px) {
+	li {
     	font-size: 1.3em;
     	line-height: 1.4em
 }
     }
-
-.quote {
+	.quote {
 	margin-left: 30px;
 	padding-left: 20px;
 	border-left: 4px solid lightgrey;
 }
-
-.hidden {
+	.hidden {
 	display: none;
 }
-
-.space--small {
+	.space--small {
 	height: 45px;
 }
-
-@media (min-width: 985px) {
-
-.space--small {
+	@media (min-width: 985px) {
+	.space--small {
 		height: 50px
 }
 	}
-
-.space--medium {
+	.space--medium {
 	height: 75px;
 }
-
-@media (min-width: 985px) {
-
-.space--medium {
+	@media (min-width: 985px) {
+	.space--medium {
 		height: 150px
 }
 	}
-
-.space--large {
+	.space--large {
 	height: 200px;
 }
-
-@media (min-width: 985px) {
-
-.space--large {
+	@media (min-width: 985px) {
+	.space--large {
 		height: 300px
 }
 	}
