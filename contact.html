@@ -20,29 +20,20 @@
 </head>
 <body>
 	
-	<!--<div class="simple-nav">
-		
-		<a href="index.html"><img id="home" class="home-icon__nav" src="./assets/img/sqglz.svg" nopin="nopin"></a>
-
-		<img class="simple-nav__divider" src="./assets/img/nav-divider.svg" alt="divider" nopin="nopin">
-
-		<a href="contact.html"><img id="contact" class="icon__nav" src="./assets/img/contact-min.svg" alt="contact icon" nopin="nopin"></a>
-
-		<a href="articles.html"><img id="articles" class="icon__nav" src="./assets/img/articles-min.svg" alt="articles icon" nopin="nopin"></a>
-
-		<a href="http://sqglz.ink/" target="_sqgdev"><img id="dev" class="icon__nav" src="./assets/img/dev-min.svg" alt="in development icon" nopin="nopin"></a>
-
-		<span id="nav-copy" class="simple-nav__copy"></span>
-
-	</div>--><!-- SIMPLE NAV -->
 	<!-- SPRING FEVER NAV -->
-		<div class="nav">
-			<a href="index.html"><img id="home" class="home-icon__nav nav__home" src="./assets/img/sqglz.svg" nopin="nopin"></a>
+		<div id="nav" class="nav nav__closed">
+			<a href="index.html"><span class="nav__link-title">HOME</span></a>
 			<a href="about.html"><span class="nav__link-title">ABOUT</span></a>
 			<a href="contact.html"><span class="nav__link-title">CONTACT</span></a>
-			<a href="portfolio.html"><span class="nav__link-title">PROJECTS</span></a>
-			<a href="process.html"><span class="nav__link-title">PROCESS</span></a>
+			<!-- <a href="portfolio.html"><span class="nav__link-title">PROJECTS</span></a> -->
+			<!-- <a href="process.html"><span class="nav__link-title">PROCESS</span></a> -->
 			<a href="articles.html"><span class="nav__link-title">ARTICLES</span></a>
+
+			<div id="hamburger" class="nav__hamburger">
+				<div class="nav__hamburger__bar nav__hamburger__top"></div>
+				<div class="nav__hamburger__bar nav__hamburger__middle"></div>
+				<div class="nav__hamburger__bar nav__hamburger__bottom"></div>
+			</div><!-- CLOSE X -->
 		</div>
 	<!-- SPRING FEVER NAV -->
 	
@@ -68,43 +59,11 @@
 <script type="text/javascript">
 	
 	// NAV
+		const hamburger = document.getElementById("hamburger");
+		const nav = document.getElementById("nav");
 
-		const home = document.getElementById("home");
-		const contact = document.getElementById("contact");
-		const articles = document.getElementById("articles");
-		const dev = document.getElementById("dev");
-		const navCopy = document.getElementById("nav-copy");
-
-		// HOME
-		home.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Home";
-		});
-		home.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
-
-		// CONTACT
-		contact.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Contact";
-		});
-		contact.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
-
-		// ARTICLES
-		articles.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Articles";
-		});
-		articles.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
-		});
-
-		// DEV
-		dev.addEventListener("mouseenter", function() {
-			navCopy.innerText = "Development";
-		});
-		dev.addEventListener("mouseleave", function() {
-			navCopy.innerText = "";
+		hamburger.addEventListener("click", function() {
+			nav.classList.toggle("nav__closed");
 		});
 		
 

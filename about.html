@@ -21,19 +21,25 @@
 <body>
 	
 	<!-- SPRING FEVER NAV -->
-		<div class="nav">
-			<a href="index.html"><img id="home" class="home-icon__nav nav__home" src="./assets/img/sqglz.svg" nopin="nopin"></a>
+		<div id="nav" class="nav nav__closed">
+			<a href="index.html"><span class="nav__link-title">HOME</span></a>
 			<a href="about.html"><span class="nav__link-title">ABOUT</span></a>
 			<a href="contact.html"><span class="nav__link-title">CONTACT</span></a>
-			<a href="portfolio.html"><span class="nav__link-title">PROJECTS</span></a>
-			<a href="process.html"><span class="nav__link-title">PROCESS</span></a>
+			<!-- <a href="portfolio.html"><span class="nav__link-title">PROJECTS</span></a> -->
+			<!-- <a href="process.html"><span class="nav__link-title">PROCESS</span></a> -->
 			<a href="articles.html"><span class="nav__link-title">ARTICLES</span></a>
+
+			<div id="hamburger" class="nav__hamburger">
+				<div class="nav__hamburger__bar nav__hamburger__top"></div>
+				<div class="nav__hamburger__bar nav__hamburger__middle"></div>
+				<div class="nav__hamburger__bar nav__hamburger__bottom"></div>
+			</div><!-- CLOSE X -->
 		</div>
 	<!-- SPRING FEVER NAV -->
 	
 	<div class="main-content"> 
 		
-
+		<div class="space--large"></div>
 
 		<div class="main-content__section">
 
@@ -136,6 +142,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script type="text/javascript">
+
+	// NAV
+		const hamburger = document.getElementById("hamburger");
+		const nav = document.getElementById("nav");
+
+		hamburger.addEventListener("click", function() {
+			nav.classList.toggle("nav__closed");
+		});
 
 	// BRUTE FORCE SERVICE BOX
 		var $serviceHandle = $("#service-handle");
