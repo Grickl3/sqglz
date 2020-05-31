@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>Template</title>
+	<meta charset="utf-8">
+	
+	<!-- FAVICON -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#d49a00">
+		<meta name="msapplication-TileColor" content="#d49a00">
+		<meta name="theme-color" content="#ffffff">
+	<!-- FAVICON -->
+	
+	<link rel="stylesheet" type="text/css" href="./../temp/styles/main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,600,600i,700,700i|Cormorant+Infant:300,300i,400,400i,600,600i,700,700i|Cormorant+SC:300,400,600,700|Cormorant+Unicase:300,400,600,700|Cormorant+Upright:300,400,600,700|Cormorant:300,300i,400,400i,600,600i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+
+	<!-- SPRING FEVER NAV -->
+		<div id="nav" class="nav nav__closed">
+			<a href="../index.html"><span class="nav__link-title">HOME</span></a>
+			<a href="../about.html"><span class="nav__link-title">ABOUT</span></a>
+			<a href="../contact.html"><span class="nav__link-title">CONTACT</span></a>
+			<!-- <a href="portfolio.html"><span class="nav__link-title">PROJECTS</span></a> -->
+			<!-- <a href="process.html"><span class="nav__link-title">PROCESS</span></a> -->
+			<a href="../articles.html"><span class="nav__link-title">ARTICLES</span></a>
+
+			<div id="hamburger" class="nav__hamburger">
+				<div class="nav__hamburger__bar nav__hamburger__top"></div>
+				<div class="nav__hamburger__bar nav__hamburger__middle"></div>
+				<div class="nav__hamburger__bar nav__hamburger__bottom"></div>
+			</div><!-- CLOSE X -->
+		</div>
+	<!-- SPRING FEVER NAV -->
+
+	<div class="main-content"> 
+
+		<div class="space--medium"></div>
+
+		<h1>Title of the Article</h1>
+		<h5>A Subtitle to the Article</h5>
+	
+		<div class="main-content__section">
+			<script src="https://verbingnounssincewhen.com/p/1"></script>
+
+
+			<h2>Here's a stunning provacation to consider —<br>something deep as shit.</h2>
+
+			<script src="https://verbingnounssincewhen.com/p/5"></script>
+
+		</div><!-- MAIN CONTENT SECTION -->
+
+		<div class="space--large"></div>
+	
+	</div><!-- MAIN CONTENT -->
+
+	<div id="footer-box" class="footer footer__closed">
+		<img id="footer-handle" class="footer__handle" src="../assets/img/footer-handle.svg">
+		<div class="footer__insides">
+			<div class="footer__section-1 section">
+				<p class="footer__mailchimp-cta">
+					If you would like to receive an email every couple to several weeks about respectful marketing practices, regenerative economics, and generally life affirming design insights &#9759; mash this button &#9759;
+				</p>
+				<div class="footer__newsletter-button">
+					<span>NEWSLETTER SIGNUP</span>
+				</div>
+			</div><!-- SECTION 1 -->
+
+			<div class="footer__section-2 section">
+				<a href="https://www.behance.net/SQGLZ" target="_sqg">
+					<div class="footer__social-link">
+						<img class="footer__social-img" src="../assets/img/behance.svg" alt="Behance logo">
+					</div>
+				</a><!-- Behance -->
+
+				<a href="https://www.instagram.com/deaconrodda/" target="_sqg">
+					<div class="footer__social-link">
+						<img class="footer__social-img" src="../assets/img/instagram.svg" alt="Instagram logo">
+					</div>
+				</a><!-- Instagram -->
+
+				<a href="https://www.youtube.com/channel/UCtThKXlSoa0NFwGNuCS2Kgg?view_as=subscriber" target="_sqg">
+					<div class="footer__social-link">
+						<img class="footer__social-img" src="../assets/img/youtube.svg" alt="YouTube logo">
+					</div>
+				</a><!-- YouTube -->
+
+				<a href="https://www.pinterest.com/sqglz/boards/" target="_sqg">
+					<div class="footer__social-link">
+						<img class="footer__social-img" src="../assets/img/pinterest.svg" alt="Pinterest logo">
+					</div>
+				</a><!-- Pinterest -->
+			</div><!-- SECTION 2 -->
+
+			<div class="footer__section-3 section">
+				<ul class="footer__link-list"> 
+					<a href="https://paypal.me/deaconrodda" target="_sqg"><li class="footer__link">make a payment</li></a>
+					<a href="sms:1-303-501-7244"><li class="footer__link">shoot me a text</li></a>
+					<a href="http://sqglz.ink/" target="_sqg"><li class="footer__link">see projects in development</li></a>
+					<a href="http://favor.solutions/" target="_sqg"><li class="footer__link">check out the Favor</li></a>
+				</ul>
+			</div><!-- SECTION 3 -->
+		</div><!-- FOOTER BOX -->
+	</div><!-- FOOTER -->
+
+<script type="text/javascript">
+	
+	// NAV
+		const hamburger = document.getElementById("hamburger");
+		const nav = document.getElementById("nav");
+
+		hamburger.addEventListener("click", function() {
+			nav.classList.toggle("nav__closed");
+		});
+
+	// FOOTER
+		const footerHandle = document.getElementById("footer-handle");
+		const footerBox = document.getElementById("footer-box");
+
+		footerHandle.addEventListener("click", function() {
+			footerBox.classList.toggle("footer__closed");
+		});
+
+
+</script>
+
+
+</body>
+</html>
