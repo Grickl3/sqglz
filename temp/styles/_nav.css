@@ -1,7 +1,7 @@
 @font-face {
       font-family: "TT Bluescreens Regular";
       src: url("../../assets/fonts/TT Bluescreens Regular.otf");
-}
+} 
 
 .nav {
 	display: flex;
@@ -19,7 +19,7 @@
 	transition: transform .3s ease-out;
 
 	transition: transform .3s ease-out, -webkit-transform .3s ease-out;
-}
+} 
 
 .nav__closed {
  		transition: -webkit-transform .3s ease-out;
@@ -27,7 +27,7 @@
  		transition: transform .3s ease-out, -webkit-transform .3s ease-out;
  		-webkit-transform: translateY(-50rem);
  		        transform: translateY(-50rem);
- 	}
+ 	} 
 
 .nav__link-title {
  		display: block;
@@ -35,11 +35,11 @@
 		font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
 		font-size: 7rem;
 		color: #985617;
-	}
+	} 
 
 .nav__link-title:hover {
 		color: #1a2744;
-	}
+	} 
 
 @media (min-width: 1080px) {
 	.nav {
@@ -64,32 +64,32 @@
 			margin: .75rem;
 			font-size: 2rem;
 		} 
-}
+} 
 
-/* --------------------------------- HAMBURGER --------- */
+/* --------------------------------- HAMBURGER --------- */ 
 
 .nav__hamburger {
 		margin: 4rem 0 0 0;
-	}
+	} 
 
 .nav__hamburger__bar {
 		margin: 12px;
 		height: 8px;
 		width: 56px;
 		background-color: #985617;
-	}
+	} 
 
 .nav__hamburger__top {
 
-	}
+	} 
 
 .nav__hamburger__middle {
 
-	}
+	} 
 
 .nav__hamburger__bottom {
 
-	}
+	} 
 
 @media (min-width: 1080px) {
 		.nav__hamburger {

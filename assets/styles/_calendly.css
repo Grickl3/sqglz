@@ -1,51 +1,338 @@
-
-
-
-.calendly {
-	position: fixed;
-	top: 0px;
-	right: 20px;
-	padding: 5px;
-
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-left: 3px solid #985617;
-	border-bottom: 3px solid #985617;
-	border-right: 3px solid #985617;
-	color: #985617;
-	text-align: center;
-	opacity: .5;
+@font-face {
+      font-family: "TT Bluescreens Thin";
+      src: url("../../assets/fonts/TT Bluescreens Thin.otf");
 }
 
-.calendly:hover { opacity: 1; cursor: pointer; }
-
-.calendly__hr {
-	margin: 3px 0 2px 0;
-	width: 100%;
-	height: 1px;
-	background-color: #985617;
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("../../assets/fonts/TT Bluescreens Regular.otf");
 }
 
-.calendly__day {
-	font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
-	font-size: 1.5rem;
+@font-face {
+      font-family: "TT Bluescreens Thin";
+      src: url("../../assets/fonts/TT Bluescreens Thin.otf");
 }
 
-.calendly__month {
-	font-family: "Uniform-Ultra", Helvetica, sans-serif;
-	font-size: 1.3rem;
+@font-face {
+    font-family: "Uniform-Ultra";
+    src: url("./assets/fonts/Uniform-Ultra.otf");
 }
 
-.calendly__date {
-	display: block;
-	margin: -.2rem 0 ;
-	font-family: "UniformExtraCondensed-Medium";
-	font-size: 3.3rem;
+@font-face {
+    font-family: "UniformExtraCondensed-Medium";
+    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
 }
 
-.calendly__year {
-	display: block;
-	margin: -1.6rem 0 0 0;
-	font-family: "Uniform-Light";
-	font-size: 1.2rem;
+@font-face {
+    font-family: "Uniform-Light";
+    src: url("./assets/fonts/Uniform-Light.otf");
 }
+
+@media (min-width: 800px) {
+	
+}
+@media (min-width: 1000px) {
+	
+}
+@media (min-width: 1200px) {
+	
+}
+@media (min-width: 1800px) {
+	
+}
+
+/* ========================================= MAIN ========= */
+	.calendly {
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		top: 0px;
+		right: 20px;
+		opacity: .5;
+	}
+
+	.calendly:hover { opacity: 1; cursor: pointer; }
+
+/* ========================================= DATE BOX ========= */
+	
+	.calendly__date-box {
+		color: #985617;
+		text-align: center;
+		opacity: 1;
+		padding: 20px;
+
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		border-left: 3px solid #985617;
+		border-bottom: 3px solid #985617;
+		border-right: 3px solid #985617;
+	}
+
+	@media (min-width: 900px) {
+		.calendly__date-box {
+			padding: 10px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__date-box {
+			padding: 5px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__date-box {
+			padding: 5px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
+	}
+
+/* ========================================= CTA BOX ========= */
+	.calendly__cta-box {
+		transform: 	rotate(90deg) 
+					translateY(50px)
+					translateX(-20px);
+	}
+
+	@media (min-width: 800px) {
+		.calendly__cta-box {
+			transform: 	rotate(90deg) 
+						translateY(50px)
+						translateX(-20px);
+		}
+	}
+	@media (min-width: 1000px) {
+		.calendly__cta-box {
+			transform: 	rotate(90deg) 
+						translateY(45px)
+						translateX(-10px);
+		}
+	}
+	@media (min-width: 1080px) {
+		.calendly__cta-box {
+			transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__cta-box {
+			transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__cta-box {
+			transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(5px);
+		}
+	}
+
+/* ========================================= CTA ========= */
+
+	.calendly__cta {
+		color: #985617;
+		font-size: 2.5rem;
+	}
+
+	@media (min-width: 800px) {
+		.calendly__cta {
+			font-size: 2.25rem;
+		}
+	}
+	@media (min-width: 1000px) {
+		.calendly__cta {
+			font-size: 2rem;
+		}
+	}
+	@media (min-width: 1080px) {
+		.calendly__cta {
+			font-size: 1.6rem;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__cta {
+			font-size: 1.4rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__cta {
+			font-size: 1.4rem;
+		}
+	}
+
+/* ========================================= HR ========= */
+	.calendly__hr {
+		margin: 3px 0 2px 0;
+		width: 100%;
+		height: 1px;
+		background-color: #985617;
+	}
+
+	@media (min-width: 900px) {
+		.calendly__hr {
+			margin: 8px 0 8px 0;
+			height: 2px;
+		}
+	}
+	@media (min-width: 1080px) {
+		.calendly__hr {
+			margin: 6px 0 6px 0;
+			height: 1px;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__hr {
+			margin: 3px 0 2px 0;
+			height: 1px;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__hr {
+			margin: 3px 0 2px 0;
+			height: 1px;
+		}
+	}
+
+/* ========================================= DAY ========= */
+	.calendly__day {
+		font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
+		font-size: 4.5rem;
+	}
+
+	@media (min-width: 900px) {
+		.calendly__day {
+			font-size: 4.2rem;
+		}
+	}
+	@media (min-width: 1080px) {
+		.calendly__day {
+			font-size: 2rem;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__day {
+			font-size: 1.5rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__day {
+			font-size: 1.5rem;
+		}
+	}
+
+/* ========================================= MONTH ========= */
+	.calendly__month {
+		font-family: "Uniform-Ultra", Helvetica, sans-serif;
+		font-size: 3rem;
+	}
+	@media (min-width: 900px) {
+		.calendly__month {
+			font-size: 2.75rem;
+		}
+	}
+
+	@media (min-width: 1080px) {
+		.calendly__month {
+			font-size: 2rem;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.calendly__month {
+			font-size: 1.5rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__month {
+			font-size: 1.3rem;
+		}
+	}
+
+/* ========================================= DATE ========= */
+	.calendly__date {
+		display: block;
+		margin: -.2rem 0 ;
+		font-family: "UniformExtraCondensed-Medium";
+		font-size: 3.5rem;
+	}
+	@media (min-width: 900px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 3rem;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 3rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 2.75rem;
+		}
+	}	
+
+/* ========================================= YEAR ========= */
+	.calendly__year {
+		display: block;
+		margin: -1.6rem 0 0 0;
+		font-family: "Uniform-Light";
+		font-size: 2.5rem;
+	}
+	@media (min-width: 900px) {
+		.calendly__year {
+			margin: -1.2rem 0 0 0;
+			font-size: 2.2rem;
+		}
+	}
+	@media (min-width: 1080px) {
+		.calendly__year {
+			margin: -1.4rem 0 0 0;
+			font-size: 1.5rem;
+		}
+	}
+	@media (min-width: 1200px) {
+		.calendly__year {
+			margin: -1.3rem 0 0 0;
+			font-size: 1.2rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.calendly__year {
+			margin: -1.6rem 0 0 0;
+			font-size: 1.2rem;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

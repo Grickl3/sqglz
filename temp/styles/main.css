@@ -1559,6 +1559,32 @@ li.focus {
 		color: #3c4760;
 	}
 
+@font-face {
+      font-family: "TT Bluescreens Thin";
+      src: url("../../assets/fonts/TT Bluescreens Thin.otf");
+}
+
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("../../assets/fonts/TT Bluescreens Regular.otf");
+}
+
+@media (min-width: 800px) {
+	
+}
+
+@media (min-width: 1000px) {
+	
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 1800px) {
+	
+}
+
 .about__opener {
 		font-family: 'Cormorant Upright', Garamond, serif;
 		cursor: pointer;
@@ -1573,34 +1599,112 @@ li.focus {
 	display: none;
 }
 
+/* =========================== HEADER =============== */
+
 .about__header {
-	display: block;
-	margin: 4rem 0;
-	padding: 3rem 1rem;
-	width: 100%;
-	background-color: #d49a00;
-}
+		display: block;
+		margin: 4rem 0;
+		padding: 3rem 1rem;
+		width: 100%;
+		background-color: #d49a00;
+	}
 
 .about__header-line {
-	display: inline-block;
-	font-family: "TT Bluescreens Regular", Helvetica, Verdana, sans-serif;
-	font-size: 3.5rem;
-	line-height: 3.25rem;
-	color: #ffffff;
-}
+		display: inline-block;
+		font-family: "TT Bluescreens Regular", Helvetica, Verdana, sans-serif;
+		font-size: 4.75rem;
+		line-height: 5.25rem;
+		color: #ffffff;
+	}
 
-/* =========================== SERVICES =============== */
+@media (min-width: 800px) {
+		.about__header-line {
+			font-size: 5.25rem;
+			line-height: 5.75rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__header-line {
+			font-size: 4.5rem;
+			line-height: 5rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__header-line {
+			font-size: 3.5rem;
+			line-height: 3.25rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__header-line {
+			font-size: 3.5rem;
+			line-height: 3.25rem;
+		}
+	}
+
+/* =========================== SERVICES HEADING =============== */
 
 .about__services__heading {
 		font-family: 'Cormorant Unicase', Garamond, serif;
 		font-weight: 300;
 		color: #3c4760;
 
-		font-size: 4.2em;
+		font-size: 4.2rem;
+	}
+
+@media (min-width: 800px) {
+		.about__services__heading {
+			font-size: 7rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__services__heading {
+			font-size: 5.5rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__services__heading {
+			font-size: 5.5rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__services__heading {
+			font-size: 4.2rem;
+		}
 	}
 
 .about__services__sub-heading-box {
 		margin: -.75rem 0 1rem 0;
+	}
+
+@media (min-width: 800px) {
+		.about__services__sub-heading-box {
+			margin: -.75rem 0 1rem 0;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__services__sub-heading-box {
+			margin: -.75rem 0 1rem 0;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__services__sub-heading-box {
+			margin: -.75rem 0 1rem 0;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__services__sub-heading-box {
+			margin: -.75rem 0 1rem 0;
+		}
 	}
 
 .about__services__sub-heading {
@@ -1609,15 +1713,65 @@ li.focus {
 		font-style: italic;
 		color: #3c4760;
 
-		font-size: 2em;
+		font-size: 3.75rem;
 	}
+
+@media (min-width: 800px) {
+		.about__services__sub-heading {
+			font-size: 3.5rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__services__sub-heading {
+			font-size: 3rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__services__sub-heading {
+			font-size: 2rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__services__sub-heading {
+			font-size: 2rem;
+		}
+	}
+
+/* =========================== SERVICES CONT. =============== */
 
 .about__services__preposition {
 		font-family: 'Cormorant SC', Garamond, serif;
 		font-weight: 300;
 		color: #3c4760;
 
-		font-size: 2em;
+		font-size: 3.75rem;
+	}
+
+@media (min-width: 800px) {
+		.about__services__preposition {
+			font-size: 3.5rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__services__preposition {
+			font-size: 3rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__services__preposition {
+			font-size: 2rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__services__preposition {
+			font-size: 2rem;
+		}
 	}
 
 .about__services__services {
@@ -1625,7 +1779,31 @@ li.focus {
 		font-weight: 100;
 		color: #3c4760;
 
-		font-size: 3em;
+		font-size: 4.75rem;
+	}
+
+@media (min-width: 800px) {
+		.about__services__services {
+			font-size: 4.5rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__services__services {
+			font-size: 4rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__services__services {
+			font-size: 3rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__services__services {
+			font-size: 3rem;
+		}
 	}
 
 /* =========================== BODY =================== */
@@ -1638,6 +1816,38 @@ li.focus {
 		transition: -webkit-transform .3s ease-out;
 		transition: transform .3s ease-out;
 		transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+	}
+
+@media (min-width: 800px) { 
+		.about__toggle {
+			-webkit-transform: translateY(10px);
+			        transform: translateY(10px);
+			font-size: 5rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__toggle {
+			-webkit-transform: translateY(7px);
+			        transform: translateY(7px);
+			font-size: 3.75rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__toggle {
+			-webkit-transform: translateY(5px);
+			        transform: translateY(5px);
+			font-size: 2.5rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__toggle {
+			-webkit-transform: translateY(5px);
+			        transform: translateY(5px);
+			font-size: 2.5rem;
+		}
 	}
 
 .about__toggle:hover {
@@ -1667,7 +1877,31 @@ li.focus {
 		font-style: italic;
 		color: #3c4760;
 
-		font-size: 1.8rem;
+		font-size: 3rem;
+	}
+
+@media (min-width: 800px) {
+		.about__body-block__title {
+			font-size: 3.5rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.about__body-block__title {
+			font-size: 2.75rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__body-block__title {
+			font-size: 2.6rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__body-block__title {
+			font-size: 1.8rem;
+		}
 	}
 
 .about__body-block__body {
@@ -1680,6 +1914,8 @@ li.focus {
 
 	}
 
+/* =========================== READ MORE =================== */
+
 .about__body-block__read-more-button {
 		display: inline-block;
 		cursor: pointer;
@@ -1691,10 +1927,39 @@ li.focus {
 .about__body-block__read-more-button:hover { background-color: #3c4760; }
 
 .about__body-block__read-more-copy {
-	font-family: "TT Bluescreens Thin", Helvetica, Verdana, sans-serif;
-	font-size: 2rem;
-	line-height: 2.25rem;
-	color: #ffffff;
+		font-family: "TT Bluescreens Regular", Helvetica, Verdana, sans-serif;
+		font-size: 5.25rem;
+		line-height: 4.75rem;
+		color: #ffffff;
+	}
+
+@media (min-width: 800px) {
+		.about__body-block__read-more-copy {
+			font-size: 3.75rem;
+			line-height: 4.25rem;
+		}	
+	}
+
+@media (min-width: 1000px) {
+		.about__body-block__read-more-copy {
+			font-size: 3.25rem;
+			line-height: 2.75rem;
+			/*color: blue;*/
+		}
+	}
+
+@media (min-width: 1200px) {
+		.about__body-block__read-more-copy {
+			font-size: 2.25rem;
+			line-height: 2.5rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.about__body-block__read-more-copy {
+			font-size: 2rem;
+			line-height: 2.25rem;
+		}
 	}
 
 /* ================================ OPERATIONS ======= */
@@ -2138,313 +2403,706 @@ li.focus {
 		}
 	}
 
-.calendly {
-	position: fixed;
-	top: 0px;
-	right: 20px;
-	padding: 5px;
-
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	border-left: 3px solid #985617;
-	border-bottom: 3px solid #985617;
-	border-right: 3px solid #985617;
-	color: #985617;
-	text-align: center;
-	opacity: .5;
+@font-face {
+      font-family: "TT Bluescreens Thin";
+      src: url("../../assets/fonts/TT Bluescreens Thin.otf");
 }
+
+@font-face {
+      font-family: "TT Bluescreens Regular";
+      src: url("../../assets/fonts/TT Bluescreens Regular.otf");
+}
+
+@font-face {
+      font-family: "TT Bluescreens Thin";
+      src: url("../../assets/fonts/TT Bluescreens Thin.otf");
+}
+
+@font-face {
+    font-family: "Uniform-Ultra";
+    src: url("./assets/fonts/Uniform-Ultra.otf");
+}
+
+@font-face {
+    font-family: "UniformExtraCondensed-Medium";
+    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
+}
+
+@font-face {
+    font-family: "Uniform-Light";
+    src: url("./assets/fonts/Uniform-Light.otf");
+}
+
+@media (min-width: 800px) {
+	
+}
+
+@media (min-width: 1000px) {
+	
+}
+
+@media (min-width: 1200px) {
+	
+}
+
+@media (min-width: 1800px) {
+	
+}
+
+/* ========================================= MAIN ========= */
+
+.calendly {
+		position: fixed;
+		display: flex;
+		flex-direction: row;
+		top: 0px;
+		right: 20px;
+		opacity: .5;
+	}
 
 .calendly:hover { opacity: 1; cursor: pointer; }
 
-.calendly__hr {
-	margin: 3px 0 2px 0;
-	width: 100%;
-	height: 1px;
-	background-color: #985617;
-}
+/* ========================================= DATE BOX ========= */
 
-.calendly__day {
-	font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
-	font-size: 1.5rem;
-}
+.calendly__date-box {
+		color: #985617;
+		text-align: center;
+		opacity: 1;
+		padding: 20px;
 
-.calendly__month {
-	font-family: "Uniform-Ultra", Helvetica, sans-serif;
-	font-size: 1.3rem;
-}
-
-.calendly__date {
-	display: block;
-	margin: -.2rem 0 ;
-	font-family: "UniformExtraCondensed-Medium";
-	font-size: 3.3rem;
-}
-
-.calendly__year {
-	display: block;
-	margin: -1.6rem 0 0 0;
-	font-family: "Uniform-Light";
-	font-size: 1.2rem;
-}
-
-.footer {
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	bottom: 0;
-	width: 100vw;
-
-	transition: -webkit-transform .3s ease-out;
-
-	transition: transform .3s ease-out;
-
-	transition: transform .3s ease-out, -webkit-transform .3s ease-out;
-
-}
-
-.footer__handle {
-		margin: 0 0 -2px 0;
-		width: 100vw;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		border-left: 3px solid #985617;
+		border-bottom: 3px solid #985617;
+		border-right: 3px solid #985617;
 	}
 
-.footer__handle:hover {
-		cursor: pointer;
+@media (min-width: 900px) {
+		.calendly__date-box {
+			padding: 10px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
 	}
 
 @media (min-width: 1200px) {
-	.footer__handle {
-		margin: 0;
-		width: 300px;
+		.calendly__date-box {
+			padding: 5px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
 	}
+
+@media (min-width: 1800px) {
+		.calendly__date-box {
+			padding: 5px;
+
+			border-bottom-right-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-left: 3px solid #985617;
+			border-bottom: 3px solid #985617;
+			border-right: 3px solid #985617;
+		}
+	}
+
+/* ========================================= CTA BOX ========= */
+
+.calendly__cta-box {
+		-webkit-transform: 	rotate(90deg) 
+					translateY(50px)
+					translateX(-20px);
+		        transform: 	rotate(90deg) 
+					translateY(50px)
+					translateX(-20px);
+	}
+
+@media (min-width: 800px) {
+		.calendly__cta-box {
+			-webkit-transform: 	rotate(90deg) 
+						translateY(50px)
+						translateX(-20px);
+			        transform: 	rotate(90deg) 
+						translateY(50px)
+						translateX(-20px);
+		}
+	}
+
+@media (min-width: 1000px) {
+		.calendly__cta-box {
+			-webkit-transform: 	rotate(90deg) 
+						translateY(45px)
+						translateX(-10px);
+			        transform: 	rotate(90deg) 
+						translateY(45px)
+						translateX(-10px);
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__cta-box {
+			-webkit-transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+			        transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__cta-box {
+			-webkit-transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+			        transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(-5px);
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__cta-box {
+			-webkit-transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(5px);
+			        transform: 	rotate(90deg) 
+						translateY(20px)
+						translateX(5px);
+		}
+	}
+
+/* ========================================= CTA ========= */
+
+.calendly__cta {
+		color: #985617;
+		font-size: 2.5rem;
+	}
+
+@media (min-width: 800px) {
+		.calendly__cta {
+			font-size: 2.25rem;
+		}
+	}
+
+@media (min-width: 1000px) {
+		.calendly__cta {
+			font-size: 2rem;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__cta {
+			font-size: 1.6rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__cta {
+			font-size: 1.4rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__cta {
+			font-size: 1.4rem;
+		}
+	}
+
+/* ========================================= HR ========= */
+
+.calendly__hr {
+		margin: 3px 0 2px 0;
+		width: 100%;
+		height: 1px;
+		background-color: #985617;
+	}
+
+@media (min-width: 900px) {
+		.calendly__hr {
+			margin: 8px 0 8px 0;
+			height: 2px;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__hr {
+			margin: 6px 0 6px 0;
+			height: 1px;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__hr {
+			margin: 3px 0 2px 0;
+			height: 1px;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__hr {
+			margin: 3px 0 2px 0;
+			height: 1px;
+		}
+	}
+
+/* ========================================= DAY ========= */
+
+.calendly__day {
+		font-family: "TT Bluescreens Regular", Helvetica, sans-serif;
+		font-size: 4.5rem;
+	}
+
+@media (min-width: 900px) {
+		.calendly__day {
+			font-size: 4.2rem;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__day {
+			font-size: 2rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__day {
+			font-size: 1.5rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__day {
+			font-size: 1.5rem;
+		}
+	}
+
+/* ========================================= MONTH ========= */
+
+.calendly__month {
+		font-family: "Uniform-Ultra", Helvetica, sans-serif;
+		font-size: 3rem;
+	}
+
+@media (min-width: 900px) {
+		.calendly__month {
+			font-size: 2.75rem;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__month {
+			font-size: 2rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__month {
+			font-size: 1.5rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__month {
+			font-size: 1.3rem;
+		}
+	}
+
+/* ========================================= DATE ========= */
+
+.calendly__date {
+		display: block;
+		margin: -.2rem 0 ;
+		font-family: "UniformExtraCondensed-Medium";
+		font-size: 3.5rem;
+	}
+
+@media (min-width: 900px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 3rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 3rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__date {
+			margin: -.2rem 0 ;
+			font-size: 2.75rem;
+		}
+	}
+
+/* ========================================= YEAR ========= */
+
+.calendly__year {
+		display: block;
+		margin: -1.6rem 0 0 0;
+		font-family: "Uniform-Light";
+		font-size: 2.5rem;
+	}
+
+@media (min-width: 900px) {
+		.calendly__year {
+			margin: -1.2rem 0 0 0;
+			font-size: 2.2rem;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.calendly__year {
+			margin: -1.4rem 0 0 0;
+			font-size: 1.5rem;
+		}
+	}
+
+@media (min-width: 1200px) {
+		.calendly__year {
+			margin: -1.3rem 0 0 0;
+			font-size: 1.2rem;
+		}
+	}
+
+@media (min-width: 1800px) {
+		.calendly__year {
+			margin: -1.6rem 0 0 0;
+			font-size: 1.2rem;
+		}
+	}
+
+.footer { 
+	display: none; 
+}
+
+@media (min-width: 1200px) {
+	.footer {
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		bottom: 0;
+		width: 100vw;
+
+		transition: -webkit-transform .3s ease-out;
+
+		transition: transform .3s ease-out;
+
+		transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+
+	}
+
+		.footer__handle {
+			margin: 0 0 -2px 0;
+			width: 100vw;
+		}
+
+		.footer__handle:hover {
+			cursor: pointer;
+		}
+}
+
+@media (min-width: 900px) {
+	
+}
+
+@media (min-width: 1080px) {
+	
+}
+
+@media (min-width: 1600px) {
+	
 }
 
 .footer__closed {
-	-webkit-transform: translateY(400px);
-	        transform: translateY(400px);
+	-webkit-transform: translateY(90%);
+	        transform: translateY(90%);
 	transition: -webkit-transform .3s ease-out;
 	transition: transform .3s ease-out;
 	transition: transform .3s ease-out, -webkit-transform .3s ease-out;
 }
 
-.footer__insides {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+/* ------------------------------ HANDLE --------- */
 
-	min-height: 400px;
-	width: 100vw;
-	background-color: #985617;
-	border-top-right-radius: 33px;
-	border-top-left-radius: 33px;
-}
-
-@media (min-width: 1200px) {
-	.footer__insides {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+.footer__handle {
+		margin: 0 0 -1px 0;
 		width: 70vw;
 	}
-}
 
-/*.section { 
-	margin-top: 2rem;
-	height: 80%;
-	background-color: rgba(255,255,255,.3); 
-}*/
+@media (min-width: 900px) {
+		.footer__handle {
+			width: 80vw;
+		}
+	}
+
+@media (min-width: 1080px) {
+		.footer__handle {
+			width: 300px;
+		}
+	}
+
+@media (min-width: 1600px) {
+		.footer__handle {
+			width: 500px;
+		}
+	}
+
+/* ------------------------------ INSIDES --------- */
+
+.footer__insides {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+		min-height: 400px;
+		width: 100vw;
+		background-color: #985617;
+		border-top-right-radius: 33px;
+		border-top-left-radius: 33px;
+	}
+
+@media (min-width: 1200px) {
+		.footer__insides {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width: 70vw;
+		}
+	}
+
+/* ------------------------------ SECTION 1 --------- */
 
 .footer__section-1 {
-	margin: 0 5%;
-	width: 90%;
-}
+		margin: 0 5%;
+		width: 90%;
+	}
 
 @media (min-width: 1200px) {
-	.footer__section-1 {
-		margin: 2rem 0;
-		width: 35%;
+		.footer__section-1 {
+			margin: 2rem 0;
+			width: 35%;
+		}
 	}
-}
+
+/* ------------------------------ SECTION 2 --------- */
 
 .footer__section-2 {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	width: 90%;
-	margin: 0 5%;
-}
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		margin: 0 5%;
+	}
 
 @media (min-width: 1200px) {
-	.footer__section-2 {
+		.footer__section-2 {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 10%;
+			margin: 0;
+		}
+	}
+
+/* ------------------------------ SECTION 3 --------- */
+
+.footer__section-3 {
+		margin: 5%;
+		width: 90%;
+	}
+
+@media (min-width: 1200px) {
+		.footer__section-3 {
+			margin: 2rem 0;
+			padding: 0 .75rem 0 0;
+			width: 35%;
+		}
+	}
+
+/* ------------------------------ MAILCHIMP --------- */
+
+.footer__mailchimp-cta {
+		margin: 3rem 0 3rem 0;
+		font-family: "Uniform-Medium", Verdana, sans-serif;
+		font-size: 3rem;
+		line-height: 3.5rem;
+		color: white;
+	}
+
+@media (min-width: 1080px) {
+		.footer__mailchimp-cta {
+			margin: 0 0 2rem 0;
+			font-size: 1.3rem;
+			line-height: 1.7rem;
+			color: #151c24;
+		}
+	}
+
+/* ------------------------------ NEWSLETTER --------- */
+
+.footer__newsletter-button {
+		margin: 0 0 6rem 0;
+		padding: 2rem;
+		font-family: "UniformCondensed-Medium", Verdana, sans-serif;
+		font-size: 4rem;
+		text-align: center;
+		border-radius: 5px;
+		background-color: white;
+		color: #985617;
+	}
+
+@media (min-width: 1080px) {
+		.footer__newsletter-button {
+			margin: 0 0 3rem 0;
+			padding: .5rem 0 .1rem 0;
+			font-size: 2rem;
+		}
+	}
+
+.footer__newsletter-button:hover {
+		background-color: #985617;
+		color: white;
+		cursor: pointer;
+		border: 1px solid rgba(255,255,255,.3);
+	}
+
+/* ------------------------------ FOOTER LINKS --------- */
+
+.footer__link-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		list-style-type: none;
+	}
+
+.footer__link {
+		margin: 3rem 0;
+		padding: 1.5rem;
+		min-width: 80%;
+		border: 5px solid rgba(255,255,255,.3);
+		border-radius: 9px;
+		text-align: center;
+	}
+
+.footer__dev-block { display: none; }
+
+.footer__dev-inline { display: none; }
+
+@media (min-width: 900px) {
+		.footer__dev-block { display: block; }
+		.footer__dev-inline { display: inline; }
+	}
+
+.footer__link-copy {
+		margin: 2rem;
+		padding: 1rem;
+		font-family: "UniformExtraCondensed-Light", Verdana, sans-serif;
+		font-size: 3rem;
+		line-height: 3rem;
+		color: white;
+	}
+
+@media (min-width: 1080px) {
+		.footer__link-list {
+			flex-direction: column;
+		}
+
+		.footer__link {
+			display: block;
+			margin: 0 0 1rem 0;
+			padding: .6rem;
+			width: 100%;
+			border: 1px solid rgba(255,255,255,.3);
+			border-radius: 5px;
+		}
+
+		.footer__link-copy {
+			font-size: 1.6rem;
+			line-height: 1.8rem;
+		}
+	}
+
+.footer__link:hover {
+		background-color: white;
+		color: #985617;
+		border: 1px solid rgba(255,255,255,0);
+	}
+
+.footer__link:hover .footer__link-copy {
+		color: #985617;
+	}
+
+/* ------------------------------ SOCIAL LINKS --------- */
+
+.footer__social-link {
+		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		width: 10%;
-		margin: 0;
+		margin: 0 2rem 0rem 2rem;
+		height: 150px;
+		width: 150px;
+		border-radius: 75px;
+		border: 5px solid rgba(255,255,255,.3);
 	}
-}
 
-.footer__section-3 {
-	margin: 5%;
-	width: 90%;
-}
+@media (min-width: 900px) {
+		.footer__social-link {
+			margin: 0 2rem 0rem 2rem;
+		}
+	}
 
 @media (min-width: 1200px) {
-	.footer__section-3 {
-		margin: 2rem 0;
-		padding: 0 .75rem 0 0;
-		width: 35%;
+		.footer__social-link {
+			margin: 0 0 1rem 0;
+			height: 50px;
+			width: 50px;
+			border-radius: 25px;
+			border: 1px solid rgba(255,255,255,.3);
+		}
 	}
-}
-
-.footer__mailchimp-cta {
-	margin: 3rem 0 3rem 0;
-	font-family: "Uniform-Medium", Verdana, sans-serif;
-	font-size: 3rem;
-	line-height: 3.5rem;
-	color: white;
-}
-
-@media (min-width: 1080px) {
-	.footer__mailchimp-cta {
-		margin: 0 0 2rem 0;
-		font-size: 1.3rem;
-		line-height: 1.7rem;
-		color: #151c24;
-	}
-}
-
-.footer__newsletter-button {
-	margin: 0 0 6rem 0;
-	padding: 2rem;
-	font-family: "UniformCondensed-Medium", Verdana, sans-serif;
-	font-size: 4rem;
-	text-align: center;
-	border-radius: 5px;
-	background-color: white;
-	color: #985617;
-}
-
-@media (min-width: 1080px) {
-	.footer__newsletter-button {
-		margin: 0 0 3rem 0;
-		padding: .5rem 0 .1rem 0;
-		font-size: 2rem;
-	}
-}
-
-.footer__newsletter-button:hover {
-	background-color: #985617;
-	color: white;
-	cursor: pointer;
-	border: 1px solid rgba(255,255,255,.3);
-}
-
-.footer__link-list {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	list-style-type: none;
-}
-
-.footer__link {
-	margin: 3rem 0;
-	padding: 1.5rem;
-	min-width: 80%;
-	border: 5px solid rgba(255,255,255,.3);
-	border-radius: 9px;
-	text-align: center;
-}
-
-.footer__link-copy {
-	margin: 2rem;
-	padding: 1rem;
-	font-family: "UniformExtraCondensed-Light", Verdana, sans-serif;
-	font-size: 3rem;
-	line-height: 3rem;
-	color: white;
-}
-
-@media (min-width: 1080px) {
-	.footer__link-list {
-		flex-direction: column;
-	}
-
-	.footer__link {
-		display: block;
-		margin: 0 0 1rem 0;
-		padding: .6rem;
-		width: 100%;
-		border: 1px solid rgba(255,255,255,.3);
-		border-radius: 5px;
-	}
-
-	.footer__link-copy {
-		font-size: 1.6rem;
-		line-height: 1.8rem;
-	}
-}
-
-.footer__link:hover {
-	background-color: white;
-	color: #985617;
-	border: 1px solid rgba(255,255,255,0);
-}
-
-.footer__link:hover .footer__link-copy {
-	color: #985617;
-}
-
-.footer__social-link {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	margin: 0 2rem 4rem 2rem;
-	height: 150px;
-	width: 150px;
-	border-radius: 75px;
-	border: 5px solid rgba(255,255,255,.3);
-}
-
-@media (min-width: 1200px) {
-	.footer__social-link {
-		margin: 0 0 1rem 0;
-		height: 50px;
-		width: 50px;
-		border-radius: 25px;
-		border: 1px solid rgba(255,255,255,.3);
-	}
-}
 
 .footer__social-link:hover {
-	background-color: #3c4760;
-	border: 1px solid rgba(255,255,255,0);
-}
+		background-color: #3c4760;
+		border: 1px solid rgba(255,255,255,0);
+	}
 
 .footer__social-img {
-	width: 75px;
-}
+		width: 75px;
+	}
 
 @media (min-width: 1200px) {
-	.footer__social-img {
-		width: 25px;
+		.footer__social-img {
+			width: 25px;
+		}
 	}
-}
+
+/* ------------------------------ BOTTOM SPACE --------- */
 
 .footer__mobile__bottom-space{ 
-	width: 5px;
-	height: 100px;
-}
+		width: 5px;
+		height: 100px;
+	}
 
 @media (min-width: 1200px) {
-	.footer__mobile__bottom-space{ 
-		display: none;
+		.footer__mobile__bottom-space{ 
+			display: none;
+		}
 	}
-}
  
  
 
