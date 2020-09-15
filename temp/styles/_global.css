@@ -90,13 +90,15 @@
 }
     }
 	li {
+    margin-top: 16px;
     line-height: 1.2em;
 
     color: #151c24;
 }
-	@media (min-width: 900px) {
+	@media (min-width: 985px) {
 	li {
-    	line-height: 2em
+    	margin-top: 8px;
+    	line-height: 1.4em
 }
     }
 	h1 {

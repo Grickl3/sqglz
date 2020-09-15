@@ -117,12 +117,14 @@ p {
 }
 
 li {
+    margin-top: 16px;
     line-height: 1.2em;
 
     color: #151c24;
 
-    @media (min-width: 900px) {
-    	line-height: 2em;
+    @media (min-width: 985px) {
+    	margin-top: 8px;
+    	line-height: 1.4em;
     }
 }
 

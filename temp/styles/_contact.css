@@ -12,6 +12,17 @@
 	rgba(0, 0, 0, 0));
 }
 
+@media (min-width: 980px) {
+	.contact__hr-taper {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.contact__hr-taper {
+		margin-top: 50px;
+	}
+}
 
 .contact__social-links__box {
 	display: flex;
@@ -19,30 +30,23 @@
 	justify-content: center;
 }
 
-
 .contact__social-link {
 	margin: 32px;
 	height: 30px;
 	opacity: .4;
 }
 
-
 .contact__social-link:hover {
 	opacity: 1;
 }
 
-
 @media (min-width: 900px) {
-	.contact__hr-taper {
-		margin-top: -25px;
-	}
 
 	.contact__social-link {
 		margin: 64px;
 		height: 80px;
 	}
 }
-
 
 @media (min-width: 1200px) {
 	.contact__social-link {
