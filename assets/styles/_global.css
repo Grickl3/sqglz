@@ -112,7 +112,7 @@ p {
     color: #151c24;
 
     @media (min-width: 985px) {
-    	line-height: 1.6em;
+    	line-height: 1.4em;
     }
 }
 
