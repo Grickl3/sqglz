@@ -653,11 +653,11 @@ h6 {
 a {
 	text-decoration: none;
 	font-family: 'Cormorant Upright', Garamond, serif;
-	color: #656e82;
+	color: #cc9747; /*#e58122*/
 }
 
 a:hover {
-		color: #3c4760;
+		color: #656e82;
 	}
 
 .quote {
@@ -2431,17 +2431,17 @@ li.focus {
 
 @font-face {
     font-family: "Uniform-Ultra";
-    src: url("./assets/fonts/Uniform-Ultra.otf");
+    src: url("../../assets/fonts/Uniform-Ultra.otf");
 }
 
 @font-face {
     font-family: "UniformExtraCondensed-Medium";
-    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
+    src: url("../../assets/fonts/UniformExtraCondensed-Medium.otf");
 }
 
 @font-face {
     font-family: "Uniform-Light";
-    src: url("./assets/fonts/Uniform-Light.otf");
+    src: url("../../assets/fonts/Uniform-Light.otf");
 }
 
 @media (min-width: 800px) {

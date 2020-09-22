@@ -220,10 +220,10 @@ h6 {
 a {
 	text-decoration: none;
 	font-family: 'Cormorant Upright', Garamond, serif;
-	color: #656e82;
+	color: #cc9747; /*#e58122*/
 }
 	a:hover {
-		color: #3c4760;
+		color: #656e82;
 	}
 
 

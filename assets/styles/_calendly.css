@@ -15,17 +15,17 @@
 
 @font-face {
     font-family: "Uniform-Ultra";
-    src: url("./assets/fonts/Uniform-Ultra.otf");
+    src: url("../../assets/fonts/Uniform-Ultra.otf");
 }
 
 @font-face {
     font-family: "UniformExtraCondensed-Medium";
-    src: url("./assets/fonts/UniformExtraCondensed-Medium.otf");
+    src: url("../../assets/fonts/UniformExtraCondensed-Medium.otf");
 }
 
 @font-face {
     font-family: "Uniform-Light";
-    src: url("./assets/fonts/Uniform-Light.otf");
+    src: url("../../assets/fonts/Uniform-Light.otf");
 }
 
 @media (min-width: 800px) {
