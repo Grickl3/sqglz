@@ -95,12 +95,18 @@
 p,li {
 	font-family: 'Cormorant Garamond', Garamond, serif;
     font-weight: 300;
-    font-size: 4em;
+    font-size: 3.2rem;
+}
+
+@media (min-width: 600px) {
+	p,li {
+    	font-size: 2.8rem;
+	}
 }
 
 @media (min-width: 985px) {
 	p,li {
-    	font-size: 1.6em;
+    	font-size: 1.6rem;
 	}
 }
 
