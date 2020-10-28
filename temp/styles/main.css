@@ -780,6 +780,12 @@ a:hover {
 		height: 90%;
 	}
 
+.central-content__full-width-image {
+		position: relative;
+		left: 0;
+		width: 100vw;
+	}
+
 /* ================================= THE SQG ============= */
 
 .icon__animated-sqgl {
@@ -3116,10 +3122,9 @@ li.focus {
 	}
 
 .articles__header {text-align: left;}
-
   
  
-
+ 
     
  
   	     

@@ -30,4 +30,10 @@
 	&__middle-column {
 		height: 90%;
 	}
+
+	&__full-width-image {
+		position: relative;
+		left: 0;
+		width: 100vw;
+	}
 }

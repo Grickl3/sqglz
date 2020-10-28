@@ -31,3 +31,9 @@
 	.central-content__middle-column {
 		height: 90%;
 	}
+
+	.central-content__full-width-image {
+		position: relative;
+		left: 0;
+		width: 100vw;
+	}
