@@ -1,0 +1,46 @@
+
+
+.ui__content-button {
+	padding: 9px;
+	width: 100%;
+	text-align: center;
+	border-radius: 15px;
+	border: 2px solid #985617;
+	color: #985617;
+}
+
+.ui__content-button:hover {
+	cursor: pointer;
+	background-color: #985617;
+	color: #fff;
+}
+
+.ui__content-button__copy {
+	font-family: 'Cormorant Upright', Garamond, serif;
+	font-size: 1.4rem; 
+}
+
+.ui__content-button__variable-copy {
+	font-family: "Uniform-Ultra", Helvetica, sans-serif;
+	font-size: 2.8rem;
+}
+
+.ui__outgoing-button {
+	padding: 9px;
+	width: 100%;
+	text-align: center;
+	border-radius: 15px;
+	border: 2px solid #985617;
+	color: #985617;
+}
+
+.ui__outgoing-button:hover {
+	cursor: pointer;
+	background-color: #985617;
+	color: #fff;
+}
+
+.ui__outgoing-button__copy {
+	font-family: "UniformCondensed-Medium", Helvetica, sans-serif;
+	font-size: 2.8rem;
+}
