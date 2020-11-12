@@ -534,6 +534,8 @@ p {
 }
     }
 
+strong { font-weight: 700; }
+
 li {
     margin-top: 16px;
     line-height: 1.2em;
@@ -790,6 +792,10 @@ a:hover {
 		position: relative;
 		left: 0;
 		width: 100vw;
+	}
+
+.central-content__image {
+		max-width: 100%;
 	}
 
 /* ================================= THE SQG ============= */

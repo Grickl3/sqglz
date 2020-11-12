@@ -122,6 +122,8 @@ p {
     }
 }
 
+strong { font-weight: 700; }
+
 li {
     margin-top: 16px;
     line-height: 1.2em;
