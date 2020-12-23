@@ -1,46 +1,69 @@
 
+/* ========================== BASIC BUTTON =============== */
+	.ui__content-button {
+		padding: 9px;
+		width: 100%;
+		text-align: center;
+		border-radius: 15px;
+		border: 2px solid #985617;
+		color: #985617;
+	}
+	.ui__content-button:hover {
+		cursor: pointer;
+		background-color: #985617;
+		color: #fff;
+	}
+	.ui__content-button__copy {
+		font-family: 'Cormorant Upright', Garamond, serif;
+		font-size: 1.4rem; 
+	}
+	.ui__content-button__variable-copy {
+		font-family: "Uniform-Ultra", Helvetica, sans-serif;
+		font-size: 2.8rem;
+	}
+	.ui__outgoing-button {
+		padding: 9px;
+		width: 100%;
+		text-align: center;
+		border-radius: 15px;
+		border: 2px solid #985617;
+		color: #985617;
+	}
+	.ui__outgoing-button:hover {
+		cursor: pointer;
+		background-color: #985617;
+		color: #fff;
+	}
+	.ui__outgoing-button__copy {
+		font-family: "UniformCondensed-Medium", Helvetica, sans-serif;
+		font-size: 2.8rem;
+	}
+	/* ========================== CALENDAR BUTTON ============ */
+	.ui__calendar-button {
+		color: #985617;
+		text-align: center;
+		opacity: 1;
+		margin: 12px 0 0 0;
+		padding: 20px;
 
-.ui__content-button {
-	padding: 9px;
-	width: 100%;
-	text-align: center;
-	border-radius: 15px;
-	border: 2px solid #985617;
-	color: #985617;
-}
+		border-radius: 7px;
+		border: 1px solid #985617;
+	}
+	@media (min-width: 900px) {
+		.ui__calendar-button {
+			padding: 10px;
 
-.ui__content-button:hover {
-	cursor: pointer;
-	background-color: #985617;
-	color: #fff;
-}
+		}
+	}
+	@media (min-width: 1200px) {
+		.ui__calendar-button {
+			padding: 5px;
+		}
+	}
+	.ui__calendar-button:hover {
+		color: #ffffff;
+		background-color: #985617;
+		cursor: pointer;
+	}
 
-.ui__content-button__copy {
-	font-family: 'Cormorant Upright', Garamond, serif;
-	font-size: 1.4rem; 
-}
 
-.ui__content-button__variable-copy {
-	font-family: "Uniform-Ultra", Helvetica, sans-serif;
-	font-size: 2.8rem;
-}
-
-.ui__outgoing-button {
-	padding: 9px;
-	width: 100%;
-	text-align: center;
-	border-radius: 15px;
-	border: 2px solid #985617;
-	color: #985617;
-}
-
-.ui__outgoing-button:hover {
-	cursor: pointer;
-	background-color: #985617;
-	color: #fff;
-}
-
-.ui__outgoing-button__copy {
-	font-family: "UniformCondensed-Medium", Helvetica, sans-serif;
-	font-size: 2.8rem;
-}

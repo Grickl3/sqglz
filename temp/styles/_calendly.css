@@ -44,12 +44,12 @@
 	
 }
 
-/* ========================================= MAIN ========= */
+/* ============================ MAIN ========= */
 
 .calendly {
 		position: fixed;
-		display: flex;
-		flex-direction: row;
+		/*display: flex;
+		flex-direction: row;*/
 		top: 0px;
 		right: 20px;
 		opacity: .5;
@@ -57,7 +57,14 @@
 
 .calendly:hover { opacity: 1; cursor: pointer; }
 
-/* ========================================= DATE BOX ========= */
+/* ============================ INNER BOX 1 ========= */
+
+.calendly__inner-box-1 {
+		display: flex;
+		flex-direction: row;
+	}
+
+/* ============================ DATE BOX ====== */
 
 .calendly__date-box {
 		color: #985617;
