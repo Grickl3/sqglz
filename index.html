@@ -62,7 +62,7 @@
 
 		<div class="calendly">
 			
-		<div class="calendly__inner-box-1">
+		<div id="calendar-box" class="calendly__inner-box-1">
 				<div class="calendly__cta-box">
 					<span class="calendly__cta">&#10511; let's talk &#10510;</span>
 				</div>
@@ -75,7 +75,7 @@
 				</div>
 			</div><!-- INNER BOX 1 -->
 
-			<div>
+			<div id="calendar-buttons" class="ui__calendar-buttons__box hidden">
 				<a href="https://calendly.com/deacon-rodda" target="_sqg">
 					<div class="ui__calendar-button">
 						<span class="ui__calendar-button__copy">set appointment</span>
@@ -181,7 +181,7 @@
 
 <script type="text/javascript">
 		
-	// CALENDLY
+	// CALENDLY — SET DATE
 
 		let dayVar = new Date();
 		let days = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"]
@@ -202,6 +202,16 @@
 
 		let yearVar = new Date();
 		document.getElementById("year").innerHTML = yearVar.getFullYear();
+
+	// CALENDAR — REVEAL BUTTONS
+
+		const calendarBox = document.getElementById("calendar-box");
+		const calendarButtons = document.getElementById("calendar-buttons");
+
+		calendarBox.addEventListener("click", function() {
+			calendarButtons.classList.toggle("hidden");
+		});
+
 
 	// FOOTER
 		const footerHandle = document.getElementById("footer-handle");

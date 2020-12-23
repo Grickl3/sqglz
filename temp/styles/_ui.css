@@ -65,5 +65,32 @@
 		background-color: #985617;
 		cursor: pointer;
 	}
-
-
+	/* ========================== CALENDAR BUTTON ============ */
+	.ui__calendar-button__copy {
+		font-size: 2.5rem;
+	}
+	@media (min-width: 800px) {
+		.ui__calendar-button__copy {
+			font-size: 2.25rem;
+		}
+	}
+	@media (min-width: 1000px) {
+		.ui__calendar-button__copy {
+			font-size: 2rem;
+		}
+	}
+	@media (min-width: 1080px) {
+		.ui__calendar-button__copy {
+			font-size: 1.6rem;
+		}
+	}
+	@media (min-width: 1200px) {
+		.ui__calendar-button__copy {
+			font-size: 1.4rem;
+		}
+	}
+	@media (min-width: 1800px) {
+		.ui__calendar-button__copy {
+			font-size: 1.4rem;
+		}
+	}
