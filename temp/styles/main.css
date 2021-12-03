@@ -881,6 +881,12 @@ a:hover {
 		100% {opacity: 1;}
 	}
 
+/* ================================= MARK ALONE ========== */
+
+.icons__mark-small {
+	height: 75px;
+}
+
 @media (max-width: 599px) {
 	
 }
